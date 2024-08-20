@@ -403,8 +403,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.71, y: 1.85}
+  m_DrawMode: 2
+  m_Size: {x: 371, y: 18.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -653,8 +653,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.71, y: 1.85}
+  m_DrawMode: 2
+  m_Size: {x: 371, y: 18.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -685,7 +685,7 @@ Transform:
   m_GameObject: {fileID: 887247897}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -774,8 +774,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.71, y: 1.85}
+  m_DrawMode: 2
+  m_Size: {x: 371, y: 18.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1009,7 +1009,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.01
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1049,8 +1049,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4db0bae88743e2841be6d4991b790e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accelerationMultiplier: 1
-  maxVelocity: 15
+  speed: 7
+  drag: 0.3
   jumpImpulse: 7
   normalGravity: 3
   fallMultiplier: 5
@@ -1065,9 +1065,11 @@ MonoBehaviour:
   canAttack: 1
   maxMana: 0
   currentMana: 0
+  manaRestoreRate: 1
+  manaRestoreAmount: 5
   persistentData: {fileID: 11400000, guid: 5104387840212934c947a620bfc9b5a4, type: 2}
   animator: {fileID: 0}
-  rb2d: {fileID: 0}
+  body: {fileID: 0}
 --- !u!114 &1525259840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1097,27 +1099,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1525259839}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 2808fbe8-a457-4e74-9d84-229cea3e890b
-    m_ActionName: Player/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 660958f3-6321-4f99-83b1-c603aafdf19b
-    m_ActionName: Player/Look[/Mouse/delta,/Pen/delta]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1525259839}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnFire
+        m_MethodName: OnAttack
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1129,22 +1111,6 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 3e8855f1-b960-400f-a54e-7d3bc6ea1e9a
     m_ActionName: Player/Fire[/Mouse/leftButton]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1525259839}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnJump
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: fdd0f7cf-f8f9-4754-8cca-53bdc00a072a
-    m_ActionName: Player/Jump[/Keyboard/space]
   - m_PersistentCalls:
       m_Calls: []
     m_ActionId: 06dca1e0-3207-4fc1-8c03-d5e3fe1f9ec8
@@ -1353,8 +1319,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.71, y: 1.85}
+  m_DrawMode: 2
+  m_Size: {x: 371, y: 18.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1628,8 +1594,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.71, y: 1.85}
+  m_DrawMode: 2
+  m_Size: {x: 371, y: 18.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1712,8 +1678,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 3.71, y: 1.85}
+  m_DrawMode: 2
+  m_Size: {x: 371, y: 18.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
