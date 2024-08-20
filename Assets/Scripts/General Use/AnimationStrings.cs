@@ -13,7 +13,9 @@ public class AnimationStrings : MonoBehaviour
     internal static string canMove = ("canMove");
     internal static string canAttack = ("canAttack");
     internal static string atk = ("atk");
+    internal static string moveAtk = ("moveAtk");
     internal static string heal = ("heal");
 
     internal static string xVelocity = ("xVelocity");
+    internal static string yVelocity = ("yVelocity");
 }

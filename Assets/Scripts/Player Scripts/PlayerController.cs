@@ -6,8 +6,8 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
-    public float accelerationMultiplier = 1;
-    public float maxVelocity = 15;
+    public float speed = 7;
+    [Range(1f, 0f)] public float drag = 0.3f;
     public float jumpImpulse = 7;
     public float normalGravity = 3;
     public float fallMultiplier = 5;
@@ -22,10 +22,13 @@ public class PlayerController : MonoBehaviour
     public float atkCooldown;
     public float atkTimer;
     public bool canAttack = true;
+    bool attackOnCD;
 
     [Header("Mana & Spells")]
     public int maxMana;
     public int currentMana;
+    public float manaRestoreRate = 1f;
+    public float manaRestoreAmount = 5;
     private bool gainingMana;
 
     [Header ("Save Data")]
@@ -34,124 +37,132 @@ public class PlayerController : MonoBehaviour
     [HideInInspector]
     public Animator animator;
     [HideInInspector]
-    public Rigidbody2D rb2d;
+    public Rigidbody2D body;
 
     private void Awake()
     {
-        //GetComponent spam, only components in the same obj//
+        //GetComponent spam, but only components in the same obj, keep it to a minimum//
         animator = GetComponent<Animator>();
-        rb2d = GetComponent<Rigidbody2D>();
+        body = GetComponent<Rigidbody2D>();
     }
 
     void Start()
     {
-        //Param setters, but only on start//
+        //Parameters that need to be set at game start//
         currentMana = maxMana;
     }
 
     void Update()
+    {        
+        OnUpdateParameters(); //Parameters that need to be updated every frame//
+        StartCoroutine(RegainMana()); //Mana Restoring//
+        
+        isMoving = moveInput != Vector2.zero;
+        if (isMoving) FlipScale(); //Scale flipping//
+
+        if (!canAttack) attackOnCD = true;
+        AttackCooldown(); //Attack Cooldown//
+        GravityControl(); //Gravity multiplication (might go if I start using my own physics)//        
+        MoveInput(); //Movement Input Handler//
+    }
+
+    void OnUpdateParameters()
     {
-        //Param setters, but every frame//
         animator.SetBool(AnimationStrings.isMoving, isMoving);
         isGrounded = animator.GetBool(AnimationStrings.isGrounded);
         canMove = animator.GetBool(AnimationStrings.canMove);
         animator.SetFloat(AnimationStrings.xVelocity, currentVelocity.x);
-        isMoving = moveInput.x != 0;
 
+        //Set my persistent parameters so that mana and health upgrades remain in the game even through sessions//
         persistentData.playerMaxMana = maxMana;
         persistentData.playerMaxHealth = GetComponent<Damageable>().MaxHealth;
+    }
 
-        //Mana Restoring Process//
-        if(currentMana < maxMana) { StartCoroutine(RegainMana()); }
-
-        //Scale flipping//
-        if(isMoving)
+    void FlipScale()
+    {
+        float moveDirection = moveInput.x;
+        transform.localScale = new Vector3(moveDirection, 1f, 1f);
+        if (moveDirection > 0f) isLookingRight = true;
+        else if (moveDirection < 0f) isLookingRight = false;
+    }
+    void AttackCooldown()
+    {
+        if (attackOnCD)
         {
-            float moveDirection = moveInput.x;
-            transform.localScale = new Vector3(moveDirection, 1f, 1f);
-            if (moveDirection > 0f) isLookingRight = true;
-            else if (moveDirection < 0f) isLookingRight = false;
-        }        
-
-        //Attack Cooldown//
-        if(!canAttack)
-        {
-            atkTimer -= Time.deltaTime;
+            atkTimer += Time.deltaTime;
         }
-        if(atkTimer <= 0) { canAttack = true; }
-
-        //Gravity multiplication (might go if I start using my own physics)//
-        if(currentVelocity.y < 0 && !isGrounded)
+        if (atkTimer >= atkCooldown) { canAttack = true; attackOnCD = false; atkTimer = 0f; }
+    }
+    void GravityControl()
+    {
+        if (currentVelocity.y < 0 && !isGrounded)
         {
-            rb2d.gravityScale = fallMultiplier;
+            body.gravityScale = fallMultiplier;
         }
         else if (isGrounded)
         {
-            rb2d.gravityScale = normalGravity;
+            body.gravityScale = normalGravity;
         }
+    }
+    public void MoveInput()
+    {
+        moveInput.x = Input.GetAxis("Horizontal");
+        moveInput.y = Input.GetAxis("Vertical");
     }
 
     private void FixedUpdate()
-    {
-        //Apply force in the appopiate direction, stop adding if we're over the maximum speed//
-        if (rb2d.velocity.x < maxVelocity && canMove && isLookingRight)
-            rb2d.AddForce(new Vector2(accelerationMultiplier * moveInput.x, 0f), ForceMode2D.Force);
-        else if (rb2d.velocity.x > -maxVelocity && canMove && !isLookingRight)
-            rb2d.AddForce(new Vector2(accelerationMultiplier * moveInput.x, 0f), ForceMode2D.Force);
+    {   
+        PlayerMovement(); //Move the player//
+        Drag(); //Ground Drag//
 
-        //Param setters, but every couple frames//
-        currentVelocity = rb2d.velocity;
+        //Parameters that only need to be updated every couple frames//
+        currentVelocity = body.velocity;
+    }
+
+    void PlayerMovement()
+    {
+        //Horizontal Movement//
+        if (moveInput.x != 0)
+        {
+            body.velocity = new((moveInput.x * speed), body.velocity.y);
+        }
+
+        //Vertical Movement//
+        if (moveInput.y != 0 && isGrounded)
+        {
+            body.velocity = new(body.velocity.x, moveInput.y * jumpImpulse);
+        }
+    }
+    void Drag()
+    {
+        if (moveInput == Vector2.zero && isGrounded) body.velocity *= drag;
+    }
+
+    //Attack input handling//
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if(context.started && isGrounded && canAttack && !isMoving) { animator.SetTrigger(AnimationStrings.atk); }
+        else if(context.started && isGrounded && canAttack && isMoving) { animator.SetTrigger(AnimationStrings.moveAtk); }
     }
 
     //Self explanatory//
     IEnumerator RegainMana()
     {
-        if(gainingMana) yield break;
+        if (gainingMana) yield break;
         gainingMana = true;
 
-        float time = 1f;
+        if (currentMana >= maxMana) { currentMana = maxMana; yield break; }
+
         float timer = 0f;
 
-        while (timer < time)
+        while (timer < manaRestoreRate)
         {
             timer += Time.deltaTime;
             yield return null;
         }
 
-        if (currentMana + 5 >= maxMana) currentMana = maxMana;
+        if (currentMana + manaRestoreAmount >= maxMana) currentMana = maxMana;
         else currentMana += 5;
         gainingMana = false;
-    }
-
-    //Move input handling//
-    public void OnMove(InputAction.CallbackContext context)
-    {
-        if (context.canceled)
-            moveInput = Vector2.zero;
-        
-        else if (context.started && canMove)
-        {
-            moveInput = context.ReadValue<Vector2>();
-        }
-    }
-
-    //Jump input handling//
-    public void OnJump(InputAction.CallbackContext context)
-    {
-        if (context.started && isGrounded && canMove)
-        {
-            Debug.Log("Jump!");
-            rb2d.AddForce(new Vector2(0, jumpImpulse), ForceMode2D.Force);
-        }
-        else if (context.canceled)
-        {
-            rb2d.gravityScale = fallMultiplier;
-        }
-    }
-
-    //Attack input handling//
-    public void OnFire(InputAction.CallbackContext context)
-    {
-        if(context.started && isGrounded && canAttack) { animator.SetTrigger(AnimationStrings.atk); atkTimer = atkCooldown; moveInput = Vector2.zero; rb2d.velocity = Vector2.zero; }
     }
 }
