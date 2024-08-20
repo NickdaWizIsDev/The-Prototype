@@ -7,7 +7,6 @@ namespace Assets.Scripts.General_Use
     public class Simple2DMove : MonoBehaviour
     {
         public bool alreadyMoving;
-        public bool doReturn;
         public float velocity;
 
         public void Move(GameObject obj)
@@ -75,14 +74,6 @@ namespace Assets.Scripts.General_Use
 
             // Allow the next routine to start now
             alreadyMoving = false;
-
-            if (doReturn) { Return(startPos); }
-        }
-
-        void Return(Vector3 targetPos)
-        {
-            doReturn = false;
-            StartCoroutine(MoveToTargetSmooth(targetPos));
         }
     }
 }

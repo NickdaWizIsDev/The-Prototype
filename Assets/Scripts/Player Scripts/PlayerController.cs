@@ -3,18 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : Damageable
+public class PlayerController : MonoBehaviour
 {
-    public Transform cameraPos;
-
     [Header("Movement")]
-    public float accelerationMultiplier;
-    public float maxVelocity;
-    public float jumpImpulse;
-    public float fallMultiplier;
+    public float accelerationMultiplier = 1;
+    public float maxVelocity = 15;
+    public float jumpImpulse = 7;
+    public float normalGravity = 3;
+    public float fallMultiplier = 5;
     public Vector2 currentVelocity;
     public Vector2 moveInput;
-    public bool canMove;
+    public bool canMove = true;
     public bool isGrounded;
     public bool isMoving;
     public bool isLookingRight;
@@ -22,28 +21,50 @@ public class PlayerController : Damageable
     [Header("Attack Values")]
     public float atkCooldown;
     public float atkTimer;
-    public bool canAttack;
+    public bool canAttack = true;
 
     [Header("Mana & Spells")]
-    public float maxMana;
-    public float currentMana;
+    public int maxMana;
+    public int currentMana;
+    private bool gainingMana;
 
-    // Start is called before the first frame update
+    [Header ("Save Data")]
+    public PersistentData persistentData;
+
+    [HideInInspector]
+    public Animator animator;
+    [HideInInspector]
+    public Rigidbody2D rb2d;
+
+    private void Awake()
+    {
+        //GetComponent spam, only components in the same obj//
+        animator = GetComponent<Animator>();
+        rb2d = GetComponent<Rigidbody2D>();
+    }
+
     void Start()
     {
+        //Param setters, but only on start//
         currentMana = maxMana;
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //Param setters, but every frame//
         animator.SetBool(AnimationStrings.isMoving, isMoving);
         isGrounded = animator.GetBool(AnimationStrings.isGrounded);
         canMove = animator.GetBool(AnimationStrings.canMove);
         animator.SetFloat(AnimationStrings.xVelocity, currentVelocity.x);
-
         isMoving = moveInput.x != 0;
 
+        persistentData.playerMaxMana = maxMana;
+        persistentData.playerMaxHealth = GetComponent<Damageable>().MaxHealth;
+
+        //Mana Restoring Process//
+        if(currentMana < maxMana) { StartCoroutine(RegainMana()); }
+
+        //Scale flipping//
         if(isMoving)
         {
             float moveDirection = moveInput.x;
@@ -52,46 +73,57 @@ public class PlayerController : Damageable
             else if (moveDirection < 0f) isLookingRight = false;
         }        
 
+        //Attack Cooldown//
         if(!canAttack)
         {
             atkTimer -= Time.deltaTime;
         }
         if(atkTimer <= 0) { canAttack = true; }
 
-        currentVelocity = rb2d.velocity;
-
+        //Gravity multiplication (might go if I start using my own physics)//
         if(currentVelocity.y < 0 && !isGrounded)
         {
             rb2d.gravityScale = fallMultiplier;
         }
         else if (isGrounded)
         {
-            rb2d.gravityScale = 3;
-        }
-
-        if (moveInput.y != 0)
-        {
-            CamLook(moveInput.y);
-        }
-        else if(moveInput.y == 0)
-        {
-            cameraPos.localPosition = new Vector2(0f, 0f);
+            rb2d.gravityScale = normalGravity;
         }
     }
 
     private void FixedUpdate()
     {
+        //Apply force in the appopiate direction, stop adding if we're over the maximum speed//
         if (rb2d.velocity.x < maxVelocity && canMove && isLookingRight)
-            rb2d.AddForce(new Vector2(accelerationMultiplier * (Mathf.Abs(moveInput.x)), 0f), ForceMode2D.Force);
+            rb2d.AddForce(new Vector2(accelerationMultiplier * moveInput.x, 0f), ForceMode2D.Force);
         else if (rb2d.velocity.x > -maxVelocity && canMove && !isLookingRight)
-            rb2d.AddForce(new Vector2(-accelerationMultiplier * Mathf.Abs(moveInput.x), 0f), ForceMode2D.Force);
+            rb2d.AddForce(new Vector2(accelerationMultiplier * moveInput.x, 0f), ForceMode2D.Force);
+
+        //Param setters, but every couple frames//
+        currentVelocity = rb2d.velocity;
     }
 
-    public void CamLook(float offset)
+    //Self explanatory//
+    IEnumerator RegainMana()
     {
-        cameraPos.localPosition = new Vector2(0f, (Mathf.Clamp(offset * 2, -2, 4)));
+        if(gainingMana) yield break;
+        gainingMana = true;
+
+        float time = 1f;
+        float timer = 0f;
+
+        while (timer < time)
+        {
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        if (currentMana + 5 >= maxMana) currentMana = maxMana;
+        else currentMana += 5;
+        gainingMana = false;
     }
 
+    //Move input handling//
     public void OnMove(InputAction.CallbackContext context)
     {
         if (context.canceled)
@@ -103,6 +135,7 @@ public class PlayerController : Damageable
         }
     }
 
+    //Jump input handling//
     public void OnJump(InputAction.CallbackContext context)
     {
         if (context.started && isGrounded && canMove)
@@ -116,6 +149,7 @@ public class PlayerController : Damageable
         }
     }
 
+    //Attack input handling//
     public void OnFire(InputAction.CallbackContext context)
     {
         if(context.started && isGrounded && canAttack) { animator.SetTrigger(AnimationStrings.atk); atkTimer = atkCooldown; moveInput = Vector2.zero; rb2d.velocity = Vector2.zero; }

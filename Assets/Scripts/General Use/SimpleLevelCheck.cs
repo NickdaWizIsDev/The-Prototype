@@ -1,8 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
-
 using UnityEngine.SceneManagement;
-public class LevelCheck : MonoBehaviour
+public class SimpleLevelCheck : MonoBehaviour
 {
     public int levelID;
     public PersistentData persistentData;
