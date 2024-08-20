@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: 8f70563d342677344b74629e873f22c9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Blood Tree 2 Sprite Sheet_Frame_0
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 117
+      height: 84
+    spriteID: ff9b39ef1d02a7140a3d96338074cfec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Blood Tree 2 Sprite Sheet_Frame_1
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 639
+      width: 117
+      height: 80
+    spriteID: 257343af8413ec146af22f4cbc5950c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 639}
+  - name: Blood Tree 2 Sprite Sheet_Frame_2
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 550
+      width: 117
+      height: 81
+    spriteID: d604338af0e825346b884fa066e2e3da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 550}
+  - name: Blood Tree 2 Sprite Sheet_Frame_3
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 370
+      width: 117
+      height: 82
+    spriteID: d35b839f5b6445841a2aa1073adc9787
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 370}
+  - name: Blood Tree 2 Sprite Sheet_Frame_4
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 188
+      width: 117
+      height: 83
+    spriteID: c0b7a9a6cca1a004fad952297af02b31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 188}
+  - name: Blood Tree 2 Sprite Sheet_Frame_5
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 96
+      width: 117
+      height: 84
+    spriteID: ccd8b133f56806d468fbce1f95bb1af1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 96}
+  - name: Blood Tree 2 Sprite Sheet_Frame_6
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 460
+      width: 117
+      height: 82
+    spriteID: 69b3450d024e361438dd2ab9729bdf8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 460}
+  - name: Blood Tree 2 Sprite Sheet_Frame_7
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 279
+      width: 117
+      height: 83
+    spriteID: 2fe818b5d408f95428b814aeecab7c8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 279}
+  - name: Blood Tree 2 Sprite Sheet_Frame_8
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 727
+      width: 117
+      height: 76
+    spriteID: 3088f78d85a4c0e45aae13a962b8df10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 727}
+  - name: Blood Tree 2 Sprite Sheet_Frame_9
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 811
+      width: 117
+      height: 76
+    spriteID: 6d3bf2e730cd4da48966276d25abf2ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 811}
+  - name: Blood Tree 2 Sprite Sheet_Frame_10
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 895
+      width: 117
+      height: 76
+    spriteID: 536e635b88de68540bde6a7253fd4750
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 895}
+  - name: Blood Tree 2 Sprite Sheet_Frame_11
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 4
+      width: 117
+      height: 76
+    spriteID: 215af6bcbb5c6e844b9c4ffa4e1e7bb3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 4}
+  - name: Blood Tree 2 Sprite Sheet_Frame_12
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 88
+      width: 117
+      height: 76
+    spriteID: 31b123c7e60af4d4a84a9a93e2196795
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 88}
+  - name: Blood Tree 2 Sprite Sheet_Frame_13
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 172
+      width: 117
+      height: 76
+    spriteID: 9e0b22f4d5fa9fb43bf2cd1508284e71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 172}
+  - name: Blood Tree 2 Sprite Sheet_Frame_14
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 256
+      width: 117
+      height: 76
+    spriteID: 164204088735c40429800380f674250a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 256}
+  - name: Blood Tree 2 Sprite Sheet_Frame_15
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 340
+      width: 117
+      height: 76
+    spriteID: 91ad8dba9ded5dc4aa7eac9d76b99b71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 340}
+  - name: Blood Tree 2 Sprite Sheet_Frame_16
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 424
+      width: 117
+      height: 76
+    spriteID: 0511696b3d757dd4d9a586ecd7afb224
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 424}
+  - name: Blood Tree 2 Sprite Sheet_Frame_17
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 508
+      width: 117
+      height: 76
+    spriteID: d6fbaa600415f4748bf552d25a2101f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 508}
+  - name: Blood Tree 2 Sprite Sheet_Frame_18
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 592
+      width: 117
+      height: 76
+    spriteID: 2b3ba42f750b07e4cbe0fbfac2210a58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 592}
+  - name: Blood Tree 2 Sprite Sheet_Frame_19
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 676
+      width: 117
+      height: 76
+    spriteID: 6bcacce4642722b49b066c081d53798c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 676}
+  - name: Blood Tree 2 Sprite Sheet_Frame_20
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 760
+      width: 117
+      height: 76
+    spriteID: bf4450c0706403b478adc590bcd53d79
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 760}
+  - name: Blood Tree 2 Sprite Sheet_Frame_21
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 844
+      width: 117
+      height: 76
+    spriteID: a5aed08b1bc5bd6438bc44253f8c6f54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 844}
+  - name: Blood Tree 2 Sprite Sheet_Frame_22
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 129
+      y: 928
+      width: 117
+      height: 76
+    spriteID: a7cb001fdf540f64aafef9894afae8e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 129, y: 928}
+  - name: Blood Tree 2 Sprite Sheet_Frame_23
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 4
+      width: 117
+      height: 76
+    spriteID: b41d149ef1d99c44ea50b0c40bba953d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 4}
+  - name: Blood Tree 2 Sprite Sheet_Frame_24
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 88
+      width: 117
+      height: 76
+    spriteID: f325b535f31c29a4893508ec30800771
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 88}
+  - name: Blood Tree 2 Sprite Sheet_Frame_25
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 172
+      width: 117
+      height: 76
+    spriteID: 9377469d5077bac4483a4bf93587cdf5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 172}
+  - name: Blood Tree 2 Sprite Sheet_Frame_26
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 256
+      width: 117
+      height: 76
+    spriteID: 4712b5dc21aa07b47abef5f9178c52c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 256}
+  - name: Blood Tree 2 Sprite Sheet_Frame_27
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 340
+      width: 117
+      height: 76
+    spriteID: b748c18987fbcef418f6a30818c3c510
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 340}
+  - name: Blood Tree 2 Sprite Sheet_Frame_28
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 424
+      width: 117
+      height: 76
+    spriteID: 5297675698ca40b4e9267e520c1378fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 424}
+  - name: Blood Tree 2 Sprite Sheet_Frame_29
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 508
+      width: 117
+      height: 76
+    spriteID: 5e602fd4ae8e4854fbe38be1d94cb8d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 508}
+  - name: Blood Tree 2 Sprite Sheet_Frame_30
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 592
+      width: 117
+      height: 76
+    spriteID: 847ff1d288ca1144a81dc9e4449f16ed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 592}
+  - name: Blood Tree 2 Sprite Sheet_Frame_31
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 676
+      width: 117
+      height: 76
+    spriteID: 8209329fc39b90a45af2988a0e2b2230
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 676}
+  - name: Blood Tree 2 Sprite Sheet_Frame_32
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 760
+      width: 117
+      height: 76
+    spriteID: 0fcddbbf4775b0747a544b16f7dff7ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 760}
+  - name: Blood Tree 2 Sprite Sheet_Frame_33
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 844
+      width: 117
+      height: 76
+    spriteID: 1c433ab1a826a9c479fbdfa8529027f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 844}
+  - name: Blood Tree 2 Sprite Sheet_Frame_34
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 254
+      y: 928
+      width: 117
+      height: 76
+    spriteID: 6a0ed6815b7d5f6439ddfdbe6f977650
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 254, y: 928}
+  - name: Blood Tree 2 Sprite Sheet_Frame_35
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 4
+      width: 117
+      height: 76
+    spriteID: f957b9f91e92a5346a4b63690762b518
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 4}
+  - name: Blood Tree 2 Sprite Sheet_Frame_36
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 88
+      width: 117
+      height: 76
+    spriteID: 9460f6ab32060574a9614a85e32feca1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 88}
+  - name: Blood Tree 2 Sprite Sheet_Frame_37
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 172
+      width: 117
+      height: 76
+    spriteID: ab75fd658af98514eaefbd0cebfaa9d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 172}
+  - name: Blood Tree 2 Sprite Sheet_Frame_38
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 256
+      width: 117
+      height: 76
+    spriteID: 3e5158e4c2358a740ad3e87f8620a18c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 256}
+  - name: Blood Tree 2 Sprite Sheet_Frame_39
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 340
+      width: 117
+      height: 76
+    spriteID: ae4873fbe96be91468fa334e50dc7814
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 340}
+  - name: Blood Tree 2 Sprite Sheet_Frame_40
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 424
+      width: 117
+      height: 76
+    spriteID: f77c1be10fb66394bbe19a4b192a3fed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 424}
+  - name: Blood Tree 2 Sprite Sheet_Frame_41
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 508
+      width: 117
+      height: 76
+    spriteID: 95e5830224816f543ab90fc56ad25412
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 508}
+  - name: Blood Tree 2 Sprite Sheet_Frame_42
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 592
+      width: 117
+      height: 76
+    spriteID: 9cc7c7ca53b5f9c4e89f203a66125430
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 592}
+  - name: Blood Tree 2 Sprite Sheet_Frame_43
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 676
+      width: 117
+      height: 76
+    spriteID: 29daeeb07b46bfe41807904af385d5a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 676}
+  - name: Blood Tree 2 Sprite Sheet_Frame_44
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 760
+      width: 117
+      height: 76
+    spriteID: 255beeaf9f041b543a95d11bd7c31175
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 760}
+  - name: Blood Tree 2 Sprite Sheet_Frame_45
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 844
+      width: 117
+      height: 76
+    spriteID: 2a9700acd65bdb0429a7389b2dbe214c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 844}
+  - name: Blood Tree 2 Sprite Sheet_Frame_46
+    originalName: 
+    pivot: {x: 0.49572653, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 379
+      y: 928
+      width: 117
+      height: 76
+    spriteID: ffab62911e0924a4b981759459f7bcf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 379, y: 928}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 820907010
+    name: Blood Tree 2 Sprite Sheet
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Blood Tree 2 Sprite Sheet_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 84
+      spriteId: ff9b39ef1d02a7140a3d96338074cfec
+    - name: Blood Tree 2 Sprite Sheet_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 80
+      spriteId: 257343af8413ec146af22f4cbc5950c8
+    - name: Blood Tree 2 Sprite Sheet_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 81
+      spriteId: d604338af0e825346b884fa066e2e3da
+    - name: Blood Tree 2 Sprite Sheet_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 82
+      spriteId: d35b839f5b6445841a2aa1073adc9787
+    - name: Blood Tree 2 Sprite Sheet_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 83
+      spriteId: c0b7a9a6cca1a004fad952297af02b31
+    - name: Blood Tree 2 Sprite Sheet_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 84
+      spriteId: ccd8b133f56806d468fbce1f95bb1af1
+    - name: Blood Tree 2 Sprite Sheet_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 82
+      spriteId: 69b3450d024e361438dd2ab9729bdf8a
+    - name: Blood Tree 2 Sprite Sheet_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 83
+      spriteId: 2fe818b5d408f95428b814aeecab7c8b
+    - name: Blood Tree 2 Sprite Sheet_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 3088f78d85a4c0e45aae13a962b8df10
+    - name: Blood Tree 2 Sprite Sheet_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 6d3bf2e730cd4da48966276d25abf2ab
+    - name: Blood Tree 2 Sprite Sheet_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 536e635b88de68540bde6a7253fd4750
+    - name: Blood Tree 2 Sprite Sheet_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 215af6bcbb5c6e844b9c4ffa4e1e7bb3
+    - name: Blood Tree 2 Sprite Sheet_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 31b123c7e60af4d4a84a9a93e2196795
+    - name: Blood Tree 2 Sprite Sheet_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 9e0b22f4d5fa9fb43bf2cd1508284e71
+    - name: Blood Tree 2 Sprite Sheet_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 164204088735c40429800380f674250a
+    - name: Blood Tree 2 Sprite Sheet_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 91ad8dba9ded5dc4aa7eac9d76b99b71
+    - name: Blood Tree 2 Sprite Sheet_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 0511696b3d757dd4d9a586ecd7afb224
+    - name: Blood Tree 2 Sprite Sheet_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: d6fbaa600415f4748bf552d25a2101f6
+    - name: Blood Tree 2 Sprite Sheet_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 2b3ba42f750b07e4cbe0fbfac2210a58
+    - name: Blood Tree 2 Sprite Sheet_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 6bcacce4642722b49b066c081d53798c
+    - name: Blood Tree 2 Sprite Sheet_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: bf4450c0706403b478adc590bcd53d79
+    - name: Blood Tree 2 Sprite Sheet_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: a5aed08b1bc5bd6438bc44253f8c6f54
+    - name: Blood Tree 2 Sprite Sheet_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: a7cb001fdf540f64aafef9894afae8e1
+    - name: Blood Tree 2 Sprite Sheet_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: b41d149ef1d99c44ea50b0c40bba953d
+    - name: Blood Tree 2 Sprite Sheet_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: f325b535f31c29a4893508ec30800771
+    - name: Blood Tree 2 Sprite Sheet_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 9377469d5077bac4483a4bf93587cdf5
+    - name: Blood Tree 2 Sprite Sheet_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 4712b5dc21aa07b47abef5f9178c52c8
+    - name: Blood Tree 2 Sprite Sheet_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: b748c18987fbcef418f6a30818c3c510
+    - name: Blood Tree 2 Sprite Sheet_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 5297675698ca40b4e9267e520c1378fa
+    - name: Blood Tree 2 Sprite Sheet_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 5e602fd4ae8e4854fbe38be1d94cb8d9
+    - name: Blood Tree 2 Sprite Sheet_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 847ff1d288ca1144a81dc9e4449f16ed
+    - name: Blood Tree 2 Sprite Sheet_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 8209329fc39b90a45af2988a0e2b2230
+    - name: Blood Tree 2 Sprite Sheet_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 0fcddbbf4775b0747a544b16f7dff7ca
+    - name: Blood Tree 2 Sprite Sheet_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 1c433ab1a826a9c479fbdfa8529027f3
+    - name: Blood Tree 2 Sprite Sheet_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 6a0ed6815b7d5f6439ddfdbe6f977650
+    - name: Blood Tree 2 Sprite Sheet_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: f957b9f91e92a5346a4b63690762b518
+    - name: Blood Tree 2 Sprite Sheet_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 9460f6ab32060574a9614a85e32feca1
+    - name: Blood Tree 2 Sprite Sheet_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: ab75fd658af98514eaefbd0cebfaa9d0
+    - name: Blood Tree 2 Sprite Sheet_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 3e5158e4c2358a740ad3e87f8620a18c
+    - name: Blood Tree 2 Sprite Sheet_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: ae4873fbe96be91468fa334e50dc7814
+    - name: Blood Tree 2 Sprite Sheet_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: f77c1be10fb66394bbe19a4b192a3fed
+    - name: Blood Tree 2 Sprite Sheet_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 95e5830224816f543ab90fc56ad25412
+    - name: Blood Tree 2 Sprite Sheet_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 9cc7c7ca53b5f9c4e89f203a66125430
+    - name: Blood Tree 2 Sprite Sheet_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 29daeeb07b46bfe41807904af385d5a3
+    - name: Blood Tree 2 Sprite Sheet_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 255beeaf9f041b543a95d11bd7c31175
+    - name: Blood Tree 2 Sprite Sheet_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: 2a9700acd65bdb0429a7389b2dbe214c
+    - name: Blood Tree 2 Sprite Sheet_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 6
+        y: 0
+        width: 117
+        height: 76
+      spriteId: ffab62911e0924a4b981759459f7bcf9
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 96}

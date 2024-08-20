@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: d46bad5da24d59b4babaae837d8baabf
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: UI - Ammo_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 45
+      width: 16
+      height: 10
+    spriteID: cc59cd8277f6c9946af27d1e29df5b22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 45}
+  - name: UI - Ammo_Frame_2
+    originalName: 
+    pivot: {x: 0.72727275, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 4
+      width: 11
+      height: 10
+    spriteID: 00c831970f4ad8e45bb769a55334f267
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 4}
+  - name: UI - Ammo_Frame_3
+    originalName: 
+    pivot: {x: 1.3333334, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 63
+      width: 6
+      height: 10
+    spriteID: c14e5dedb564d7d43a555c789a17058c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 63}
+  - name: UI - Ammo_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 16
+      height: 13
+    spriteID: 3acb56e4058da204283cbc4cca34c86e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: UI - Ammo_Frame_6
+    originalName: 
+    pivot: {x: 0.72727275, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 83
+      width: 11
+      height: 13
+    spriteID: d06d854230a779e44b6a80e330f710bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 83}
+  - name: UI - Ammo_Frame_7
+    originalName: 
+    pivot: {x: 1.3333334, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 42
+      width: 6
+      height: 13
+    spriteID: ff3d91af4498696478a4ad906caddd75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 42}
+  - name: UI - Ammo_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 25
+      width: 16
+      height: 12
+    spriteID: 7346e9ee4fc96e14b99c8490044fa3ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 25}
+  - name: UI - Ammo_Frame_10
+    originalName: 
+    pivot: {x: 0.61538464, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 63
+      width: 13
+      height: 12
+    spriteID: a201c4f288d18594cb348a26720135b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 63}
+  - name: UI - Ammo_Frame_11
+    originalName: 
+    pivot: {x: 0.8, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 104
+      width: 10
+      height: 12
+    spriteID: fbdc00a3e9826f0429c9e762f80e8f38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 104}
+  - name: UI - Ammo_Frame_12
+    originalName: 
+    pivot: {x: 1.1428572, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 22
+      width: 7
+      height: 12
+    spriteID: 2965b3cfb959bb24488e43c0a1183d03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 22}
+  - name: UI - Ammo_Frame_13
+    originalName: 
+    pivot: {x: 2, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 81
+      width: 4
+      height: 12
+    spriteID: 93f6cf1a263453c4d91f8bf93fb84538
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 81}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 15487127
+    name: UI - Ammo
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: UI - Ammo_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 3
+        width: 16
+        height: 10
+      spriteId: cc59cd8277f6c9946af27d1e29df5b22
+    - name: UI - Ammo_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 3
+        width: 11
+        height: 10
+      spriteId: 00c831970f4ad8e45bb769a55334f267
+    - name: UI - Ammo_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 3
+        width: 6
+        height: 10
+      spriteId: c14e5dedb564d7d43a555c789a17058c
+    - name: UI - Ammo_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 2
+        width: 16
+        height: 13
+      spriteId: 3acb56e4058da204283cbc4cca34c86e
+    - name: UI - Ammo_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 2
+        width: 11
+        height: 13
+      spriteId: d06d854230a779e44b6a80e330f710bf
+    - name: UI - Ammo_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 2
+        width: 6
+        height: 13
+      spriteId: ff3d91af4498696478a4ad906caddd75
+    - name: UI - Ammo_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 2
+        width: 16
+        height: 12
+      spriteId: 7346e9ee4fc96e14b99c8490044fa3ec
+    - name: UI - Ammo_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 2
+        width: 13
+        height: 12
+      spriteId: a201c4f288d18594cb348a26720135b2
+    - name: UI - Ammo_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 2
+        width: 10
+        height: 12
+      spriteId: fbdc00a3e9826f0429c9e762f80e8f38
+    - name: UI - Ammo_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 2
+        width: 7
+        height: 12
+      spriteId: 2965b3cfb959bb24488e43c0a1183d03
+    - name: UI - Ammo_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 2
+        width: 4
+        height: 12
+      spriteId: 93f6cf1a263453c4d91f8bf93fb84538
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 16, y: 16}

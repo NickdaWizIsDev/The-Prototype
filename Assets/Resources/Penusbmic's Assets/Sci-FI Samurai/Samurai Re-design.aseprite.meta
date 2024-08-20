@@ -1,0 +1,2092 @@
+fileFormatVersion: 2
+guid: 17e0e96639f0a3b4488edf190423ba2b
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack Spear
+    second: {instanceID: 0}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack Sword
+    second: {fileID: 7400000, guid: 059e4666eb72fc6428a36309ed7f1e46, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Death
+    second: {fileID: 7400000, guid: 171646b668e45224e8641b426d86f0c0, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: aa048e1e29aae8c40a3559a2d9f3f1df, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Run
+    second: {fileID: 7400000, guid: 00311e786b63d8640b5b33b7d3e09a47, type: 2}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 0
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 0
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638595471927612304
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Samurai Re-design_Frame_0
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 202
+      width: 76
+      height: 32
+    spriteID: d28776902f49d334bbc6595cc7ab6145
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 202}
+  - name: Samurai Re-design_Frame_1
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 153
+      y: 202
+      width: 76
+      height: 32
+    spriteID: c4caf552ec020b8489305833bf42ab8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 202}
+  - name: Samurai Re-design_Frame_2
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 202
+      width: 76
+      height: 32
+    spriteID: aa06a055d4bca0e459e2221902e0a87c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 229, y: 202}
+  - name: Samurai Re-design_Frame_3
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 305
+      y: 202
+      width: 76
+      height: 32
+    spriteID: 367de63fee3249d43a0d6856f0988eb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 305, y: 202}
+  - name: Samurai Re-design_Frame_4
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 381
+      y: 202
+      width: 76
+      height: 32
+    spriteID: c0ba5d1a996339f49960fa56cab97af9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 381, y: 202}
+  - name: Samurai Re-design_Frame_5
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 234
+      width: 76
+      height: 32
+    spriteID: dadb7fd3c99bf23418d9c7ba385654d3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 234}
+  - name: Samurai Re-design_Frame_6
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 234
+      width: 76
+      height: 32
+    spriteID: a159c1e7467e9be4b9dcc494dd2e067d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 234}
+  - name: Samurai Re-design_Frame_7
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 234
+      width: 76
+      height: 32
+    spriteID: e5da5ef7c320d2046bae8c6806e8e507
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 234}
+  - name: Samurai Re-design_Frame_8
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 234
+      width: 76
+      height: 32
+    spriteID: 2719ea1e2b74e9c4b8ed4895c85a91d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 234}
+  - name: Samurai Re-design_Frame_9
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 234
+      width: 76
+      height: 32
+    spriteID: cec1c7c061c3922489e3eb76a4193a58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 234}
+  - name: Samurai Re-design_Frame_10
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 234
+      width: 76
+      height: 32
+    spriteID: ce81755c53e250c468f3fd32a157a914
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 234}
+  - name: Samurai Re-design_Frame_11
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 266
+      width: 76
+      height: 32
+    spriteID: 1562e35de8356ad459ba065443ad93d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 266}
+  - name: Samurai Re-design_Frame_12
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 266
+      width: 76
+      height: 32
+    spriteID: 756afc1a38860694ebfcca823611d84f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 266}
+  - name: Samurai Re-design_Frame_13
+    originalName: 
+    pivot: {x: 0.9324324, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 150
+      y: 330
+      width: 74
+      height: 32
+    spriteID: cf8a2e2483892fb409d0a44294729431
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 150, y: 330}
+  - name: Samurai Re-design_Frame_14
+    originalName: 
+    pivot: {x: 0.9324324, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 330
+      width: 74
+      height: 32
+    spriteID: e6d274f61fa32e14f91d551b199cd7c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 224, y: 330}
+  - name: Samurai Re-design_Frame_15
+    originalName: 
+    pivot: {x: 0.9324324, y: -0.064516254}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 362
+      width: 74
+      height: 31
+    spriteID: 081d7219f314aba46acbccf38ff3e740
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 362}
+  - name: Samurai Re-design_Frame_16
+    originalName: 
+    pivot: {x: 0.9324324, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 298
+      y: 330
+      width: 74
+      height: 32
+    spriteID: c894033bdc4a05942af1886befc4d586
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 298, y: 330}
+  - name: Samurai Re-design_Frame_17
+    originalName: 
+    pivot: {x: 0.91999996, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 298
+      width: 75
+      height: 32
+    spriteID: dc01b151106349a44928e3594d82143f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 298}
+  - name: Samurai Re-design_Frame_18
+    originalName: 
+    pivot: {x: 0.91999996, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 298
+      width: 75
+      height: 32
+    spriteID: 6e25af674f4da2d4a96d444cab483a9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 298}
+  - name: Samurai Re-design_Frame_19
+    originalName: 
+    pivot: {x: 0.91999996, y: -0.064516254}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 372
+      y: 330
+      width: 75
+      height: 31
+    spriteID: 57a46d6dbd0120e4fb81bb83a8066d2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 372, y: 330}
+  - name: Samurai Re-design_Frame_20
+    originalName: 
+    pivot: {x: 0.91999996, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 378
+      y: 298
+      width: 75
+      height: 32
+    spriteID: 358e6bf1c08139744afa9eb0f77940cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 378, y: 298}
+  - name: Samurai Re-design_Frame_21
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 266
+      width: 76
+      height: 32
+    spriteID: 9aa9dd3875de56c4b9a20729c2096eb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 266}
+  - name: Samurai Re-design_Frame_22
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 266
+      width: 76
+      height: 32
+    spriteID: 1831191b5e0a24a4ab5b76e1e92a1ee5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 266}
+  - name: Samurai Re-design_Frame_23
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 266
+      width: 76
+      height: 32
+    spriteID: f436f8a77c7142f42a11f0950a0efef2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 304, y: 266}
+  - name: Samurai Re-design_Frame_24
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 380
+      y: 266
+      width: 76
+      height: 32
+    spriteID: 1701994615b16d149845715c38283552
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 380, y: 266}
+  - name: Samurai Re-design_Frame_25
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 298
+      width: 76
+      height: 32
+    spriteID: d945aeafa32a9a34facaf13d0196811a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 298}
+  - name: Samurai Re-design_Frame_26
+    originalName: 
+    pivot: {x: 0.4270833, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 49
+      width: 96
+      height: 32
+    spriteID: 45849d48f25545b479ec7f4f8d0534f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 49}
+  - name: Samurai Re-design_Frame_27
+    originalName: 
+    pivot: {x: 0.42105263, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 321
+      y: 49
+      width: 95
+      height: 32
+    spriteID: b03adeeadc379b048a4c5d87afa0d728
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 321, y: 49}
+  - name: Samurai Re-design_Frame_28
+    originalName: 
+    pivot: {x: 0.41489363, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 49
+      width: 94
+      height: 32
+    spriteID: da6ccfc94b03949409a789d7a96dd909
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 416, y: 49}
+  - name: Samurai Re-design_Frame_29
+    originalName: 
+    pivot: {x: 0.40217394, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 105
+      y: 93
+      width: 92
+      height: 32
+    spriteID: 64a9400ba1e5aaa4fa9079344c2cd079
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 105, y: 93}
+  - name: Samurai Re-design_Frame_30
+    originalName: 
+    pivot: {x: 0.40217394, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 93
+      width: 92
+      height: 32
+    spriteID: 11761874b99211d44b8704ca0cdd533f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 93}
+  - name: Samurai Re-design_Frame_31
+    originalName: 
+    pivot: {x: 0.62857145, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 93
+      width: 105
+      height: 45
+    spriteID: a6865515ccf48364fb7a373b6aa15e63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 93}
+  - name: Samurai Re-design_Frame_32
+    originalName: 
+    pivot: {x: 0.6168224, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 225
+      y: 0
+      width: 107
+      height: 48
+    spriteID: deaef2275d90c644cb47ee36c269a95b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 225, y: 0}
+  - name: Samurai Re-design_Frame_33
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 49
+      width: 110
+      height: 44
+    spriteID: 60a922d082a63e4499234610788cf891
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 49}
+  - name: Samurai Re-design_Frame_34
+    originalName: 
+    pivot: {x: 0.58928573, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 0
+      width: 112
+      height: 49
+    spriteID: 6c3ef1d4dbc554f4a874eff444816af4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 0}
+  - name: Samurai Re-design_Frame_35
+    originalName: 
+    pivot: {x: 0.5840708, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 113
+      height: 49
+    spriteID: 267d8f34bd0f35b428a180ab39758e18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Samurai Re-design_Frame_36
+    originalName: 
+    pivot: {x: 0.57894737, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 332
+      y: 0
+      width: 114
+      height: 44
+    spriteID: c89ac56d3d41354488d643d158061ffb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 332, y: 0}
+  - name: Samurai Re-design_Frame_37
+    originalName: 
+    pivot: {x: 0.57391304, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 110
+      y: 49
+      width: 115
+      height: 32
+    spriteID: b7aca33d2cadb9c4db3a602e34cd6bbe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 110, y: 49}
+  - name: Samurai Re-design_Frame_38
+    originalName: 
+    pivot: {x: 0.7764706, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 289
+      y: 93
+      width: 85
+      height: 32
+    spriteID: 7b2bb8397a46de742aca6307f05229b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 289, y: 93}
+  - name: Samurai Re-design_Frame_39
+    originalName: 
+    pivot: {x: 0.7764706, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 374
+      y: 93
+      width: 85
+      height: 32
+    spriteID: 04b0a08d3d75ac84a890bf978d7370e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 374, y: 93}
+  - name: Samurai Re-design_Frame_40
+    originalName: 
+    pivot: {x: 0.7951807, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 138
+      width: 83
+      height: 32
+    spriteID: e4b76f5099af36047931546485dba5f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 138}
+  - name: Samurai Re-design_Frame_41
+    originalName: 
+    pivot: {x: 0.84615386, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 83
+      y: 138
+      width: 78
+      height: 32
+    spriteID: dba4f303a49b64442898ef14fb6dd7ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 83, y: 138}
+  - name: Samurai Re-design_Frame_42
+    originalName: 
+    pivot: {x: 0.91999996, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 330
+      width: 75
+      height: 32
+    spriteID: 5653cc44c457bad48928056614186d5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 330}
+  - name: Samurai Re-design_Frame_43
+    originalName: 
+    pivot: {x: 0.89610386, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 239
+      y: 138
+      width: 77
+      height: 32
+    spriteID: 550d18b2721d477478c31462f26f4da4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 239, y: 138}
+  - name: Samurai Re-design_Frame_44
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 298
+      width: 76
+      height: 32
+    spriteID: c9969ffa127dfae4f952ed286cbc7b5d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 298}
+  - name: Samurai Re-design_Frame_45
+    originalName: 
+    pivot: {x: 0.91999996, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 330
+      width: 75
+      height: 32
+    spriteID: 568333ff4ef09b845b62964a43387dda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 330}
+  - name: Samurai Re-design_Frame_46
+    originalName: 
+    pivot: {x: 0.90789473, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 298
+      width: 76
+      height: 32
+    spriteID: 61f3f85dad9177643861e8f9a8dbaebf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 298}
+  - name: Samurai Re-design_Frame_47
+    originalName: 
+    pivot: {x: 0.8846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 138
+      width: 78
+      height: 32
+    spriteID: 0c37c1cd2922fa2438c2a5c2f54a579d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 138}
+  - name: Samurai Re-design_Frame_48
+    originalName: 
+    pivot: {x: 0.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 138
+      width: 77
+      height: 32
+    spriteID: b48197b3e40f5ca40b56effbb5fd5baf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 138}
+  - name: Samurai Re-design_Frame_49
+    originalName: 
+    pivot: {x: 0.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 393
+      y: 138
+      width: 77
+      height: 32
+    spriteID: a93c27b929550b743889276e0f1f4d06
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 393, y: 138}
+  - name: Samurai Re-design_Frame_50
+    originalName: 
+    pivot: {x: 0.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 170
+      width: 77
+      height: 32
+    spriteID: c27951f0971f6c148a1d7bc009c059e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 170}
+  - name: Samurai Re-design_Frame_51
+    originalName: 
+    pivot: {x: 0.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 170
+      width: 77
+      height: 32
+    spriteID: 258d79e17d62e33488efde8fd74fd5bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 170}
+  - name: Samurai Re-design_Frame_52
+    originalName: 
+    pivot: {x: 0.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 170
+      width: 77
+      height: 32
+    spriteID: ae6049866f949de4abd7ba56f28eb7b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 170}
+  - name: Samurai Re-design_Frame_53
+    originalName: 
+    pivot: {x: 0.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 231
+      y: 170
+      width: 77
+      height: 32
+    spriteID: b8e035bcd1c4947488dca4aeb63cec8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 231, y: 170}
+  - name: Samurai Re-design_Frame_54
+    originalName: 
+    pivot: {x: 0.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 308
+      y: 170
+      width: 77
+      height: 32
+    spriteID: 724a68d9d36cd444c9116bd7722f86ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 308, y: 170}
+  - name: Samurai Re-design_Frame_55
+    originalName: 
+    pivot: {x: 0.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 385
+      y: 170
+      width: 77
+      height: 32
+    spriteID: d51c0cc5547525c49a5dc84dcd2cdd6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 385, y: 170}
+  - name: Samurai Re-design_Frame_56
+    originalName: 
+    pivot: {x: 0.8571428, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 202
+      width: 77
+      height: 32
+    spriteID: 27d98de63a494234288882832c1439e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 202}
+  - name: Samurai Re-design_Frame_57
+    originalName: 
+    pivot: {x: 0.54166675, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 459
+      y: 93
+      width: 24
+      height: 24
+    spriteID: 29087d7a490be574da1ae6aca4bfa947
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 459, y: 93}
+  - name: Samurai Re-design_Frame_58
+    originalName: 
+    pivot: {x: 0.5599999, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 479
+      y: 298
+      width: 25
+      height: 24
+    spriteID: 0ba0530451dbc3942858e3dbf8f9f95b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 479, y: 298}
+  - name: Samurai Re-design_Frame_59
+    originalName: 
+    pivot: {x: 0.5769231, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 483
+      y: 266
+      width: 26
+      height: 24
+    spriteID: 253039c5e08d61741b7d79546aa15984
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 483, y: 266}
+  - name: Samurai Re-design_Frame_60
+    originalName: 
+    pivot: {x: 0.5769231, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 453
+      y: 298
+      width: 26
+      height: 24
+    spriteID: f617c507386228043b82191543ee1e00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 453, y: 298}
+  - name: Samurai Re-design_Frame_61
+    originalName: 
+    pivot: {x: 0.59259266, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 462
+      y: 170
+      width: 27
+      height: 24
+    spriteID: ede5bf1b3a898c64f854acbd193a93b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 462, y: 170}
+  - name: Samurai Re-design_Frame_62
+    originalName: 
+    pivot: {x: 0.59259266, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 457
+      y: 202
+      width: 27
+      height: 24
+    spriteID: e719d0444fe172f418d5343fa68f722d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 457, y: 202}
+  - name: Samurai Re-design_Frame_63
+    originalName: 
+    pivot: {x: 0.59259266, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 484
+      y: 202
+      width: 27
+      height: 24
+    spriteID: 4daa9490a9647fa4fb7b3421dabc4d02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 484, y: 202}
+  - name: Samurai Re-design_Frame_64
+    originalName: 
+    pivot: {x: 0.59259266, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 234
+      width: 27
+      height: 24
+    spriteID: 9e95253aaa199b24c880bf01dba9f215
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 234}
+  - name: Samurai Re-design_Frame_65
+    originalName: 
+    pivot: {x: 0.59259266, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 470
+      y: 138
+      width: 27
+      height: 25
+    spriteID: 9ea0adda2d3ec984d9775236836a2949
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 470, y: 138}
+  - name: Samurai Re-design_Frame_66
+    originalName: 
+    pivot: {x: 0.59259266, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 483
+      y: 234
+      width: 27
+      height: 24
+    spriteID: 31fa901546300684d8c25e2a098bd706
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 483, y: 234}
+  - name: Samurai Re-design_Frame_67
+    originalName: 
+    pivot: {x: 0.59259266, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 456
+      y: 266
+      width: 27
+      height: 24
+    spriteID: 97820c1571e16a34ca1a661e22fbb799
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 456, y: 266}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1741516770
+    name: Samurai Re-design
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Samurai Re-design_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: d28776902f49d334bbc6595cc7ab6145
+    - name: Samurai Re-design_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: c4caf552ec020b8489305833bf42ab8f
+    - name: Samurai Re-design_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: aa06a055d4bca0e459e2221902e0a87c
+    - name: Samurai Re-design_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: 367de63fee3249d43a0d6856f0988eb0
+    - name: Samurai Re-design_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: c0ba5d1a996339f49960fa56cab97af9
+    - name: Samurai Re-design_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: dadb7fd3c99bf23418d9c7ba385654d3
+    - name: Samurai Re-design_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: a159c1e7467e9be4b9dcc494dd2e067d
+    - name: Samurai Re-design_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: e5da5ef7c320d2046bae8c6806e8e507
+    - name: Samurai Re-design_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: 2719ea1e2b74e9c4b8ed4895c85a91d2
+    - name: Samurai Re-design_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: cec1c7c061c3922489e3eb76a4193a58
+    - name: Samurai Re-design_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: ce81755c53e250c468f3fd32a157a914
+    - name: Samurai Re-design_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: 1562e35de8356ad459ba065443ad93d2
+    - name: Samurai Re-design_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: 756afc1a38860694ebfcca823611d84f
+    - name: Samurai Re-design_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 27
+        y: 96
+        width: 74
+        height: 32
+      spriteId: cf8a2e2483892fb409d0a44294729431
+    - name: Samurai Re-design_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 27
+        y: 96
+        width: 74
+        height: 32
+      spriteId: e6d274f61fa32e14f91d551b199cd7c7
+    - name: Samurai Re-design_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 27
+        y: 98
+        width: 74
+        height: 31
+      spriteId: 081d7219f314aba46acbccf38ff3e740
+    - name: Samurai Re-design_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 27
+        y: 96
+        width: 74
+        height: 32
+      spriteId: c894033bdc4a05942af1886befc4d586
+    - name: Samurai Re-design_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 27
+        y: 96
+        width: 75
+        height: 32
+      spriteId: dc01b151106349a44928e3594d82143f
+    - name: Samurai Re-design_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 27
+        y: 96
+        width: 75
+        height: 32
+      spriteId: 6e25af674f4da2d4a96d444cab483a9f
+    - name: Samurai Re-design_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 27
+        y: 98
+        width: 75
+        height: 31
+      spriteId: 57a46d6dbd0120e4fb81bb83a8066d2a
+    - name: Samurai Re-design_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 27
+        y: 96
+        width: 75
+        height: 32
+      spriteId: 358e6bf1c08139744afa9eb0f77940cb
+    - name: Samurai Re-design_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: 9aa9dd3875de56c4b9a20729c2096eb2
+    - name: Samurai Re-design_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: 1831191b5e0a24a4ab5b76e1e92a1ee5
+    - name: Samurai Re-design_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: f436f8a77c7142f42a11f0950a0efef2
+    - name: Samurai Re-design_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: 1701994615b16d149845715c38283552
+    - name: Samurai Re-design_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: d945aeafa32a9a34facaf13d0196811a
+    - name: Samurai Re-design_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 55
+        y: 96
+        width: 96
+        height: 32
+      spriteId: 45849d48f25545b479ec7f4f8d0534f7
+    - name: Samurai Re-design_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 56
+        y: 96
+        width: 95
+        height: 32
+      spriteId: b03adeeadc379b048a4c5d87afa0d728
+    - name: Samurai Re-design_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 57
+        y: 96
+        width: 94
+        height: 32
+      spriteId: da6ccfc94b03949409a789d7a96dd909
+    - name: Samurai Re-design_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 59
+        y: 96
+        width: 92
+        height: 32
+      spriteId: 64a9400ba1e5aaa4fa9079344c2cd079
+    - name: Samurai Re-design_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 59
+        y: 96
+        width: 92
+        height: 32
+      spriteId: 11761874b99211d44b8704ca0cdd533f
+    - name: Samurai Re-design_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 30
+        y: 96
+        width: 105
+        height: 45
+      spriteId: a6865515ccf48364fb7a373b6aa15e63
+    - name: Samurai Re-design_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 30
+        y: 96
+        width: 107
+        height: 48
+      spriteId: deaef2275d90c644cb47ee36c269a95b
+    - name: Samurai Re-design_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 30
+        y: 96
+        width: 110
+        height: 44
+      spriteId: 60a922d082a63e4499234610788cf891
+    - name: Samurai Re-design_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 30
+        y: 96
+        width: 112
+        height: 49
+      spriteId: 6c3ef1d4dbc554f4a874eff444816af4
+    - name: Samurai Re-design_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 30
+        y: 96
+        width: 113
+        height: 49
+      spriteId: 267d8f34bd0f35b428a180ab39758e18
+    - name: Samurai Re-design_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 30
+        y: 96
+        width: 114
+        height: 44
+      spriteId: c89ac56d3d41354488d643d158061ffb
+    - name: Samurai Re-design_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 30
+        y: 96
+        width: 115
+        height: 32
+      spriteId: b7aca33d2cadb9c4db3a602e34cd6bbe
+    - name: Samurai Re-design_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 30
+        y: 96
+        width: 85
+        height: 32
+      spriteId: 7b2bb8397a46de742aca6307f05229b6
+    - name: Samurai Re-design_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 30
+        y: 96
+        width: 85
+        height: 32
+      spriteId: 04b0a08d3d75ac84a890bf978d7370e8
+    - name: Samurai Re-design_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 30
+        y: 96
+        width: 83
+        height: 32
+      spriteId: e4b76f5099af36047931546485dba5f0
+    - name: Samurai Re-design_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 30
+        y: 96
+        width: 78
+        height: 32
+      spriteId: dba4f303a49b64442898ef14fb6dd7ec
+    - name: Samurai Re-design_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 27
+        y: 96
+        width: 75
+        height: 32
+      spriteId: 5653cc44c457bad48928056614186d5f
+    - name: Samurai Re-design_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 27
+        y: 96
+        width: 77
+        height: 32
+      spriteId: 550d18b2721d477478c31462f26f4da4
+    - name: Samurai Re-design_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: c9969ffa127dfae4f952ed286cbc7b5d
+    - name: Samurai Re-design_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 27
+        y: 96
+        width: 75
+        height: 32
+      spriteId: 568333ff4ef09b845b62964a43387dda
+    - name: Samurai Re-design_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 27
+        y: 96
+        width: 76
+        height: 32
+      spriteId: 61f3f85dad9177643861e8f9a8dbaebf
+    - name: Samurai Re-design_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 27
+        y: 96
+        width: 78
+        height: 32
+      spriteId: 0c37c1cd2922fa2438c2a5c2f54a579d
+    - name: Samurai Re-design_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 30
+        y: 96
+        width: 77
+        height: 32
+      spriteId: b48197b3e40f5ca40b56effbb5fd5baf
+    - name: Samurai Re-design_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 30
+        y: 96
+        width: 77
+        height: 32
+      spriteId: a93c27b929550b743889276e0f1f4d06
+    - name: Samurai Re-design_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 30
+        y: 96
+        width: 77
+        height: 32
+      spriteId: c27951f0971f6c148a1d7bc009c059e1
+    - name: Samurai Re-design_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 30
+        y: 96
+        width: 77
+        height: 32
+      spriteId: 258d79e17d62e33488efde8fd74fd5bd
+    - name: Samurai Re-design_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 30
+        y: 96
+        width: 77
+        height: 32
+      spriteId: ae6049866f949de4abd7ba56f28eb7b9
+    - name: Samurai Re-design_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 30
+        y: 96
+        width: 77
+        height: 32
+      spriteId: b8e035bcd1c4947488dca4aeb63cec8d
+    - name: Samurai Re-design_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 30
+        y: 96
+        width: 77
+        height: 32
+      spriteId: 724a68d9d36cd444c9116bd7722f86ea
+    - name: Samurai Re-design_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 30
+        y: 96
+        width: 77
+        height: 32
+      spriteId: d51c0cc5547525c49a5dc84dcd2cdd6b
+    - name: Samurai Re-design_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 30
+        y: 96
+        width: 77
+        height: 32
+      spriteId: 27d98de63a494234288882832c1439e9
+    - name: Samurai Re-design_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 83
+        y: 96
+        width: 24
+        height: 24
+      spriteId: 29087d7a490be574da1ae6aca4bfa947
+    - name: Samurai Re-design_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 82
+        y: 96
+        width: 25
+        height: 24
+      spriteId: 0ba0530451dbc3942858e3dbf8f9f95b
+    - name: Samurai Re-design_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 81
+        y: 96
+        width: 26
+        height: 24
+      spriteId: 253039c5e08d61741b7d79546aa15984
+    - name: Samurai Re-design_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 81
+        y: 96
+        width: 26
+        height: 24
+      spriteId: f617c507386228043b82191543ee1e00
+    - name: Samurai Re-design_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 80
+        y: 96
+        width: 27
+        height: 24
+      spriteId: ede5bf1b3a898c64f854acbd193a93b6
+    - name: Samurai Re-design_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 80
+        y: 96
+        width: 27
+        height: 24
+      spriteId: e719d0444fe172f418d5343fa68f722d
+    - name: Samurai Re-design_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 80
+        y: 96
+        width: 27
+        height: 24
+      spriteId: 4daa9490a9647fa4fb7b3421dabc4d02
+    - name: Samurai Re-design_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 80
+        y: 96
+        width: 27
+        height: 24
+      spriteId: 9e95253aaa199b24c880bf01dba9f215
+    - name: Samurai Re-design_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 80
+        y: 96
+        width: 27
+        height: 25
+      spriteId: 9ea0adda2d3ec984d9775236836a2949
+    - name: Samurai Re-design_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 80
+        y: 96
+        width: 27
+        height: 24
+      spriteId: 31fa901546300684d8c25e2a098bd706
+    - name: Samurai Re-design_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 80
+        y: 96
+        width: 27
+        height: 24
+      spriteId: 97820c1571e16a34ca1a661e22fbb799
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}

@@ -1,0 +1,755 @@
+fileFormatVersion: 2
+guid: 982a521def74e6744b400fcbc1c63e71
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Blinding Spider_Frame_0
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 20
+      height: 18
+    spriteID: ea5c2f1bb5726b846ab83b93ab439d4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Blinding Spider_Frame_7
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 30
+      width: 20
+      height: 18
+    spriteID: 85e17a639da5c6a42ae3c95c2927fe35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 30}
+  - name: Blinding Spider_Frame_10
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 56
+      width: 20
+      height: 18
+    spriteID: 73a9871633b9b4c42906f60a975c0abc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 56}
+  - name: Blinding Spider_Frame_11
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 82
+      width: 20
+      height: 18
+    spriteID: b3dc080778bbc3f4bb51fd6e19c66cd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 82}
+  - name: Blinding Spider_Frame_12
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 20
+      height: 18
+    spriteID: 116ed5b9b3e806f4687c799570f44bcb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: Blinding Spider_Frame_13
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 134
+      width: 20
+      height: 18
+    spriteID: b7b4ac6251a553f43b7efbe3085bdb08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 134}
+  - name: Blinding Spider_Frame_14
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 160
+      width: 20
+      height: 18
+    spriteID: a36e0b158bea6bd4ebe72bb1991f55ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 160}
+  - name: Blinding Spider_Frame_15
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 186
+      width: 20
+      height: 18
+    spriteID: e020a2cb6f178094ba4fd729d2641968
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 186}
+  - name: Blinding Spider_Frame_16
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 212
+      width: 20
+      height: 18
+    spriteID: a3f6222a1bfeabf4baa48e3c636cc057
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 212}
+  - name: Blinding Spider_Frame_17
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 4
+      width: 20
+      height: 18
+    spriteID: 2fb496f7656dd08479eae3abac27ff92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 4}
+  - name: Blinding Spider_Frame_18
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 30
+      width: 20
+      height: 18
+    spriteID: cd4eb6241f5a0644dba7a1775b102dcc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 30}
+  - name: Blinding Spider_Frame_19
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 56
+      width: 20
+      height: 18
+    spriteID: 8b1499236d00e204d8cd3fefc4f4ea55
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 56}
+  - name: Blinding Spider_Frame_20
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 82
+      width: 20
+      height: 18
+    spriteID: 7920b074ddebfad4797cdcf6c1b97525
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 82}
+  - name: Blinding Spider_Frame_21
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 108
+      width: 20
+      height: 18
+    spriteID: a1a8bebb19f08af45b775d383f6c75d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 108}
+  - name: Blinding Spider_Frame_1
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 134
+      width: 20
+      height: 18
+    spriteID: 7047d50f9eab14b4697cd5ead76e8c68
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 134}
+  - name: Blinding Spider_Frame_2
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 160
+      width: 20
+      height: 18
+    spriteID: 7ee42a18b9d0e1e488a25a7871f1c5fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 160}
+  - name: Blinding Spider_Frame_3
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 186
+      width: 20
+      height: 18
+    spriteID: 506742f83ab6ddb4a9a20e5367115167
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 186}
+  - name: Blinding Spider_Frame_4
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 212
+      width: 20
+      height: 18
+    spriteID: eeb87d674a87b23448956a4d31c71334
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 212}
+  - name: Blinding Spider_Frame_5
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 4
+      width: 20
+      height: 18
+    spriteID: f6ad28f00b155094ebc0c4adffea96be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 4}
+  - name: Blinding Spider_Frame_6
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 30
+      width: 20
+      height: 18
+    spriteID: a103b2f7c1d42564aa52fa54a53b2007
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 30}
+  - name: Blinding Spider_Frame_8
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 56
+      width: 20
+      height: 18
+    spriteID: 5d57b6cafd160714f9b9386d1c56c327
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 56}
+  - name: Blinding Spider_Frame_9
+    originalName: 
+    pivot: {x: 0.6, y: 0.11111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 82
+      width: 20
+      height: 18
+    spriteID: ef3a7396f4caea14a88f8f8849a38f08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 82}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -528302160
+    name: Blinding Spider
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Blinding Spider_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: ea5c2f1bb5726b846ab83b93ab439d4c
+    - name: Blinding Spider_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 85e17a639da5c6a42ae3c95c2927fe35
+    - name: Blinding Spider_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 73a9871633b9b4c42906f60a975c0abc
+    - name: Blinding Spider_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: b3dc080778bbc3f4bb51fd6e19c66cd1
+    - name: Blinding Spider_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 116ed5b9b3e806f4687c799570f44bcb
+    - name: Blinding Spider_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: b7b4ac6251a553f43b7efbe3085bdb08
+    - name: Blinding Spider_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: a36e0b158bea6bd4ebe72bb1991f55ef
+    - name: Blinding Spider_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: e020a2cb6f178094ba4fd729d2641968
+    - name: Blinding Spider_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: a3f6222a1bfeabf4baa48e3c636cc057
+    - name: Blinding Spider_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 2fb496f7656dd08479eae3abac27ff92
+    - name: Blinding Spider_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: cd4eb6241f5a0644dba7a1775b102dcc
+    - name: Blinding Spider_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 8b1499236d00e204d8cd3fefc4f4ea55
+    - name: Blinding Spider_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 7920b074ddebfad4797cdcf6c1b97525
+    - name: Blinding Spider_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: a1a8bebb19f08af45b775d383f6c75d7
+    - name: Blinding Spider_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 7047d50f9eab14b4697cd5ead76e8c68
+    - name: Blinding Spider_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 7ee42a18b9d0e1e488a25a7871f1c5fa
+    - name: Blinding Spider_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 506742f83ab6ddb4a9a20e5367115167
+    - name: Blinding Spider_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: eeb87d674a87b23448956a4d31c71334
+    - name: Blinding Spider_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: f6ad28f00b155094ebc0c4adffea96be
+    - name: Blinding Spider_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: a103b2f7c1d42564aa52fa54a53b2007
+    - name: Blinding Spider_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: 5d57b6cafd160714f9b9386d1c56c327
+    - name: Blinding Spider_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -4
+        y: -2
+        width: 20
+        height: 18
+      spriteId: ef3a7396f4caea14a88f8f8849a38f08
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 16, y: 16}
