@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Assets.Scripts.General_Use
 {
-    public class SimpleLerp : MonoBehaviour
+    public abstract class SimpleLerp : MonoBehaviour
     {
         public static IEnumerator LerpWithTime(float duration)
         {

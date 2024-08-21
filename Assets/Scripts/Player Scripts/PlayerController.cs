@@ -1,3 +1,4 @@
+using Assets.Scripts.General_Use;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,8 +7,9 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
-    public float speed = 7;
-    [Range(1f, 0f)] public float drag = 0.3f;
+    public float speedAcceleration = 3f;
+    public float maxSpeed = 15;
+    [Range(0f, 2f)] public float drag = 0.3f;
     public float jumpImpulse = 7;
     public float normalGravity = 3;
     public float fallMultiplier = 5;
@@ -19,10 +21,7 @@ public class PlayerController : MonoBehaviour
     public bool isLookingRight;
 
     [Header("Attack Values")]
-    public float atkCooldown;
-    public float atkTimer;
-    public bool canAttack = true;
-    bool attackOnCD;
+    float swordDamage;
 
     [Header("Mana & Spells")]
     public int maxMana;
@@ -57,21 +56,19 @@ public class PlayerController : MonoBehaviour
         OnUpdateParameters(); //Parameters that need to be updated every frame//
         StartCoroutine(RegainMana()); //Mana Restoring//
         
-        isMoving = moveInput != Vector2.zero;
+        isMoving = moveInput.x != 0f;
         if (isMoving) FlipScale(); //Scale flipping//
 
-        if (!canAttack) attackOnCD = true;
-        AttackCooldown(); //Attack Cooldown//
-        GravityControl(); //Gravity multiplication (might go if I start using my own physics)//        
-        MoveInput(); //Movement Input Handler//
+        GravityControl(); //Gravity multiplication (might go if I start using my own physics//
     }
 
     void OnUpdateParameters()
     {
         animator.SetBool(AnimationStrings.isMoving, isMoving);
+        animator.SetFloat(AnimationStrings.xVelocity, Mathf.Abs(currentVelocity.x));
+        animator.SetFloat(AnimationStrings.yVelocity, currentVelocity.y);
         isGrounded = animator.GetBool(AnimationStrings.isGrounded);
         canMove = animator.GetBool(AnimationStrings.canMove);
-        animator.SetFloat(AnimationStrings.xVelocity, currentVelocity.x);
 
         //Set my persistent parameters so that mana and health upgrades remain in the game even through sessions//
         persistentData.playerMaxMana = maxMana;
@@ -80,18 +77,10 @@ public class PlayerController : MonoBehaviour
 
     void FlipScale()
     {
-        float moveDirection = moveInput.x;
+        float moveDirection = Mathf.Sign(moveInput.x);
         transform.localScale = new Vector3(moveDirection, 1f, 1f);
         if (moveDirection > 0f) isLookingRight = true;
         else if (moveDirection < 0f) isLookingRight = false;
-    }
-    void AttackCooldown()
-    {
-        if (attackOnCD)
-        {
-            atkTimer += Time.deltaTime;
-        }
-        if (atkTimer >= atkCooldown) { canAttack = true; attackOnCD = false; atkTimer = 0f; }
     }
     void GravityControl()
     {
@@ -104,18 +93,13 @@ public class PlayerController : MonoBehaviour
             body.gravityScale = normalGravity;
         }
     }
-    public void MoveInput()
-    {
-        moveInput.x = Input.GetAxis("Horizontal");
-        moveInput.y = Input.GetAxis("Vertical");
-    }
 
     private void FixedUpdate()
     {   
         PlayerMovement(); //Move the player//
-        Drag(); //Ground Drag//
+        StartCoroutine(Drag()); //Ground Drag//
 
-        //Parameters that only need to be updated every couple frames//
+        //Parameters that only need to be updated on a fixed timeframe//
         currentVelocity = body.velocity;
     }
 
@@ -124,25 +108,66 @@ public class PlayerController : MonoBehaviour
         //Horizontal Movement//
         if (moveInput.x != 0)
         {
-            body.velocity = new((moveInput.x * speed), body.velocity.y);
+            if(Mathf.Abs(body.velocity.x) <= maxSpeed) body.AddForce(new(moveInput.x * speedAcceleration * 10, 0), ForceMode2D.Force);
         }
 
         //Vertical Movement//
         if (moveInput.y != 0 && isGrounded)
         {
-            body.velocity = new(body.velocity.x, moveInput.y * jumpImpulse);
+            //Pending ladder climbing, also going down two-way platforms//
         }
     }
-    void Drag()
+    IEnumerator Drag()
     {
-        if (moveInput == Vector2.zero && isGrounded) body.velocity *= drag;
+        if (moveInput.x != 0 || body.velocity == Vector2.zero || !isGrounded) yield break;
+        else if (moveInput.x == 0f && isGrounded && body.velocity.x > 0)
+        {
+            float duration = 1f;
+            var timePassed = 0f;
+            float value = 0f;
+            while (timePassed < duration)
+            {
+                // This factor moves linear from 0 to 1
+                var factor = timePassed / duration;
+                // This adds ease-in and ease-out 
+                // see https://docs.unity3d.com/ScriptReference/Mathf.SmoothStep.html
+                // Basically you can use ANY mathematical function that maps
+                // the input of [0; 1] again to a range of [0;1] 
+                // with the easing you like
+                factor = Mathf.SmoothStep(0, 1, factor);
+
+                // And this is how finally you use Lerp in this case
+                value = Mathf.Lerp(0, drag, factor);
+
+                // This tells Unity to "pause" the routine here
+                // render this frame and continue from here in the next one
+                yield return value;
+
+                // increase by the time passed since last frame
+                timePassed += Time.deltaTime;
+            }
+        }
     }
 
-    //Attack input handling//
-    public void OnAttack(InputAction.CallbackContext context)
+    //Inputs from New Input System//
+    public void OnMove(InputAction.CallbackContext context)
     {
-        if(context.started && isGrounded && canAttack && !isMoving) { animator.SetTrigger(AnimationStrings.atk); }
-        else if(context.started && isGrounded && canAttack && isMoving) { animator.SetTrigger(AnimationStrings.moveAtk); }
+        moveInput = context.ReadValue<Vector2>();
+    }
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        if(context.canceled) return;
+        else if(context.started)
+        {
+            animator.SetTrigger(AnimationStrings.jump);
+            isGrounded = false;
+            body.AddForce(new(0, jumpImpulse), ForceMode2D.Impulse);
+        }
+    }
+    public void OnSwordAtk(InputAction.CallbackContext context)
+    {
+        if(context.started && isGrounded && canMove && !isMoving) { animator.SetTrigger(AnimationStrings.swordAtk); }
+        else if(context.started && isGrounded && canMove && isMoving) { animator.SetTrigger(AnimationStrings.swordMoveAtk); }
     }
 
     //Self explanatory//
