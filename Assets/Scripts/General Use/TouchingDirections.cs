@@ -10,7 +10,6 @@ public class TouchingDirections : MonoBehaviour
     public float wallDistance = 0.2f;
 
     Collider2D touchingCol;
-    Animator animator;
 
     RaycastHit2D[] groundHits = new RaycastHit2D[5];
     RaycastHit2D[] wallHits = new RaycastHit2D[5];
@@ -26,7 +25,6 @@ public class TouchingDirections : MonoBehaviour
         private set
         {
             isGrounded = value;
-            animator.SetBool(AnimationStrings.isGrounded, value);
         }
     }
 
@@ -43,27 +41,17 @@ public class TouchingDirections : MonoBehaviour
         private set
         {
             isOnWall = value;
-            animator.SetBool(AnimationStrings.isOnWall, value);
         }
     }
 
     private void Awake()
     {
         touchingCol = GetComponent<Collider2D>();
-        animator = GetComponentInChildren<Animator>();
     }
 
     void FixedUpdate()
     {
         IsGrounded = touchingCol.Cast(Vector2.down, castFilter, groundHits, groundDistance) > 0;
         IsOnWall = touchingCol.Cast(WallCheckDirection, castFilter, wallHits, wallDistance) > 0;
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            IsGrounded = true;
-        }
     }
 }

@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lunge Loop
+  m_Name: Lunge Land 1
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 9075392859868887412, guid: 0c578d37e145dc446adbcdafd1fd278c, type: 3}
+      value: {fileID: 884724366941060335, guid: 0c578d37e145dc446adbcdafd1fd278c, type: 3}
     - time: 0.10000038
-      value: {fileID: -6165807014049206699, guid: 0c578d37e145dc446adbcdafd1fd278c, type: 3}
-    - time: 0.20000038
-      value: {fileID: -6165807014049206699, guid: 0c578d37e145dc446adbcdafd1fd278c, type: 3}
+      value: {fileID: -3878182315706738730, guid: 0c578d37e145dc446adbcdafd1fd278c, type: 3}
+    - time: 0.20000076
+      value: {fileID: 7083423252884699869, guid: 0c578d37e145dc446adbcdafd1fd278c, type: 3}
+    - time: 0.30000076
+      value: {fileID: 7083423252884699869, guid: 0c578d37e145dc446adbcdafd1fd278c, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,7 +46,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.21000038
+    m_StopTime: 0.31000075
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
