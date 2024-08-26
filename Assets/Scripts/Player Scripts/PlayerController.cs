@@ -1,20 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : StateMachineCore
 {
     //Add states here//
-    public JumpState jumpState;
 
     [Header("Movement")]    
     public Vector2 currentVelocity;
-    public Vector2 moveInput;
     public bool canMove = true;
-    public bool isGrounded;
     public bool isMoving;
-    public bool isLookingRight;
+    public bool isLookingRight = true;
 
     [Header("Mana & Spells")]
     public int maxMana;
@@ -39,25 +37,34 @@ public class PlayerController : StateMachineCore
         //Parameters that need to be set at game start//
         currentMana = maxMana;
         SetupInstances();
-        machine.Set(idleState);
+        SelectStrategy();
     }
 
     void Update()
     {        
-        if(state.IsComplete) { }
+        if (machine.state.IsComplete) { SelectStrategy(); }
+        machine.state.DoBranch(); //Run the state's update//
 
         OnUpdateParameters(); //Parameters that need to be updated every frame//
-        StartCoroutine(RegainMana()); //Mana Restoring//
-
-        state.DoBranch(); //Run the state's update//
-        
+        StartCoroutine(RegainMana()); //Mana Restoring//        
         isMoving = moveInput.x != 0f;
         if (isMoving) FlipScale(); //Scale flipping//
     }
 
+    void SelectStrategy()
+    {
+        if (Grounded) machine.Set(groundStates);
+        else machine.Set(airStates);
+    }
+
     void OnUpdateParameters()
     {
-        runState.moveInput = moveInput;
+        Grounded = touching.IsGrounded;
+        OnWall = touching.IsOnWall;
+        airStates.grounded = Grounded;
+        airStates.jumpState.grounded = Grounded;
+        airStates.midAirState.grounded = Grounded;
+        airStates.fallState.grounded = Grounded;
 
         //Set my persistent parameters so that mana and health upgrades remain in the game even through sessions//
         persistentData.playerMaxMana = maxMana;
@@ -74,7 +81,7 @@ public class PlayerController : StateMachineCore
 
     private void FixedUpdate()
     {
-        state.FixedDoBranch(); //Run the state's fixed update//
+        machine.state.FixedDoBranch(); //Run the state's fixed update//
 
         //Parameters that only need to be updated on a fixed timeframe//
         currentVelocity = body.velocity;
@@ -87,17 +94,17 @@ public class PlayerController : StateMachineCore
     }
     public void OnJump(InputAction.CallbackContext context)
     {
-        if(context.canceled) return;
-        else if(context.started)
+        if (context.canceled && body.velocity.y > 0) body.velocity = new(body.velocity.x, body.velocity.y - (body.velocity.y / 2));
+        else if (context.started && Grounded)
         {
-            machine.Set(jumpState);
+            airStates.Jump();
         }
     }
     public void OnSwordAtk(InputAction.CallbackContext context)
     {
-        if (context.started && isGrounded && !isMoving) return; //Attack Combo//
-        else if (context.started && isGrounded && isMoving) return; //Running Attack combo//
-        else if (context.started && !isGrounded) return; //Air Attacks//
+        if (context.started && Grounded && !isMoving) return; //Attack Combo//
+        else if (context.started && Grounded && isMoving) return; //Running Attack combo//
+        else if (context.started && !Grounded) return; //Air Attacks//
     }
 
     //Self explanatory//

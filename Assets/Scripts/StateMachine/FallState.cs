@@ -10,8 +10,12 @@ public class FallState : AirStates
 
     }
     public override void Do()
+    {        
+        if (grounded) { IsComplete = true; Animator.StopPlayback(); }
+    }
+    public override void FixedDo()
     {
-        if (Touching.IsGrounded) IsComplete = true;
+
     }
     public override void Exit()
     {

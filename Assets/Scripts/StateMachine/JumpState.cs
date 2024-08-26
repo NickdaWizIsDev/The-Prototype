@@ -7,12 +7,14 @@ public class JumpState : AirStates
     public override void Enter()
     {
         Animator.Play(anim.name);
-        Body.AddForce(new(0, jumpImpulse), ForceMode2D.Impulse);
     }
     public override void Do()
     {
-        if (Touching.IsGrounded) IsComplete = true;
+        if (grounded) { IsComplete = true; }
+        if (time >= anim.length) { IsComplete = true; parent.Set(midAirState); }
+    }
+    public override void FixedDo()
+    {
 
-        if(time >= anim.length) { Set(midAirState); }
     }
 }

@@ -7,4 +7,13 @@ public class IdleState : GroundStates
     {
         Animator.Play(anim.name);
     }
+
+    public override void Do()
+    {
+        if (MoveInput != Vector2.zero) 
+        { 
+            IsComplete = true;
+            parent.Set(runState);
+        }
+    }
 }

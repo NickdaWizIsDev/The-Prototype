@@ -10,11 +10,15 @@ public abstract class StateMachineCore : MonoBehaviour
     public Animator animator;
     public StateMachine machine;
     public TouchingDirections touching;
+    public Vector2 moveInput;
+    [Range(0f, 1f)] public float drag = 0.9f;
+
+    public bool Grounded;
+    public bool OnWall;
 
     [Header("States")]
-    public State state;
-    public IdleState idleState;
-    public RunState runState;
+    public GroundStates groundStates;
+    public AirStates airStates;
 
     public void SetupInstances()
     {

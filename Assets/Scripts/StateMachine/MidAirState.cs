@@ -11,7 +11,11 @@ public class MidAirState : AirStates
     }
     public override void Do()
     {
-        if (Touching.IsGrounded) IsComplete = true;
-        if (time >= anim.length) { Set(fallState); }
+        if (grounded) IsComplete = true;
+        if (Body.velocity.y < 0) { IsComplete = true; parent.Set(fallState); }
+    }
+    public override void FixedDo()
+    {
+    
     }
 }

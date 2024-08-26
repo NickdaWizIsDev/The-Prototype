@@ -319,7 +319,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.75, z: -10}
+  m_LocalPosition: {x: 0, y: 10, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -405,9 +405,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  fallState: {fileID: 0}
-  idleState: {fileID: 0}
-  anim: {fileID: 0}
+  idleState: {fileID: 545443300}
+  runState: {fileID: 1476289215}
+  anim: {fileID: 7400000, guid: f830ba049a84d7144b30c57e2c24521c, type: 2}
 --- !u!1 &555223201
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,8 +456,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  fallState: {fileID: 0}
   idleState: {fileID: 545443300}
+  runState: {fileID: 1476289215}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,6 +540,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &670879033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 670879034}
+  - component: {fileID: 670879035}
+  m_Layer: 6
+  m_Name: Slow Run
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &670879034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670879033}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1476289214}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &670879035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670879033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427f8c7af8abc1f4190dc195278bcd7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  machine: {fileID: 0}
+  parent: {fileID: 0}
+  idleState: {fileID: 0}
+  runState: {fileID: 0}
+  speedAcceleration: 3
+  maxWalkSpeed: 0
+  maxFastWalkSpeed: 0
+  maxRunSpeed: 0
+  moveInput: {x: 0, y: 0}
+  walk: {fileID: 0}
+  slowRun: {fileID: 0}
+  run: {fileID: 0}
+  clip: {fileID: 7400000, guid: 1c76b33eb63e70849a14c8dc74849ff6, type: 2}
 --- !u!1 &844594077
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,8 +667,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1783813037
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 598635ea001bd294db414c4b4f78a070, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -674,6 +731,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1525259834}
+--- !u!1 &1277780459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1277780460}
+  - component: {fileID: 1277780461}
+  m_Layer: 6
+  m_Name: Run
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1277780460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277780459}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1476289214}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1277780461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277780459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5edf1982ee325b4ab4ff87ed4429f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  machine: {fileID: 0}
+  parent: {fileID: 0}
+  idleState: {fileID: 0}
+  runState: {fileID: 0}
+  speedAcceleration: 3
+  maxWalkSpeed: 0
+  maxFastWalkSpeed: 0
+  maxRunSpeed: 0
+  moveInput: {x: 0, y: 0}
+  walk: {fileID: 0}
+  slowRun: {fileID: 0}
+  run: {fileID: 0}
+  clip: {fileID: 7400000, guid: 1468c71bfc8597843bc28f0986ab4ebb, type: 2}
 --- !u!1 &1400586877
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,9 +834,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  jumpImpulse: 7
+  jumpImpulse: 12
   normalGravity: 3
   fallMultiplier: 5
+  airAcceleration: 1.5
+  maxAirSpeed: 24
+  grounded: 0
+  jumpState: {fileID: 0}
+  midAirState: {fileID: 0}
+  fallState: {fileID: 0}
   anim: {fileID: 7400000, guid: 3a05c5e5844ef6d4e9f73b6e48fb1dd1, type: 2}
 --- !u!1 &1476289213
 GameObject:
@@ -753,7 +873,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2055260415}
+  - {fileID: 670879034}
+  - {fileID: 1277780460}
   m_Father: {fileID: 555223202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1476289215
@@ -770,14 +893,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  fallState: {fileID: 1400586879}
   idleState: {fileID: 545443300}
-  speedAcceleration: 3
+  runState: {fileID: 1476289215}
+  speedAcceleration: 1.5
   maxWalkSpeed: 3
-  maxFastWalkSpeed: 7
-  maxRunSpeed: 15
-  drag: 0.3
+  maxFastWalkSpeed: 12
+  maxRunSpeed: 20
   moveInput: {x: 0, y: 0}
+  walk: {fileID: 2055260416}
+  slowRun: {fileID: 670879035}
+  run: {fileID: 1277780461}
 --- !u!1 &1495442355
 GameObject:
   m_ObjectHideFlags: 0
@@ -805,7 +930,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 887247898}
@@ -848,8 +973,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1783813037
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 50935ae60e830dc4d86393a836306ab1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -932,8 +1057,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1783813037
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5644d299868feea48aabbcb3c1adf17e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1026,7 +1151,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -3, z: 0}
-  m_LocalScale: {x: 100, y: 1, z: 1}
+  m_LocalScale: {x: 500, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1040,7 +1165,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1511537736}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 25ceaddcbaab268428b3b8c2d5421080, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1111,7 +1236,7 @@ Transform:
   m_GameObject: {fileID: 1525259832}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 9.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1189,7 +1314,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1525259837
 MonoBehaviour:
@@ -1216,21 +1341,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4db0bae88743e2841be6d4991b790e74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body: {fileID: 0}
-  animator: {fileID: 0}
+  body: {fileID: 1525259836}
+  animator: {fileID: 1525259842}
   machine: {fileID: 0}
-  touching: {fileID: 0}
-  state: {fileID: 0}
-  idleState: {fileID: 545443300}
-  runState: {fileID: 1476289215}
-  jumpState: {fileID: 0}
-  currentVelocity: {x: 0, y: 0}
+  touching: {fileID: 1525259841}
   moveInput: {x: 0, y: 0}
+  drag: 0.9
+  Grounded: 0
+  OnWall: 0
+  groundStates: {fileID: 555223203}
+  airStates: {fileID: 2074174600}
+  currentVelocity: {x: 0, y: 0}
   canMove: 1
-  isGrounded: 0
   isMoving: 0
   isLookingRight: 0
-  maxMana: 0
+  maxMana: 100
   currentMana: 0
   manaRestoreRate: 1
   manaRestoreAmount: 5
@@ -1794,8 +1919,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1783813037
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: de04c1adc3533264685a723f96587023, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1878,8 +2003,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1783813037
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 386e58014fd206b4297e16c3b3b4e3b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1941,6 +2066,12 @@ MonoBehaviour:
   jumpImpulse: 7
   normalGravity: 3
   fallMultiplier: 5
+  airAcceleration: 1.5
+  maxAirSpeed: 24
+  grounded: 0
+  jumpState: {fileID: 0}
+  midAirState: {fileID: 0}
+  fallState: {fileID: 1400586879}
   anim: {fileID: 7400000, guid: 5b9111f7f87030d4985d17b514ddaa22, type: 2}
 --- !u!1 &1921833700
 GameObject:
@@ -1969,7 +2100,7 @@ Transform:
   m_GameObject: {fileID: 1921833700}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.75, z: -10}
+  m_LocalPosition: {x: 0, y: 10, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2076,7 +2207,70 @@ MonoBehaviour:
   jumpImpulse: 7
   normalGravity: 3
   fallMultiplier: 5
+  airAcceleration: 1.5
+  maxAirSpeed: 24
+  grounded: 0
+  jumpState: {fileID: 0}
+  midAirState: {fileID: 1893456537}
+  fallState: {fileID: 0}
   anim: {fileID: 7400000, guid: 64a12b46427cf2f47a4790081606c2f6, type: 2}
+--- !u!1 &2055260414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055260415}
+  - component: {fileID: 2055260416}
+  m_Layer: 6
+  m_Name: Walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2055260415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055260414}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1476289214}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2055260416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055260414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46ae7e4d73143224ab3f8b976e3a556b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  machine: {fileID: 0}
+  parent: {fileID: 0}
+  idleState: {fileID: 0}
+  runState: {fileID: 0}
+  speedAcceleration: 3
+  maxWalkSpeed: 0
+  maxFastWalkSpeed: 0
+  maxRunSpeed: 0
+  moveInput: {x: 0, y: 0}
+  walk: {fileID: 0}
+  slowRun: {fileID: 0}
+  run: {fileID: 0}
+  clip: {fileID: 7400000, guid: 218ecc6b9d96a6d4e9ae357e3822dc57, type: 2}
 --- !u!1 &2074174598
 GameObject:
   m_ObjectHideFlags: 0
@@ -2126,9 +2320,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  jumpImpulse: 7
+  jumpImpulse: 20
   normalGravity: 3
   fallMultiplier: 5
+  airAcceleration: 1.5
+  maxAirSpeed: 24
+  grounded: 0
+  jumpState: {fileID: 1923462178}
+  midAirState: {fileID: 1893456537}
+  fallState: {fileID: 1400586879}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

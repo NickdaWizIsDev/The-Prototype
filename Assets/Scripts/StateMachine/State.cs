@@ -11,8 +11,6 @@ public abstract class State : MonoBehaviour
     protected StateMachineCore core;
     protected Animator Animator => core.animator;
     protected Rigidbody2D Body => core.body;
-    protected TouchingDirections Touching => core.touching;
-    protected bool Grounded => Touching.IsGrounded;
     public bool IsComplete { get; protected set; }
 
     protected float startTime;
@@ -37,7 +35,10 @@ public abstract class State : MonoBehaviour
     }
     public void Initialise(StateMachine _parent)
     {
-        parent = _parent;
+        if(parent == null)
+        {
+            parent = _parent;
+        }
         IsComplete = false;
         startTime = Time.time;
     }
@@ -53,11 +54,11 @@ public abstract class State : MonoBehaviour
     public void DoBranch()
     {
         Do();
-        CurrentState?.DoBranch();
+        if(CurrentState != null) CurrentState.DoBranch();
     }
     public void FixedDoBranch()
     {
         FixedDo();
-        CurrentState?.FixedDoBranch();
+        if (CurrentState != null) CurrentState.FixedDoBranch();
     }
 }
