@@ -11,7 +11,8 @@ public abstract class StateMachineCore : MonoBehaviour
     public StateMachine machine;
     public TouchingDirections touching;
     public Vector2 moveInput;
-    [Range(0f, 1f)] public float drag = 0.9f;
+    [Range(0f, 1f)] public float drag = 0.5f;
+    [Range(0f, 0.5f)] public float baseDrag;
 
     public bool Grounded;
     public bool OnWall;

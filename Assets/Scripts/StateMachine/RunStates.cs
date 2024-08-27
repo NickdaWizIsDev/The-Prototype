@@ -7,32 +7,27 @@ public class RunStates : GroundStates
     [Header("Parameters")]
     public float speedAcceleration = 3f;
     public float maxWalkSpeed;
-    public float maxFastWalkSpeed;
+    public float maxThrottleSpeed;
     public float maxRunSpeed;
     public Vector2 moveInput;
 
     [Header("Substates")]
     public WalkState walk;
-    public SlowRunState slowRun;
+    public ThrottleState throttle;
     public RunState run;
     public override void Enter()
     {
-        if (Mathf.Abs(Body.velocity.x) != 0f)
+        if (Mathf.Abs(Body.velocity.x) > maxWalkSpeed)
         {
-            if (Mathf.Abs(Body.velocity.x) < maxWalkSpeed)
-            {
-                Set(walk);
-            }
-            else if (Mathf.Abs(Body.velocity.x) > maxWalkSpeed)
-            {
-                Set(slowRun);
-            }
+            if (Mathf.Abs(Body.velocity.x) > maxThrottleSpeed) Set(run);
+            else Set(throttle);
         }
+        else Set(walk);
     }
     public override void Do()
     {
         moveInput = MoveInput;
-        if (Mathf.Abs(Body.velocity.x) < 0.1f && MoveInput.x == 0)
+        if (Mathf.Abs(Body.velocity.x) < 0.05f && MoveInput.x == 0)
         {
             parent.Set(idleState);
             IsComplete = true;
@@ -43,18 +38,14 @@ public class RunStates : GroundStates
             {
                 Set(walk);
             }                
-            else if (Mathf.Abs(Body.velocity.x) > maxWalkSpeed && Mathf.Abs(Body.velocity.x) < maxFastWalkSpeed)
+            else if (Mathf.Abs(Body.velocity.x) > maxWalkSpeed && Mathf.Abs(Body.velocity.x) < maxThrottleSpeed)
             {
-                Set(slowRun);
+                Set(throttle);
             }
-            else if (Mathf.Abs(Body.velocity.x) > maxFastWalkSpeed)
+            else if (Mathf.Abs(Body.velocity.x) > maxThrottleSpeed)
             {
                 Set(run);
             }  
-        }
-        if (!core.Grounded)
-        {
-            IsComplete = true;
         }
     }
     public override void FixedDo()
@@ -67,6 +58,10 @@ public class RunStates : GroundStates
     }
     public override void Exit()
     {
-
+        machine.state = idleState;
+    }
+    public void RunAttack()
+    {
+        //caca
     }
 }

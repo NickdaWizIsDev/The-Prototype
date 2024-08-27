@@ -156,6 +156,63 @@ Transform:
   - {fileID: 2074174599}
   m_Father: {fileID: 1525259834}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &261321725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261321726}
+  - component: {fileID: 261321727}
+  m_Layer: 6
+  m_Name: Attack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261321726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261321725}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 555223202}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &261321727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261321725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78be42bdf062f44eb819a86b2a46b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  machine: {fileID: 0}
+  parent: {fileID: 0}
+  idleState: {fileID: 545443300}
+  runStates: {fileID: 0}
+  attackState: {fileID: 0}
+  attacks:
+  - {fileID: 7400000, guid: 3c841ebf92da94843a4d6c469e1605c4, type: 2}
+  - {fileID: 7400000, guid: e1589b32037288e469c2986a61e6f098, type: 2}
+  - {fileID: 7400000, guid: a0f613623f51f21418c29332c7afe9aa, type: 2}
+  attackIndex: 0
+  isInCombo: 0
+  canAttack: 1
+  completion: 0
 --- !u!1 &422508288
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,7 +463,8 @@ MonoBehaviour:
   machine: {fileID: 0}
   parent: {fileID: 0}
   idleState: {fileID: 545443300}
-  runState: {fileID: 1476289215}
+  runStates: {fileID: 0}
+  attackState: {fileID: 0}
   anim: {fileID: 7400000, guid: f830ba049a84d7144b30c57e2c24521c, type: 2}
 --- !u!1 &555223201
 GameObject:
@@ -439,6 +497,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 545443299}
+  - {fileID: 261321726}
   - {fileID: 1476289214}
   m_Father: {fileID: 89336458}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -457,7 +516,8 @@ MonoBehaviour:
   machine: {fileID: 0}
   parent: {fileID: 0}
   idleState: {fileID: 545443300}
-  runState: {fileID: 1476289215}
+  runStates: {fileID: 1476289215}
+  attackState: {fileID: 261321727}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -551,7 +611,7 @@ GameObject:
   - component: {fileID: 670879034}
   - component: {fileID: 670879035}
   m_Layer: 6
-  m_Name: Slow Run
+  m_Name: Throttle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -581,20 +641,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 670879033}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 427f8c7af8abc1f4190dc195278bcd7e, type: 3}
+  m_Script: {fileID: 11500000, guid: ec31aa6568c406741a90dfbc7977f4e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
   idleState: {fileID: 0}
-  runState: {fileID: 0}
+  runStates: {fileID: 0}
+  attackState: {fileID: 0}
   speedAcceleration: 3
   maxWalkSpeed: 0
-  maxFastWalkSpeed: 0
+  maxThrottleSpeed: 0
   maxRunSpeed: 0
   moveInput: {x: 0, y: 0}
   walk: {fileID: 0}
-  slowRun: {fileID: 0}
+  throttle: {fileID: 0}
   run: {fileID: 0}
   clip: {fileID: 7400000, guid: 1c76b33eb63e70849a14c8dc74849ff6, type: 2}
 --- !u!1 &844594077
@@ -778,14 +839,15 @@ MonoBehaviour:
   machine: {fileID: 0}
   parent: {fileID: 0}
   idleState: {fileID: 0}
-  runState: {fileID: 0}
+  runStates: {fileID: 0}
+  attackState: {fileID: 0}
   speedAcceleration: 3
   maxWalkSpeed: 0
-  maxFastWalkSpeed: 0
+  maxThrottleSpeed: 0
   maxRunSpeed: 0
   moveInput: {x: 0, y: 0}
   walk: {fileID: 0}
-  slowRun: {fileID: 0}
+  throttle: {fileID: 0}
   run: {fileID: 0}
   clip: {fileID: 7400000, guid: 1468c71bfc8597843bc28f0986ab4ebb, type: 2}
 --- !u!1 &1400586877
@@ -894,14 +956,15 @@ MonoBehaviour:
   machine: {fileID: 0}
   parent: {fileID: 0}
   idleState: {fileID: 545443300}
-  runState: {fileID: 1476289215}
+  runStates: {fileID: 0}
+  attackState: {fileID: 0}
   speedAcceleration: 1.5
   maxWalkSpeed: 3
-  maxFastWalkSpeed: 12
+  maxThrottleSpeed: 0
   maxRunSpeed: 20
   moveInput: {x: 0, y: 0}
   walk: {fileID: 2055260416}
-  slowRun: {fileID: 670879035}
+  throttle: {fileID: 670879035}
   run: {fileID: 1277780461}
 --- !u!1 &1495442355
 GameObject:
@@ -1346,7 +1409,8 @@ MonoBehaviour:
   machine: {fileID: 0}
   touching: {fileID: 1525259841}
   moveInput: {x: 0, y: 0}
-  drag: 0.9
+  drag: 0.5
+  baseDrag: 0.175
   Grounded: 0
   OnWall: 0
   groundStates: {fileID: 555223203}
@@ -2261,14 +2325,15 @@ MonoBehaviour:
   machine: {fileID: 0}
   parent: {fileID: 0}
   idleState: {fileID: 0}
-  runState: {fileID: 0}
+  runStates: {fileID: 0}
+  attackState: {fileID: 0}
   speedAcceleration: 3
   maxWalkSpeed: 0
-  maxFastWalkSpeed: 0
+  maxThrottleSpeed: 0
   maxRunSpeed: 0
   moveInput: {x: 0, y: 0}
   walk: {fileID: 0}
-  slowRun: {fileID: 0}
+  throttle: {fileID: 0}
   run: {fileID: 0}
   clip: {fileID: 7400000, guid: 218ecc6b9d96a6d4e9ae357e3822dc57, type: 2}
 --- !u!1 &2074174598

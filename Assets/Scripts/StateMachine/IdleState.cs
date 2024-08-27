@@ -13,7 +13,7 @@ public class IdleState : GroundStates
         if (MoveInput != Vector2.zero) 
         { 
             IsComplete = true;
-            parent.Set(runState);
+            parent.Set(runStates);
         }
     }
 }

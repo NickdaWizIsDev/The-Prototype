@@ -31,7 +31,8 @@ public class AirStates : State
         if (grounded)
         {
             IsComplete = true;
-            parent.Set(core.groundStates, true);
+            if (MoveInput.x == 0) parent.Set(core.groundStates);
+            else core.groundStates.runStates.machine.Set(core.groundStates.idleState);
         }
     }
     public override void FixedDo()

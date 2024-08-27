@@ -102,8 +102,7 @@ public class PlayerController : StateMachineCore
     }
     public void OnSwordAtk(InputAction.CallbackContext context)
     {
-        if (context.started && Grounded && !isMoving) return; //Attack Combo//
-        else if (context.started && Grounded && isMoving) return; //Running Attack combo//
+        if (context.started && Grounded) groundStates.Attack();
         else if (context.started && !Grounded) return; //Air Attacks//
     }
 
