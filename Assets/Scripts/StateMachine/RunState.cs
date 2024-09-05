@@ -12,6 +12,10 @@ public class RunState : RunStates
     public override void Do()
     {
         Animator.speed = Helpers.Map(Mathf.Abs(Body.velocity.x), 12, 18, 1f, 2f, true);
+        if (MoveInput == Vector2.zero)
+        {
+            IsComplete = true;
+        }
     }
 
     public override void Exit() 

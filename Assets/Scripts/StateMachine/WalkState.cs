@@ -8,5 +8,14 @@ public class WalkState : RunStates
     {
         Animator.Play(clip.name);
     }
+
+    public override void Do()
+    {
+        if (MoveInput == Vector2.zero)
+        {
+            IsComplete = true;
+        }
+    }
+
     public override void Exit() { }
 }

@@ -19,10 +19,10 @@ public class RunStates : GroundStates
     {
         if (Mathf.Abs(Body.velocity.x) > maxWalkSpeed)
         {
-            if (Mathf.Abs(Body.velocity.x) > maxThrottleSpeed) Set(run);
-            else Set(throttle);
+            if (Mathf.Abs(Body.velocity.x) > maxThrottleSpeed) Set(run, true);
+            else Set(throttle, true);
         }
-        else Set(walk);
+        else Set(walk, true);
     }
     public override void Do()
     {
@@ -36,15 +36,15 @@ public class RunStates : GroundStates
         {
             if (Mathf.Abs(Body.velocity.x) < maxWalkSpeed)
             {
-                Set(walk);
+                Set(walk, true);
             }                
             else if (Mathf.Abs(Body.velocity.x) > maxWalkSpeed && Mathf.Abs(Body.velocity.x) < maxThrottleSpeed)
             {
-                Set(throttle);
+                Set(throttle, true);
             }
             else if (Mathf.Abs(Body.velocity.x) > maxThrottleSpeed)
             {
-                Set(run);
+                Set(run, true);
             }  
         }
     }

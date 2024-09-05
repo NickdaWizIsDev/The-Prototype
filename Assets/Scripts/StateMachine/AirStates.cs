@@ -31,8 +31,6 @@ public class AirStates : State
         if (grounded)
         {
             IsComplete = true;
-            if (MoveInput.x == 0) parent.Set(core.groundStates);
-            else core.groundStates.runStates.machine.Set(core.groundStates.idleState);
         }
     }
     public override void FixedDo()
@@ -43,7 +41,9 @@ public class AirStates : State
             if (Mathf.Abs(Body.velocity.x) < maxAirSpeed) Body.AddForce(new(MoveInput.x * airAcceleration * 10, 0), ForceMode2D.Force);
         }
     }
-    public override void Exit() { }
+    public override void Exit()
+    {
+    }
     void GravityControl()
     {
         if (grounded)

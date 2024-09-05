@@ -6,12 +6,12 @@ public class FallState : AirStates
 
     public override void Enter()
     {
+        Animator.SetBool("idle", false);
         Animator.Play(anim.name);
-
     }
     public override void Do()
     {        
-        if (grounded) { IsComplete = true; core.machine.Set(core.groundStates); }
+        if (grounded) { IsComplete = true; parent.Set(core.groundStates); }
     }
     public override void FixedDo()
     {
@@ -19,6 +19,5 @@ public class FallState : AirStates
     }
     public override void Exit()
     {
-
     }
 }

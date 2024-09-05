@@ -23,12 +23,11 @@ public class BaseAttackState : GroundStates
             {
                 _time += Time.deltaTime;
             }
-
-            if (_time >= (attacks[attackIndex].length * 0.7f) && completion < 1)
+            if (_time >= attacks[attackIndex].length * .7f && completion < 1)
             {
                 canAttack = true;
             }
-            else if (_time >= attacks[attackIndex].length)
+            else if (completion >= 1)
             {
                 canAttack = true;
                 isInCombo = false;
@@ -43,12 +42,22 @@ public class BaseAttackState : GroundStates
 
     public void BasicAttack()
     {
-        if (!canAttack) return;
+        if (completion < 1 && !canAttack)
+        {
+            StartCoroutine(AttackBuffer());
+            return;
+        }
         attackIndex++;
         if (attackIndex == attacks.Length) attackIndex = 0;
         Animator.Play(attacks[attackIndex].name);
         _time = 0f;
         isInCombo = true;
         canAttack = false;
+    }
+
+    IEnumerator AttackBuffer()
+    {
+        yield return new WaitUntil(() => canAttack);
+        BasicAttack();
     }
 }

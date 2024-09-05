@@ -10,10 +10,13 @@ public class IdleState : GroundStates
 
     public override void Do()
     {
-        if (MoveInput != Vector2.zero) 
+        Animator.SetBool("idle", true);
+        if (MoveInput != Vector2.zero && core.Grounded) 
         { 
             IsComplete = true;
-            parent.Set(runStates);
+            parent.Set(runStates); Animator.SetBool("idle", false);
         }
     }
+
+    public override void Exit() {  }
 }
