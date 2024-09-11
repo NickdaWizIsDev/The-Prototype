@@ -27,9 +27,6 @@ public class PlayerController : StateMachineCore
     private void Awake()
     {
         //GetComponent spam, but only components in the same obj, keep it to a minimum//
-        animator = GetComponent<Animator>();
-        body = GetComponent<Rigidbody2D>();
-        touching = GetComponent<TouchingDirections>();
     }
 
     void Start()
