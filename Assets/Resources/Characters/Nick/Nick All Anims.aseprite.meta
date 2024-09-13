@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Nick All Anims_Frame_0
     originalName: 
-    pivot: {x: 0.5555556, y: -0.50793654}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 60
-      y: 351
-      width: 36
-      height: 63
+      x: 4
+      y: 4
+      width: 128
+      height: 128
     spriteID: 2bc260b221954e445a820f7b29b8bf08
     spriteBone: []
     spriteOutline: []
@@ -140,18 +140,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 351}
+    uvTransform: {x: 4, y: 4}
   - name: Nick All Anims_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.5423729}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 160
-      y: 4
-      width: 38
-      height: 59
+      x: 4
+      y: 140
+      width: 128
+      height: 128
     spriteID: 75d5f5260d27f8340b5f6b7373b97986
     spriteBone: []
     spriteOutline: []
@@ -160,18 +160,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 160, y: 4}
+    uvTransform: {x: 4, y: 140}
   - name: Nick All Anims_Frame_2
     originalName: 
-    pivot: {x: 0.5263158, y: -0.55172414}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 160
-      y: 138
-      width: 38
-      height: 58
+      x: 4
+      y: 276
+      width: 128
+      height: 128
     spriteID: aa045ddbf41083840ad9cd4bb8eeb803
     spriteBone: []
     spriteOutline: []
@@ -180,18 +180,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 160, y: 138}
+    uvTransform: {x: 4, y: 276}
   - name: Nick All Anims_Frame_3
     originalName: 
-    pivot: {x: 0.5263158, y: -0.55172414}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 160
-      y: 204
-      width: 38
-      height: 58
+      x: 4
+      y: 412
+      width: 128
+      height: 128
     spriteID: 7d85bcf3f2b2a2349a26b47c54b51538
     spriteBone: []
     spriteOutline: []
@@ -200,18 +200,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 160, y: 204}
+    uvTransform: {x: 4, y: 412}
   - name: Nick All Anims_Frame_4
     originalName: 
-    pivot: {x: 0.5263158, y: -0.55172414}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 160
-      y: 270
-      width: 38
-      height: 58
+      x: 4
+      y: 548
+      width: 128
+      height: 128
     spriteID: 5bc3b0a051b0b5741854fd406f6c6af5
     spriteBone: []
     spriteOutline: []
@@ -220,18 +220,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 160, y: 270}
+    uvTransform: {x: 4, y: 548}
   - name: Nick All Anims_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: -0.5423729}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 160
-      y: 71
-      width: 38
-      height: 59
+      x: 4
+      y: 684
+      width: 128
+      height: 128
     spriteID: 636bf224e96abc340b0d927a1fd1c9d3
     spriteBone: []
     spriteOutline: []
@@ -240,18 +240,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 160, y: 71}
+    uvTransform: {x: 4, y: 684}
   - name: Nick All Anims_Frame_6
     originalName: 
-    pivot: {x: 0.5405406, y: -0.516129}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 60
-      y: 202
-      width: 37
-      height: 62
+      x: 4
+      y: 820
+      width: 128
+      height: 128
     spriteID: 097a19b6e360d48448b898f33ab42f60
     spriteBone: []
     spriteOutline: []
@@ -260,18 +260,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 202}
+    uvTransform: {x: 4, y: 820}
   - name: Nick All Anims_Frame_7
     originalName: 
-    pivot: {x: 0.5555556, y: -0.50793654}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 60
-      y: 422
-      width: 36
-      height: 63
+      x: 4
+      y: 956
+      width: 128
+      height: 128
     spriteID: 4f5944eaad4b7454391697e315ed806c
     spriteBone: []
     spriteOutline: []
@@ -280,18 +280,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 422}
+    uvTransform: {x: 4, y: 956}
   - name: Nick All Anims_Frame_8
     originalName: 
-    pivot: {x: 0.5555556, y: -0.50793654}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 116
-      y: 4
-      width: 36
-      height: 63
+      x: 4
+      y: 1092
+      width: 128
+      height: 128
     spriteID: 8123df9bcda0b69499c739296bb8b081
     spriteBone: []
     spriteOutline: []
@@ -300,18 +300,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 116, y: 4}
+    uvTransform: {x: 4, y: 1092}
   - name: Nick All Anims_Frame_9
     originalName: 
-    pivot: {x: 0.5555556, y: -0.50793654}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 116
-      y: 75
-      width: 36
-      height: 63
+      x: 4
+      y: 1228
+      width: 128
+      height: 128
     spriteID: b62c390519f41724db2d5fb965f7ca1d
     spriteBone: []
     spriteOutline: []
@@ -320,18 +320,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 116, y: 75}
+    uvTransform: {x: 4, y: 1228}
   - name: Nick All Anims_Frame_10
     originalName: 
-    pivot: {x: 0.53125, y: -0.45070422}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 60
-      y: 272
-      width: 32
-      height: 71
+      x: 4
+      y: 1364
+      width: 128
+      height: 128
     spriteID: 88606acf69b761648b78407928266810
     spriteBone: []
     spriteOutline: []
@@ -340,18 +340,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 272}
+    uvTransform: {x: 4, y: 1364}
   - name: Nick All Anims_Frame_11
     originalName: 
-    pivot: {x: 0.4375, y: -0.50793654}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 48
-      height: 63
+      y: 1500
+      width: 128
+      height: 128
     spriteID: 874697910145b4f4d924bfed2665d031
     spriteBone: []
     spriteOutline: []
@@ -360,18 +360,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 1500}
   - name: Nick All Anims_Frame_12
     originalName: 
-    pivot: {x: 0.4375, y: -0.5423729}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 358
-      width: 48
-      height: 59
+      y: 1636
+      width: 128
+      height: 128
     spriteID: 315753ba3114eaf4eafc2ef2452852bf
     spriteBone: []
     spriteOutline: []
@@ -380,18 +380,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 358}
+    uvTransform: {x: 4, y: 1636}
   - name: Nick All Anims_Frame_13
     originalName: 
-    pivot: {x: 0.4375, y: -0.55172414}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 60
-      y: 4
-      width: 48
-      height: 58
+      x: 4
+      y: 1772
+      width: 128
+      height: 128
     spriteID: 4a7b55b7d20bc9c42ace2a3ceea06534
     spriteBone: []
     spriteOutline: []
@@ -400,18 +400,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 4}
+    uvTransform: {x: 4, y: 1772}
   - name: Nick All Anims_Frame_14
     originalName: 
-    pivot: {x: 0.4375, y: -0.55172414}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 60
-      y: 70
-      width: 48
-      height: 58
+      x: 4
+      y: 1908
+      width: 128
+      height: 128
     spriteID: f967c0643d9218349a76c2d9ce10c2fc
     spriteBone: []
     spriteOutline: []
@@ -420,18 +420,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 70}
+    uvTransform: {x: 4, y: 1908}
   - name: Nick All Anims_Frame_15
     originalName: 
-    pivot: {x: 0.4375, y: -0.55172414}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 60
-      y: 136
-      width: 48
-      height: 58
+      x: 140
+      y: 4
+      width: 128
+      height: 128
     spriteID: 5fcdb120aae7f4143b9ae0dabb187568
     spriteBone: []
     spriteOutline: []
@@ -440,18 +440,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 136}
+    uvTransform: {x: 140, y: 4}
   - name: Nick All Anims_Frame_16
     originalName: 
-    pivot: {x: 0.4375, y: -0.5423729}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 425
-      width: 48
-      height: 59
+      x: 140
+      y: 140
+      width: 128
+      height: 128
     spriteID: 3edacc1e348ff924d877081cf2100ca0
     spriteBone: []
     spriteOutline: []
@@ -460,18 +460,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 425}
+    uvTransform: {x: 140, y: 140}
   - name: Nick All Anims_Frame_17
     originalName: 
-    pivot: {x: 0.4375, y: -0.516129}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 288
-      width: 48
-      height: 62
+      x: 140
+      y: 276
+      width: 128
+      height: 128
     spriteID: 53a6c51f8621e0344bff4fee649df50f
     spriteBone: []
     spriteOutline: []
@@ -480,18 +480,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 288}
+    uvTransform: {x: 140, y: 276}
   - name: Nick All Anims_Frame_18
     originalName: 
-    pivot: {x: 0.4375, y: -0.50793654}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 75
-      width: 48
-      height: 63
+      x: 140
+      y: 412
+      width: 128
+      height: 128
     spriteID: b627ad1344f8d7d46abebcf593dfbf42
     spriteBone: []
     spriteOutline: []
@@ -500,18 +500,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 75}
+    uvTransform: {x: 140, y: 412}
   - name: Nick All Anims_Frame_19
     originalName: 
-    pivot: {x: 0.4375, y: -0.50793654}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 146
-      width: 48
-      height: 63
+      x: 140
+      y: 548
+      width: 128
+      height: 128
     spriteID: 4b3acb61e1d6a7b46a0e384d86de8fd1
     spriteBone: []
     spriteOutline: []
@@ -520,18 +520,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 146}
+    uvTransform: {x: 140, y: 548}
   - name: Nick All Anims_Frame_20
     originalName: 
-    pivot: {x: 0.4375, y: -0.50793654}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 217
-      width: 48
-      height: 63
+      x: 140
+      y: 684
+      width: 128
+      height: 128
     spriteID: e01061fa31b254a4b9bed077b283b522
     spriteBone: []
     spriteOutline: []
@@ -540,7 +540,1127 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 217}
+    uvTransform: {x: 140, y: 684}
+  - name: Nick All Anims_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 820
+      width: 128
+      height: 128
+    spriteID: 89d8cc833fc6bc14c9ce854c20d3934a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 820}
+  - name: Nick All Anims_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 956
+      width: 128
+      height: 128
+    spriteID: 5cf0e73ca369f6f4fa155763f506e3b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 956}
+  - name: Nick All Anims_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1092
+      width: 128
+      height: 128
+    spriteID: a8a9daee6d6287d4b9a011bb24dde164
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1092}
+  - name: Nick All Anims_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1228
+      width: 128
+      height: 128
+    spriteID: 9637571863c56b449bbe296e8961473c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1228}
+  - name: Nick All Anims_Frame_25
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1364
+      width: 128
+      height: 128
+    spriteID: 02e075d5150c04d4ca75a6284ae2ddfc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1364}
+  - name: Nick All Anims_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1500
+      width: 128
+      height: 128
+    spriteID: 08b31bfe3ff73c84bad3a10503867165
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1500}
+  - name: Nick All Anims_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1636
+      width: 128
+      height: 128
+    spriteID: d48b68b16f134264bbacf61753a873d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1636}
+  - name: Nick All Anims_Frame_28
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1772
+      width: 128
+      height: 128
+    spriteID: 8b5b5e51930f4d74fa379b014c943e88
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1772}
+  - name: Nick All Anims_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 1908
+      width: 128
+      height: 128
+    spriteID: f84e8363f8a1e8d418001a209034f430
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 1908}
+  - name: Nick All Anims_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 4
+      width: 128
+      height: 128
+    spriteID: 18bd3837c2845564da09741ba9f1b6dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 4}
+  - name: Nick All Anims_Frame_31
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 140
+      width: 128
+      height: 128
+    spriteID: 393859ed86d68c947999051d758faa9f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 140}
+  - name: Nick All Anims_Frame_32
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 276
+      width: 128
+      height: 128
+    spriteID: 532dc8101ef44fb498efac780c684dec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 276}
+  - name: Nick All Anims_Frame_33
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 412
+      width: 128
+      height: 128
+    spriteID: da4c6b69df9bc1a43ad87715415c29b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 412}
+  - name: Nick All Anims_Frame_34
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 548
+      width: 128
+      height: 128
+    spriteID: 59108beda3087234b9b92c00039efad5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 548}
+  - name: Nick All Anims_Frame_35
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 684
+      width: 128
+      height: 128
+    spriteID: 074a4538da72ade458e84401e97d4505
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 684}
+  - name: Nick All Anims_Frame_36
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 820
+      width: 128
+      height: 128
+    spriteID: 09f9ccc0190fcd443a26aabaf6dd2587
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 820}
+  - name: Nick All Anims_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 956
+      width: 128
+      height: 128
+    spriteID: d56a54c946bbd0940acb14a0a71f7964
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 956}
+  - name: Nick All Anims_Frame_38
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1092
+      width: 128
+      height: 128
+    spriteID: 6f5664f2623881844bd10ab44fdb9ebc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1092}
+  - name: Nick All Anims_Frame_39
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1228
+      width: 128
+      height: 128
+    spriteID: 54ccb002e77177342ab888ade485b3da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1228}
+  - name: Nick All Anims_Frame_40
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1364
+      width: 128
+      height: 128
+    spriteID: 94360d73d10f7b14cac38529b468da53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1364}
+  - name: Nick All Anims_Frame_41
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1500
+      width: 128
+      height: 128
+    spriteID: f4522aa1b17d5a242ad1ac433e8b2c2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1500}
+  - name: Nick All Anims_Frame_42
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1636
+      width: 128
+      height: 128
+    spriteID: 601ef3781f6fdd64d97ba1dbd10216ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1636}
+  - name: Nick All Anims_Frame_43
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1772
+      width: 128
+      height: 128
+    spriteID: d93ded73fd9426a42a7c452af965d9fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1772}
+  - name: Nick All Anims_Frame_44
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 1908
+      width: 128
+      height: 128
+    spriteID: 283966f5c5e567940897777e786a533a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 276, y: 1908}
+  - name: Nick All Anims_Frame_45
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 4
+      width: 128
+      height: 128
+    spriteID: e05ba0191768e88448d644c0a3ca088e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 4}
+  - name: Nick All Anims_Frame_46
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 140
+      width: 128
+      height: 128
+    spriteID: df464186c317e7745a0f798c2b83c90c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 140}
+  - name: Nick All Anims_Frame_47
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 276
+      width: 128
+      height: 128
+    spriteID: c9cb32d0549288545975c96f87c085a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 276}
+  - name: Nick All Anims_Frame_48
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 412
+      width: 128
+      height: 128
+    spriteID: 498ade53ee56da54996463baea4e83b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 412}
+  - name: Nick All Anims_Frame_49
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 548
+      width: 128
+      height: 128
+    spriteID: f524a4f636ea5b54aa71ca0a54346192
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 548}
+  - name: Nick All Anims_Frame_50
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 684
+      width: 128
+      height: 128
+    spriteID: b74ea1247b77e6f40bc88a871959dcb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 684}
+  - name: Nick All Anims_Frame_51
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 820
+      width: 128
+      height: 128
+    spriteID: c18bd93a1aa760841b6a192fbff53fe3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 820}
+  - name: Nick All Anims_Frame_52
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 956
+      width: 128
+      height: 128
+    spriteID: 5012abf1aa33eb845a52f29438ea7524
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 956}
+  - name: Nick All Anims_Frame_53
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1092
+      width: 128
+      height: 128
+    spriteID: f69b7acf1f4c99045a7096ba29c8b7e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1092}
+  - name: Nick All Anims_Frame_54
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1228
+      width: 128
+      height: 128
+    spriteID: 994d17f30e406684eada4070d7e429dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1228}
+  - name: Nick All Anims_Frame_55
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1364
+      width: 128
+      height: 128
+    spriteID: f1fcd9e8e1f16a74d9d01226ccdde499
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1364}
+  - name: Nick All Anims_Frame_56
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1500
+      width: 128
+      height: 128
+    spriteID: 9236234d720bb604e805e645b1966522
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1500}
+  - name: Nick All Anims_Frame_57
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1636
+      width: 128
+      height: 128
+    spriteID: 8358ffadab33130448778ee836d0d78b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1636}
+  - name: Nick All Anims_Frame_58
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1772
+      width: 128
+      height: 128
+    spriteID: 6d1163b4d83a7464db984c69b15536ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1772}
+  - name: Nick All Anims_Frame_59
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 412
+      y: 1908
+      width: 128
+      height: 128
+    spriteID: fe9147470ec77dd45b234ba8cfa4dfd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 412, y: 1908}
+  - name: Nick All Anims_Frame_60
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 4
+      width: 128
+      height: 128
+    spriteID: 886022d4cde02d84e8fe2887bd7200e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 4}
+  - name: Nick All Anims_Frame_61
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 140
+      width: 128
+      height: 128
+    spriteID: 5fac4f1545a06cd48a2e3e0e99d8697c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 140}
+  - name: Nick All Anims_Frame_62
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 276
+      width: 128
+      height: 128
+    spriteID: cd88ae97fc8a6664cbe552c6ffba78ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 276}
+  - name: Nick All Anims_Frame_63
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 412
+      width: 128
+      height: 128
+    spriteID: d0eac723e80633044b4f715258cf5345
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 412}
+  - name: Nick All Anims_Frame_64
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 548
+      width: 128
+      height: 128
+    spriteID: 12dc5f2a8a22c7a47b899ab1826e7261
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 548}
+  - name: Nick All Anims_Frame_65
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 684
+      width: 128
+      height: 128
+    spriteID: f079dfb34392148478e5df0ec4f4d9c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 684}
+  - name: Nick All Anims_Frame_66
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 820
+      width: 128
+      height: 128
+    spriteID: 53b3b8b9ce5a3c3468880526c09a2974
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 820}
+  - name: Nick All Anims_Frame_67
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 956
+      width: 128
+      height: 128
+    spriteID: 3c3ceff873f1e6a4c9fe560d488cc245
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 956}
+  - name: Nick All Anims_Frame_68
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1092
+      width: 128
+      height: 128
+    spriteID: 7d868af38efbde74dae89c7d155c425b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1092}
+  - name: Nick All Anims_Frame_69
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1228
+      width: 128
+      height: 128
+    spriteID: 099d80d1aef354e43a290e5227e9d456
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1228}
+  - name: Nick All Anims_Frame_70
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1364
+      width: 128
+      height: 128
+    spriteID: 6f8805070e67d6546b7be749ee24da16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1364}
+  - name: Nick All Anims_Frame_71
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1500
+      width: 128
+      height: 128
+    spriteID: a47b4bc38088747418978878ed57d88a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1500}
+  - name: Nick All Anims_Frame_72
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1636
+      width: 128
+      height: 128
+    spriteID: 32648d44d6e55d3499be6c98c01b594c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1636}
+  - name: Nick All Anims_Frame_73
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1772
+      width: 128
+      height: 128
+    spriteID: 1753c8f91b8b2b54d920a4643226331d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1772}
+  - name: Nick All Anims_Frame_74
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 1908
+      width: 128
+      height: 128
+    spriteID: 5ac003aee55f4594ba9a5478fb9d9df6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 1908}
+  - name: Nick All Anims_Frame_75
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 4
+      width: 128
+      height: 128
+    spriteID: 218bd630eed50fc4e91f4e47d2e8e3b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 4}
+  - name: Nick All Anims_Frame_76
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 684
+      y: 140
+      width: 128
+      height: 128
+    spriteID: 20759b23a104f304b99f5c55c6af37c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 684, y: 140}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -553,171 +1673,619 @@ ScriptedImporter:
     - name: Nick All Anims_Frame_0
       frameIndex: 0
       cellRect:
-        x: 44
-        y: 32
-        width: 36
-        height: 63
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: 2bc260b221954e445a820f7b29b8bf08
     - name: Nick All Anims_Frame_1
       frameIndex: 1
       cellRect:
-        x: 45
-        y: 32
-        width: 38
-        height: 59
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: 75d5f5260d27f8340b5f6b7373b97986
     - name: Nick All Anims_Frame_2
       frameIndex: 2
       cellRect:
-        x: 44
-        y: 32
-        width: 38
-        height: 58
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: aa045ddbf41083840ad9cd4bb8eeb803
     - name: Nick All Anims_Frame_3
       frameIndex: 3
       cellRect:
-        x: 44
-        y: 32
-        width: 38
-        height: 58
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: 7d85bcf3f2b2a2349a26b47c54b51538
     - name: Nick All Anims_Frame_4
       frameIndex: 4
       cellRect:
-        x: 44
-        y: 32
-        width: 38
-        height: 58
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: 5bc3b0a051b0b5741854fd406f6c6af5
     - name: Nick All Anims_Frame_5
       frameIndex: 5
       cellRect:
-        x: 45
-        y: 32
-        width: 38
-        height: 59
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: 636bf224e96abc340b0d927a1fd1c9d3
     - name: Nick All Anims_Frame_6
       frameIndex: 6
       cellRect:
-        x: 44
-        y: 32
-        width: 37
-        height: 62
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: 097a19b6e360d48448b898f33ab42f60
     - name: Nick All Anims_Frame_7
       frameIndex: 7
       cellRect:
-        x: 44
-        y: 32
-        width: 36
-        height: 63
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: 4f5944eaad4b7454391697e315ed806c
     - name: Nick All Anims_Frame_8
       frameIndex: 8
       cellRect:
-        x: 44
-        y: 32
-        width: 36
-        height: 63
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: 8123df9bcda0b69499c739296bb8b081
     - name: Nick All Anims_Frame_9
       frameIndex: 9
       cellRect:
-        x: 44
-        y: 32
-        width: 36
-        height: 63
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: b62c390519f41724db2d5fb965f7ca1d
     - name: Nick All Anims_Frame_10
       frameIndex: 10
       cellRect:
-        x: 47
-        y: 32
-        width: 32
-        height: 71
+        x: 0
+        y: 0
+        width: 128
+        height: 128
       spriteId: 88606acf69b761648b78407928266810
+    - name: Nick All Anims_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 874697910145b4f4d924bfed2665d031
+    - name: Nick All Anims_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 315753ba3114eaf4eafc2ef2452852bf
+    - name: Nick All Anims_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 4a7b55b7d20bc9c42ace2a3ceea06534
+    - name: Nick All Anims_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: f967c0643d9218349a76c2d9ce10c2fc
+    - name: Nick All Anims_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 5fcdb120aae7f4143b9ae0dabb187568
+    - name: Nick All Anims_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 3edacc1e348ff924d877081cf2100ca0
+    - name: Nick All Anims_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 53a6c51f8621e0344bff4fee649df50f
+    - name: Nick All Anims_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: b627ad1344f8d7d46abebcf593dfbf42
+    - name: Nick All Anims_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 4b3acb61e1d6a7b46a0e384d86de8fd1
+    - name: Nick All Anims_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: e01061fa31b254a4b9bed077b283b522
+    - name: Nick All Anims_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 89d8cc833fc6bc14c9ce854c20d3934a
+    - name: Nick All Anims_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 5cf0e73ca369f6f4fa155763f506e3b6
+    - name: Nick All Anims_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: a8a9daee6d6287d4b9a011bb24dde164
+    - name: Nick All Anims_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 9637571863c56b449bbe296e8961473c
+    - name: Nick All Anims_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 02e075d5150c04d4ca75a6284ae2ddfc
+    - name: Nick All Anims_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 08b31bfe3ff73c84bad3a10503867165
+    - name: Nick All Anims_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: d48b68b16f134264bbacf61753a873d5
+    - name: Nick All Anims_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 8b5b5e51930f4d74fa379b014c943e88
+    - name: Nick All Anims_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: f84e8363f8a1e8d418001a209034f430
+    - name: Nick All Anims_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 18bd3837c2845564da09741ba9f1b6dd
+    - name: Nick All Anims_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 393859ed86d68c947999051d758faa9f
+    - name: Nick All Anims_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 532dc8101ef44fb498efac780c684dec
+    - name: Nick All Anims_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: da4c6b69df9bc1a43ad87715415c29b9
+    - name: Nick All Anims_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 59108beda3087234b9b92c00039efad5
+    - name: Nick All Anims_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 074a4538da72ade458e84401e97d4505
+    - name: Nick All Anims_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 09f9ccc0190fcd443a26aabaf6dd2587
+    - name: Nick All Anims_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: d56a54c946bbd0940acb14a0a71f7964
+    - name: Nick All Anims_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 6f5664f2623881844bd10ab44fdb9ebc
+    - name: Nick All Anims_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 54ccb002e77177342ab888ade485b3da
+    - name: Nick All Anims_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 94360d73d10f7b14cac38529b468da53
+    - name: Nick All Anims_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: f4522aa1b17d5a242ad1ac433e8b2c2f
+    - name: Nick All Anims_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 601ef3781f6fdd64d97ba1dbd10216ba
+    - name: Nick All Anims_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: d93ded73fd9426a42a7c452af965d9fb
+    - name: Nick All Anims_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 283966f5c5e567940897777e786a533a
+    - name: Nick All Anims_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: e05ba0191768e88448d644c0a3ca088e
+    - name: Nick All Anims_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: df464186c317e7745a0f798c2b83c90c
+    - name: Nick All Anims_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: c9cb32d0549288545975c96f87c085a3
+    - name: Nick All Anims_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 498ade53ee56da54996463baea4e83b2
+    - name: Nick All Anims_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: f524a4f636ea5b54aa71ca0a54346192
+    - name: Nick All Anims_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: b74ea1247b77e6f40bc88a871959dcb2
+    - name: Nick All Anims_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: c18bd93a1aa760841b6a192fbff53fe3
+    - name: Nick All Anims_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 5012abf1aa33eb845a52f29438ea7524
+    - name: Nick All Anims_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: f69b7acf1f4c99045a7096ba29c8b7e6
+    - name: Nick All Anims_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 994d17f30e406684eada4070d7e429dd
+    - name: Nick All Anims_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: f1fcd9e8e1f16a74d9d01226ccdde499
+    - name: Nick All Anims_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 9236234d720bb604e805e645b1966522
+    - name: Nick All Anims_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 8358ffadab33130448778ee836d0d78b
+    - name: Nick All Anims_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 6d1163b4d83a7464db984c69b15536ae
+    - name: Nick All Anims_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: fe9147470ec77dd45b234ba8cfa4dfd8
+    - name: Nick All Anims_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 886022d4cde02d84e8fe2887bd7200e9
     - name: Nick All Anims_Frame_61
       frameIndex: 61
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 63
-      spriteId: 874697910145b4f4d924bfed2665d031
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 5fac4f1545a06cd48a2e3e0e99d8697c
     - name: Nick All Anims_Frame_62
       frameIndex: 62
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 59
-      spriteId: 315753ba3114eaf4eafc2ef2452852bf
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: cd88ae97fc8a6664cbe552c6ffba78ff
     - name: Nick All Anims_Frame_63
       frameIndex: 63
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 58
-      spriteId: 4a7b55b7d20bc9c42ace2a3ceea06534
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: d0eac723e80633044b4f715258cf5345
     - name: Nick All Anims_Frame_64
       frameIndex: 64
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 58
-      spriteId: f967c0643d9218349a76c2d9ce10c2fc
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 12dc5f2a8a22c7a47b899ab1826e7261
     - name: Nick All Anims_Frame_65
       frameIndex: 65
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 58
-      spriteId: 5fcdb120aae7f4143b9ae0dabb187568
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: f079dfb34392148478e5df0ec4f4d9c5
     - name: Nick All Anims_Frame_66
       frameIndex: 66
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 59
-      spriteId: 3edacc1e348ff924d877081cf2100ca0
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 53b3b8b9ce5a3c3468880526c09a2974
     - name: Nick All Anims_Frame_67
       frameIndex: 67
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 62
-      spriteId: 53a6c51f8621e0344bff4fee649df50f
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 3c3ceff873f1e6a4c9fe560d488cc245
     - name: Nick All Anims_Frame_68
       frameIndex: 68
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 63
-      spriteId: b627ad1344f8d7d46abebcf593dfbf42
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 7d868af38efbde74dae89c7d155c425b
     - name: Nick All Anims_Frame_69
       frameIndex: 69
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 63
-      spriteId: 4b3acb61e1d6a7b46a0e384d86de8fd1
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 099d80d1aef354e43a290e5227e9d456
     - name: Nick All Anims_Frame_70
       frameIndex: 70
       cellRect:
-        x: 43
-        y: 32
-        width: 48
-        height: 63
-      spriteId: e01061fa31b254a4b9bed077b283b522
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 6f8805070e67d6546b7be749ee24da16
+    - name: Nick All Anims_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: a47b4bc38088747418978878ed57d88a
+    - name: Nick All Anims_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 32648d44d6e55d3499be6c98c01b594c
+    - name: Nick All Anims_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 1753c8f91b8b2b54d920a4643226331d
+    - name: Nick All Anims_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 5ac003aee55f4594ba9a5478fb9d9df6
+    - name: Nick All Anims_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 218bd630eed50fc4e91f4e47d2e8e3b8
+    - name: Nick All Anims_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      spriteId: 20759b23a104f304b99f5c55c6af37c6
     linkedCells: []
     parentIndex: -1
   platformSettings:
