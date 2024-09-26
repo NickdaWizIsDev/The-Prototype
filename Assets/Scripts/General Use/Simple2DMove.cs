@@ -51,12 +51,14 @@ namespace Assets.Scripts.General_Use
             {
                 // This factor moves linear from 0 to 1
                 var factor = timePassed / duration;
-                // This adds ease-in and ease-out 
-                // see https://docs.unity3d.com/ScriptReference/Mathf.SmoothStep.html
-                // Basically you can use ANY mathematical function that maps
-                // the input of [0; 1] again to a range of [0;1] 
-                // with the easing you like
-                factor = Mathf.SmoothStep(0, 1, factor);
+
+                // You can add ease-in and ease-out here
+
+                //Ease in out
+                //factor = Mathf.SmoothStep(0, 1, factor);
+
+                //Ease in out, but smoother
+                factor = factor * factor * factor * (factor * (6f * factor - 15f) + 10f);
 
                 // And this is how finally you use Lerp in this case
                 transform.position = Vector3.Lerp(startPos, targetPos, factor);
