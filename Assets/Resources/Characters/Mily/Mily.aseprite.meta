@@ -123,15 +123,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Mily_Frame_0
     originalName: 
-    pivot: {x: 0.38235295, y: -0.5714286}
+    pivot: {x: 0.6388889, y: -0.4923077}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 90
-      y: 132
-      width: 34
-      height: 56
+      x: 4
+      y: 76
+      width: 36
+      height: 65
     spriteID: 87ede6ab7906c92449d7d99a5451c1f5
     spriteBone: []
     spriteOutline: []
@@ -140,18 +140,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 90, y: 132}
+    uvTransform: {x: 4, y: 76}
   - name: Mily_Frame_1
     originalName: 
-    pivot: {x: 0.4, y: -0.5714286}
+    pivot: {x: 0.5, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 90
+      x: 4
       y: 4
-      width: 35
-      height: 56
+      width: 60
+      height: 64
     spriteID: 6ec7e3da6d56c3741be0654bfc5e2509
     spriteBone: []
     spriteOutline: []
@@ -160,18 +160,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 90, y: 4}
+    uvTransform: {x: 4, y: 4}
   - name: Mily_Frame_2
     originalName: 
-    pivot: {x: 0.4, y: -0.5714286}
+    pivot: {x: 0.5, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 90
-      y: 68
-      width: 35
-      height: 56
+      x: 217
+      y: 76
+      width: 16
+      height: 64
     spriteID: ce27aa5f82e4959419e8998c173e5bc3
     spriteBone: []
     spriteOutline: []
@@ -180,18 +180,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 90, y: 68}
+    uvTransform: {x: 217, y: 76}
   - name: Mily_Frame_3
     originalName: 
-    pivot: {x: 0.41666666, y: -0.5614035}
+    pivot: {x: 0.38235295, y: -0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
-      width: 36
-      height: 57
+      x: 91
+      y: 76
+      width: 34
+      height: 56
     spriteID: 2362fc5af218b214b99ae47a6275d7dd
     spriteBone: []
     spriteOutline: []
@@ -200,18 +200,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 91, y: 76}
   - name: Mily_Frame_4
     originalName: 
-    pivot: {x: 0.4, y: -0.5614035}
+    pivot: {x: 0.4, y: -0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 69
+      x: 202
+      y: 4
       width: 35
-      height: 57
+      height: 56
     spriteID: 5c979e1e20eb9514c94a4251cf3cab2b
     spriteBone: []
     spriteOutline: []
@@ -220,18 +220,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 69}
+    uvTransform: {x: 202, y: 4}
   - name: Mily_Frame_5
     originalName: 
-    pivot: {x: 0.4, y: -0.5614035}
+    pivot: {x: 0.4, y: -0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 134
+      x: 48
+      y: 76
       width: 35
-      height: 57
+      height: 56
     spriteID: bd87adb30654b184a9555c6b91dc0393
     spriteBone: []
     spriteOutline: []
@@ -240,18 +240,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 134}
+    uvTransform: {x: 48, y: 76}
   - name: Mily_Frame_6
     originalName: 
-    pivot: {x: 0.38235295, y: -0.5714286}
+    pivot: {x: 0.41666666, y: -0.5614035}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 90
-      y: 196
-      width: 34
-      height: 56
+      x: 72
+      y: 4
+      width: 36
+      height: 57
     spriteID: 79dabc11e50b9114fb7e090660dc4d01
     spriteBone: []
     spriteOutline: []
@@ -260,18 +260,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 90, y: 196}
+    uvTransform: {x: 72, y: 4}
   - name: Mily_Frame_7
     originalName: 
-    pivot: {x: 0.38235295, y: -0.5714286}
+    pivot: {x: 0.4, y: -0.5614035}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 48
-      y: 70
-      width: 34
-      height: 56
+      x: 116
+      y: 4
+      width: 35
+      height: 57
     spriteID: 6c71edf27f0a81e48a5e3e426a9b42f0
     spriteBone: []
     spriteOutline: []
@@ -280,18 +280,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 48, y: 70}
+    uvTransform: {x: 116, y: 4}
   - name: Mily_Frame_8
     originalName: 
-    pivot: {x: 0.7058824, y: -0.55172414}
+    pivot: {x: 0.4, y: -0.5614035}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 48
+      x: 159
       y: 4
-      width: 34
-      height: 58
+      width: 35
+      height: 57
     spriteID: d15f8bd4c2d37544aa2eebb7c628c1b1
     spriteBone: []
     spriteOutline: []
@@ -300,7 +300,47 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 48, y: 4}
+    uvTransform: {x: 159, y: 4}
+  - name: Mily_Frame_6
+    originalName: 
+    pivot: {x: 0.38235295, y: -0.5714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 76
+      width: 34
+      height: 56
+    spriteID: dd4503c324acdc7428dc6c28f39a4ef8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 76}
+  - name: Mily_Frame_7
+    originalName: 
+    pivot: {x: 0.38235295, y: -0.5714286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 76
+      width: 34
+      height: 56
+    spriteID: 5e9df145ee916cb4fae2c12e112111f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 76}
   spriteSheetImportData:
   - name: Mily_0
     originalName: 
@@ -490,6 +530,30 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
+    - name: Mily_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 41
+        y: 32
+        width: 36
+        height: 65
+      spriteId: 87ede6ab7906c92449d7d99a5451c1f5
+    - name: Mily_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 34
+        y: 32
+        width: 60
+        height: 64
+      spriteId: 6ec7e3da6d56c3741be0654bfc5e2509
+    - name: Mily_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 56
+        y: 32
+        width: 16
+        height: 64
+      spriteId: ce27aa5f82e4959419e8998c173e5bc3
     - name: Mily_Frame_0
       frameIndex: 0
       cellRect:
@@ -497,7 +561,7 @@ ScriptedImporter:
         y: 32
         width: 34
         height: 56
-      spriteId: 87ede6ab7906c92449d7d99a5451c1f5
+      spriteId: 2362fc5af218b214b99ae47a6275d7dd
     - name: Mily_Frame_1
       frameIndex: 1
       cellRect:
@@ -505,7 +569,7 @@ ScriptedImporter:
         y: 32
         width: 35
         height: 56
-      spriteId: 6ec7e3da6d56c3741be0654bfc5e2509
+      spriteId: 5c979e1e20eb9514c94a4251cf3cab2b
     - name: Mily_Frame_2
       frameIndex: 2
       cellRect:
@@ -513,7 +577,7 @@ ScriptedImporter:
         y: 32
         width: 35
         height: 56
-      spriteId: ce27aa5f82e4959419e8998c173e5bc3
+      spriteId: bd87adb30654b184a9555c6b91dc0393
     - name: Mily_Frame_3
       frameIndex: 3
       cellRect:
@@ -521,7 +585,7 @@ ScriptedImporter:
         y: 32
         width: 36
         height: 57
-      spriteId: 2362fc5af218b214b99ae47a6275d7dd
+      spriteId: 79dabc11e50b9114fb7e090660dc4d01
     - name: Mily_Frame_4
       frameIndex: 4
       cellRect:
@@ -529,7 +593,7 @@ ScriptedImporter:
         y: 32
         width: 35
         height: 57
-      spriteId: 5c979e1e20eb9514c94a4251cf3cab2b
+      spriteId: 6c71edf27f0a81e48a5e3e426a9b42f0
     - name: Mily_Frame_5
       frameIndex: 5
       cellRect:
@@ -537,7 +601,7 @@ ScriptedImporter:
         y: 32
         width: 35
         height: 57
-      spriteId: bd87adb30654b184a9555c6b91dc0393
+      spriteId: d15f8bd4c2d37544aa2eebb7c628c1b1
     - name: Mily_Frame_6
       frameIndex: 6
       cellRect:
@@ -545,7 +609,7 @@ ScriptedImporter:
         y: 32
         width: 34
         height: 56
-      spriteId: 79dabc11e50b9114fb7e090660dc4d01
+      spriteId: dd4503c324acdc7428dc6c28f39a4ef8
     - name: Mily_Frame_7
       frameIndex: 7
       cellRect:
@@ -553,15 +617,7 @@ ScriptedImporter:
         y: 32
         width: 34
         height: 56
-      spriteId: 6c71edf27f0a81e48a5e3e426a9b42f0
-    - name: Mily_Frame_8
-      frameIndex: 8
-      cellRect:
-        x: 40
-        y: 32
-        width: 34
-        height: 58
-      spriteId: d15f8bd4c2d37544aa2eebb7c628c1b1
+      spriteId: 5e9df145ee916cb4fae2c12e112111f4
     linkedCells: []
     parentIndex: -1
   platformSettings:
