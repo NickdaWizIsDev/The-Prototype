@@ -13,6 +13,10 @@ public class PlayerController : StateMachineCore
     public bool canMove = true;
     public bool isMoving;
     public bool isLookingRight = true;
+    public float jumpBufferTime;
+    public float coyoteTime;
+    float jumpBufferTimer;
+    float coyoteTimer;
 
     [Header("Mana & Spells")]
     public int maxMana;
@@ -91,6 +95,8 @@ public class PlayerController : StateMachineCore
     }
     public void OnJump(InputAction.CallbackContext context)
     {
+
+
         if (context.canceled && body.velocity.y > 0) body.velocity = new(body.velocity.x, body.velocity.y - (body.velocity.y / 2));
         else if (context.started && Grounded)
         {
