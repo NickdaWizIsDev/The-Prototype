@@ -13,10 +13,10 @@ public class PlayerController : StateMachineCore
     public bool canMove = true;
     public bool isMoving;
     public bool isLookingRight = true;
-    public float jumpBufferTime;
-    public float coyoteTime;
-    float jumpBufferTimer;
-    float coyoteTimer;
+    public float jumpBufferTime = 0.3f;
+    public float coyoteTime = 0.2f;
+    public float jumpBufferTimer;
+    public float coyoteTimer;
 
     [Header("Mana & Spells")]
     public int maxMana;
@@ -63,9 +63,10 @@ public class PlayerController : StateMachineCore
         Grounded = touching.IsGrounded;
         OnWall = touching.IsOnWall;
         airStates.grounded = Grounded;
-        airStates.jumpState.grounded = Grounded;
-        airStates.midAirState.grounded = Grounded;
-        airStates.fallState.grounded = Grounded;
+
+        if(!Grounded) coyoteTimer -= Time.deltaTime;
+        coyoteTimer = Mathf.Clamp(coyoteTimer, 0, coyoteTime);
+        if(Grounded && coyoteTimer != coyoteTime) coyoteTimer = coyoteTime;
 
         //Set my persistent parameters so that mana and health upgrades remain in the game even through sessions//
         persistentData.playerMaxMana = maxMana;
@@ -95,12 +96,11 @@ public class PlayerController : StateMachineCore
     }
     public void OnJump(InputAction.CallbackContext context)
     {
-
-
         if (context.canceled && body.velocity.y > 0) body.velocity = new(body.velocity.x, body.velocity.y - (body.velocity.y / 2));
-        else if (context.started && Grounded)
+        else if (context.started)
         {
-            airStates.Jump();
+            if(Grounded) airStates.Jump();
+            else if(!Grounded && coyoteTime > 0) { airStates.Jump(); }
         }
     }
     public void OnSwordAtk(InputAction.CallbackContext context)

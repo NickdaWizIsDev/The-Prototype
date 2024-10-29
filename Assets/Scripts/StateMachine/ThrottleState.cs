@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class ThrottleState : RunStates
+public class ThrottleState : GroundStates
 {
     [Header("Animation Clip")]
     public AnimationClip clip;

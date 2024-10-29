@@ -43,6 +43,7 @@ public class AirStates : State
     }
     public override void Exit()
     {
+
     }
     void GravityControl()
     {
@@ -58,5 +59,11 @@ public class AirStates : State
     public void Jump()
     {
         Body.AddForce(new(0, jumpImpulse), ForceMode2D.Impulse);
+    }
+
+    public void MidAirJump()
+    {
+        Body.AddForce(new(0, jumpImpulse), ForceMode2D.Impulse);
+        Set(jumpState);
     }
 }

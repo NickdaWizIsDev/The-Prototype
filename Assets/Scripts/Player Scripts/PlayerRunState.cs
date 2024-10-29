@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class RunState : RunStates
+public class PlayerRunState : GroundStates
 {
     [Header("Animation Clip")]
     public AnimationClip clip;

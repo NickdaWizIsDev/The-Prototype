@@ -649,14 +649,6 @@ MonoBehaviour:
   idleState: {fileID: 545443300}
   runStates: {fileID: 0}
   attackState: {fileID: 0}
-  speedAcceleration: 3
-  maxWalkSpeed: 0
-  maxThrottleSpeed: 0
-  maxRunSpeed: 0
-  moveInput: {x: 0, y: 0}
-  walk: {fileID: 0}
-  throttle: {fileID: 0}
-  run: {fileID: 0}
   clip: {fileID: 7400000, guid: 1c76b33eb63e70849a14c8dc74849ff6, type: 2}
 --- !u!1 &1277780459
 GameObject:
@@ -699,22 +691,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1277780459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5edf1982ee325b4ab4ff87ed4429f28, type: 3}
+  m_Script: {fileID: 11500000, guid: c96de9f2a023d644bb0e70c3d29e5a9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  idleState: {fileID: 545443300}
+  idleState: {fileID: 0}
   runStates: {fileID: 0}
   attackState: {fileID: 0}
-  speedAcceleration: 3
-  maxWalkSpeed: 0
-  maxThrottleSpeed: 0
-  maxRunSpeed: 0
-  moveInput: {x: 0, y: 0}
-  walk: {fileID: 0}
-  throttle: {fileID: 0}
-  run: {fileID: 0}
   clip: {fileID: 7400000, guid: 1468c71bfc8597843bc28f0986ab4ebb, type: 2}
 --- !u!1 &1400586877
 GameObject:
@@ -762,15 +746,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  jumpImpulse: 12
-  normalGravity: 3
-  fallMultiplier: 5
-  airAcceleration: 1.5
-  maxAirSpeed: 24
-  grounded: 0
-  jumpState: {fileID: 0}
-  midAirState: {fileID: 0}
-  fallState: {fileID: 0}
   anim: {fileID: 7400000, guid: 3a05c5e5844ef6d4e9f73b6e48fb1dd1, type: 2}
 --- !u!1 &1476289213
 GameObject:
@@ -821,17 +796,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  idleState: {fileID: 545443300}
-  runStates: {fileID: 0}
-  attackState: {fileID: 0}
   speedAcceleration: 1.5
   maxWalkSpeed: 3
   maxThrottleSpeed: 12
   maxRunSpeed: 20
-  moveInput: {x: 0, y: 0}
   walk: {fileID: 2055260416}
   throttle: {fileID: 670879035}
   run: {fileID: 1277780461}
+  idleState: {fileID: 545443300}
 --- !u!1 &1511537736
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1089,10 @@ MonoBehaviour:
   canMove: 1
   isMoving: 0
   isLookingRight: 0
+  jumpBufferTime: 0.3
+  coyoteTime: 0.2
+  jumpBufferTimer: 0
+  coyoteTimer: 0
   maxMana: 100
   currentMana: 0
   manaRestoreRate: 1
@@ -1505,6 +1481,136 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1606644607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1606644609}
+  - component: {fileID: 1606644608}
+  - component: {fileID: 1606644610}
+  m_Layer: 3
+  m_Name: Square (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1606644608
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606644607}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1606644609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606644607}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.92, y: -0.86, z: 0}
+  m_LocalScale: {x: 5.8489, y: 3.49, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1606644610
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606644607}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1740305392
 GameObject:
   m_ObjectHideFlags: 3
@@ -1657,16 +1763,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  jumpImpulse: 7
-  normalGravity: 3
-  fallMultiplier: 5
-  airAcceleration: 1.5
-  maxAirSpeed: 24
-  grounded: 0
-  jumpState: {fileID: 0}
-  midAirState: {fileID: 0}
-  fallState: {fileID: 1400586879}
   anim: {fileID: 7400000, guid: 5b9111f7f87030d4985d17b514ddaa22, type: 2}
+  fallState: {fileID: 1400586879}
 --- !u!1 &1921833700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,16 +1896,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   machine: {fileID: 0}
   parent: {fileID: 0}
-  jumpImpulse: 7
-  normalGravity: 3
-  fallMultiplier: 5
-  airAcceleration: 1.5
-  maxAirSpeed: 24
-  grounded: 0
-  jumpState: {fileID: 0}
-  midAirState: {fileID: 1893456537}
-  fallState: {fileID: 0}
   anim: {fileID: 7400000, guid: 64a12b46427cf2f47a4790081606c2f6, type: 2}
+  midAirState: {fileID: 1893456537}
 --- !u!1 &2055260414
 GameObject:
   m_ObjectHideFlags: 0
@@ -1857,14 +1947,6 @@ MonoBehaviour:
   idleState: {fileID: 545443300}
   runStates: {fileID: 0}
   attackState: {fileID: 0}
-  speedAcceleration: 3
-  maxWalkSpeed: 0
-  maxThrottleSpeed: 0
-  maxRunSpeed: 0
-  moveInput: {x: 0, y: 0}
-  walk: {fileID: 0}
-  throttle: {fileID: 0}
-  run: {fileID: 0}
   clip: {fileID: 7400000, guid: 218ecc6b9d96a6d4e9ae357e3822dc57, type: 2}
 --- !u!1 &2074174598
 GameObject:
@@ -1933,3 +2015,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1511537738}
   - {fileID: 1525259834}
+  - {fileID: 1606644609}

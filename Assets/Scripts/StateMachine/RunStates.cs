@@ -2,19 +2,23 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class RunStates : GroundStates
+public class RunStates : State
 {
     [Header("Parameters")]
-    public float speedAcceleration = 3f;
+    public float speedAcceleration = 1f;
     public float maxWalkSpeed;
     public float maxThrottleSpeed;
     public float maxRunSpeed;
-    public Vector2 moveInput;
+    protected Vector2 MoveInput
+    {
+        get
+        {
+            return core.moveInput;
+        }
+    }
 
     [Header("Substates")]
-    public WalkState walk;
-    public ThrottleState throttle;
-    public RunState run;
+    public State walk, throttle, run, idleState;
     public override void Enter()
     {
         if (Mathf.Abs(Body.velocity.x) > maxWalkSpeed)
@@ -26,7 +30,6 @@ public class RunStates : GroundStates
     }
     public override void Do()
     {
-        moveInput = MoveInput;
         if (Mathf.Abs(Body.velocity.x) < 0.05f && MoveInput.x == 0)
         {
             parent.Set(idleState);

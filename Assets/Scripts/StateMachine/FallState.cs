@@ -1,8 +1,8 @@
 using System.Collections;
 using UnityEngine;
-public class FallState : AirStates
+public class FallState : State
 {
-    public AnimationClip anim;
+    public AnimationClip anim;    
 
     public override void Enter()
     {
@@ -11,7 +11,6 @@ public class FallState : AirStates
     }
     public override void Do()
     {        
-        if (grounded) { IsComplete = true; parent.Set(core.groundStates); }
     }
     public override void FixedDo()
     {

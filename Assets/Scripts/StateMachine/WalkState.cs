@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class WalkState : RunStates
+public class WalkState : GroundStates
 {
     [Header("Animation Clip")]
     public AnimationClip clip;
