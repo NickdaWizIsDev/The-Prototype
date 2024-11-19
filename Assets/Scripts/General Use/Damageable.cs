@@ -79,7 +79,7 @@ public class Damageable : MonoBehaviour
         }
     }
 
-    private AudioSource audioSource;
+    public AudioSource audioSource;
     private AudioSource deathAudioSource;
 
     [Header("Damageable Sound Parameters")]
@@ -99,14 +99,7 @@ public class Damageable : MonoBehaviour
     public bool isDead;
     public UnityEvent onHit, onDeath;
 
-    [HideInInspector]
     public Rigidbody2D rb2d;
-
-    private void Awake()
-    {
-        rb2d = GetComponent<Rigidbody2D>();
-        audioSource = GetComponent<AudioSource>();
-    }
 
     private void Start()
     {
