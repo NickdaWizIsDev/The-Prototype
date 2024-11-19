@@ -2,26 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using Toolbox;
 using System;
 
 public class PlayerController : StateMachineCore
 {
-    public AirVariables airParams;
     //Add states here//
-    [BeginGroup("Movement Variables")]
+
+    [Header("Movement Variables")]
+    public AirVariables airVariables;
+    public GroundVariables groundVariables;
+    public DashVariables dashVariables;
+    float jumpBufferTime => airVariables.jumpBufferTime;
+    float coyoteTime => airVariables.coyoteTime;
+    float jumpImpulse => airVariables.jumpImpulse;
+    float normalGravity => airVariables.normalGravity;
+    float fallMultiplier => airVariables.fallMultiplier;
+    float airAcceleration => airVariables.airAcceleration;
+    float maxAirSpeed => airVariables.maxAirSpeed;
+    float groundSpeedAcceleration => groundVariables.groundSpeedAcceleration;
+    float maxWalkSpeed => groundVariables.maxWalkSpeed;
+    float maxThrottleSpeed => groundVariables.maxThrottleSpeed;
+    float maxRunSpeed => groundVariables.maxRunSpeed;
+    float jumpBufferTimer;
+    float coyoteTimer;
+    float dashTimer;
+
     public Vector2 currentVelocity;
     public bool canMove = true;
     public bool isMoving;
     public bool isLookingRight = true;
 
-    public float groundSpeedAcceleration = 1.5f;
-    public float maxWalkSpeed = 3f;
-    public float maxThrottleSpeed = 12f;
-    public float maxRunSpeed = 20f;
-
     bool buffer = false;
-    [EndGroup]
 
     [Header("Mana & Spells")]
     public int maxMana;
@@ -39,13 +50,25 @@ public class PlayerController : StateMachineCore
     {
         public float jumpBufferTime = 0.3f;
         public float coyoteTime = 0.2f;
-        public float jumpBufferTimer;
-        public float coyoteTimer;
         public float jumpImpulse = 7;
         public float normalGravity = 3;
         public float fallMultiplier = 5;
         public float airAcceleration = 1.5f;
         public float maxAirSpeed = 24f;
+    }
+    [Serializable]
+    public class GroundVariables
+    {
+        public float groundSpeedAcceleration = 1.5f;
+        public float maxWalkSpeed = 3f;
+        public float maxThrottleSpeed = 12f;
+        public float maxRunSpeed = 20f;
+    }
+    [Serializable]
+    public class DashVariables
+    {
+        public float dashForce = 25f;
+        public float dashCooldown;
     }
 
     private void Awake()
@@ -105,6 +128,12 @@ public class PlayerController : StateMachineCore
             else if(jumpBufferTimer > 0 && Grounded) { airStates.Jump(); jumpBufferTimer = 0; buffer = false; }
         }
 
+        if(dashTimer > 0)
+        {
+            dashTimer -= Time.deltaTime;
+            dashTimer = Mathf.Clamp(dashTimer, 0, dashVariables.dashCooldown);
+        }
+
         //Set my persistent parameters so that mana and health upgrades remain in the game even through sessions//
         persistentData.playerMaxMana = maxMana;
         persistentData.playerMaxHealth = hp.MaxHealth;
@@ -148,9 +177,10 @@ public class PlayerController : StateMachineCore
     }
     public void OnDash(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (context.started && dashTimer <= 0)
         {
-
+            body.AddForce(new(dashVariables.dashForce * transform.localScale.x, 0), ForceMode2D.Impulse);
+            dashTimer = dashVariables.dashCooldown;
         }
     }
 
