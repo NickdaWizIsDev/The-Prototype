@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class RunStates : State
 {
-    [Header("Parameters")]
+    [Header("AirVariables")]
     public float speedAcceleration = 1f;
     public float maxWalkSpeed;
     public float maxThrottleSpeed;

@@ -5,6 +5,9 @@ public class GroundStates : State
     public IdleState idleState;
     public RunStates runStates;
     public BaseAttackState attackState;
+
+    [HideInInspector]
+    public float speedAcceleration, maxWalkSpeed, maxThrottleSpeed, maxRunSpeed;
     protected Vector2 MoveInput
     {
         get
@@ -26,6 +29,10 @@ public class GroundStates : State
     {
         if (!core.Grounded) { IsComplete = true; parent.Set(core.airStates); }
         if (MoveInput.x != 0) Set(runStates);
+        runStates.speedAcceleration = speedAcceleration;
+        runStates.maxWalkSpeed = maxWalkSpeed;
+        runStates.maxThrottleSpeed = maxThrottleSpeed;
+        runStates.maxRunSpeed = maxRunSpeed;
     }
     public override void FixedDo()
     {

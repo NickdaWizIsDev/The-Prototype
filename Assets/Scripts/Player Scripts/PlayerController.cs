@@ -1,22 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.IO.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Toolbox;
+using System;
 
 public class PlayerController : StateMachineCore
 {
+    public AirVariables airParams;
     //Add states here//
-
-    [Header("Movement")]    
+    [BeginGroup("Movement Variables")]
     public Vector2 currentVelocity;
     public bool canMove = true;
     public bool isMoving;
     public bool isLookingRight = true;
-    public float jumpBufferTime = 0.3f;
-    public float coyoteTime = 0.2f;
-    public float jumpBufferTimer;
-    public float coyoteTimer;
+
+    public float groundSpeedAcceleration = 1.5f;
+    public float maxWalkSpeed = 3f;
+    public float maxThrottleSpeed = 12f;
+    public float maxRunSpeed = 20f;
+
+    bool buffer = false;
+    [EndGroup]
 
     [Header("Mana & Spells")]
     public int maxMana;
@@ -27,6 +32,21 @@ public class PlayerController : StateMachineCore
 
     [Header ("Save Data")]
     public PersistentData persistentData;
+    public Damageable hp;
+
+    [Serializable]
+    public class AirVariables
+    {
+        public float jumpBufferTime = 0.3f;
+        public float coyoteTime = 0.2f;
+        public float jumpBufferTimer;
+        public float coyoteTimer;
+        public float jumpImpulse = 7;
+        public float normalGravity = 3;
+        public float fallMultiplier = 5;
+        public float airAcceleration = 1.5f;
+        public float maxAirSpeed = 24f;
+    }
 
     private void Awake()
     {
@@ -63,14 +83,31 @@ public class PlayerController : StateMachineCore
         Grounded = touching.IsGrounded;
         OnWall = touching.IsOnWall;
         airStates.grounded = Grounded;
+        airStates.jumpImpulse = jumpImpulse;
+        airStates.maxAirSpeed = maxAirSpeed;
+        airStates.normalGravity = normalGravity;
+        airStates.airAcceleration = airAcceleration;
+        airStates.fallMultiplier = fallMultiplier;
+        groundStates.speedAcceleration = groundSpeedAcceleration;
+        groundStates.maxWalkSpeed = maxWalkSpeed;
+        groundStates.maxThrottleSpeed = maxThrottleSpeed;
+        groundStates.maxRunSpeed = maxRunSpeed;
 
-        if(!Grounded) coyoteTimer -= Time.deltaTime;
+        if (!Grounded) coyoteTimer -= Time.deltaTime;
         coyoteTimer = Mathf.Clamp(coyoteTimer, 0, coyoteTime);
         if(Grounded && coyoteTimer != coyoteTime) coyoteTimer = coyoteTime;
 
+        if (buffer)
+        {
+            jumpBufferTimer -= Time.deltaTime;
+            jumpBufferTimer = Mathf.Clamp(jumpBufferTimer, 0, jumpBufferTime);
+            if(jumpBufferTimer <= 0) { buffer = false; return; }
+            else if(jumpBufferTimer > 0 && Grounded) { airStates.Jump(); jumpBufferTimer = 0; buffer = false; }
+        }
+
         //Set my persistent parameters so that mana and health upgrades remain in the game even through sessions//
         persistentData.playerMaxMana = maxMana;
-        persistentData.playerMaxHealth = GetComponent<Damageable>().MaxHealth;
+        persistentData.playerMaxHealth = hp.MaxHealth;
     }
 
     void FlipScale()
@@ -99,14 +136,22 @@ public class PlayerController : StateMachineCore
         if (context.canceled && body.velocity.y > 0) body.velocity = new(body.velocity.x, body.velocity.y - (body.velocity.y / 2));
         else if (context.started)
         {
-            if(Grounded) airStates.Jump();
-            else if(!Grounded && coyoteTime > 0) { airStates.Jump(); }
+            if(Grounded) {airStates.Jump(); coyoteTimer = 0; }
+            else if(!Grounded && coyoteTimer != 0) { airStates.MidAirJump(); }
+            else if(!Grounded && coyoteTimer <= 0 && !buffer) { buffer = true; jumpBufferTimer = jumpBufferTime; }
         }
     }
     public void OnSwordAtk(InputAction.CallbackContext context)
     {
         if (context.started && Grounded) groundStates.Attack();
         else if (context.started && !Grounded) return; //Air Attacks//
+    }
+    public void OnDash(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+
+        }
     }
 
     //Self explanatory//

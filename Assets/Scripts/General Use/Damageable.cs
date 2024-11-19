@@ -9,7 +9,7 @@ public class Damageable : MonoBehaviour
     public bool debug = false;
     public bool animate = true;
 
-    [Header ("Health Parameters")]
+    [Header ("Health AirVariables")]
     [SerializeField]
     private int maxHealth = 10;
     public int MaxHealth
@@ -82,7 +82,7 @@ public class Damageable : MonoBehaviour
     private AudioSource audioSource;
     private AudioSource deathAudioSource;
 
-    [Header("Damageable Sound Parameters")]
+    [Header("Damageable Sound AirVariables")]
 
     public AudioClip dmgClip;
     public RandomAudioLibrary dmgLib;

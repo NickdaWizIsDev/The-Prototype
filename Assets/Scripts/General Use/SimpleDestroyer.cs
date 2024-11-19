@@ -11,10 +11,7 @@ namespace Assets.Scripts.General_Use
 
         public void DestroyGameObject(GameObject go)
         {
-            if (go != null)
-                Destroy(go);
-            else if(go == null)
-                Destroy(obj);
+            Destroy(go);
         }
 
         public void DestroyThis()

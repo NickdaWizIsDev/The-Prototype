@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(TouchingDirections))]
 public abstract class StateMachineCore : MonoBehaviour
 {
     //Character Core//
@@ -11,8 +14,8 @@ public abstract class StateMachineCore : MonoBehaviour
     public StateMachine machine;
     public TouchingDirections touching;
     public Vector2 moveInput;
-    [Range(0f, 1f)] public float drag = 0.5f;
-    [Range(0f, 0.5f)] public float baseDrag;
+    [Range(0f, 5f)] public float drag = 0.5f;
+    [Range(0f, 1f)] public float baseDrag;
 
     public bool Grounded;
     public bool OnWall;

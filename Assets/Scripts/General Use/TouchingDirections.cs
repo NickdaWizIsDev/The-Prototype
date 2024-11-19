@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
 public class TouchingDirections : MonoBehaviour
 {
-
     public ContactFilter2D castFilter;
     public float groundDistance = 0.05f;
     public float wallDistance = 0.2f;
@@ -47,6 +47,8 @@ public class TouchingDirections : MonoBehaviour
     private void Awake()
     {
         touchingCol = GetComponent<Collider2D>();
+
+        castFilter.useOutsideNormalAngle = true;
     }
 
     void FixedUpdate()
