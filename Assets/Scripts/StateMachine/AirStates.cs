@@ -32,6 +32,8 @@ public class AirStates : State
         {
             IsComplete = true;
         }
+
+        core.animator.SetBool(AnimationStrings.isGrounded, false);
     }
     public override void FixedDo()
     {

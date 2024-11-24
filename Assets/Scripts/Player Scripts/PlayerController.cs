@@ -158,7 +158,7 @@ public class PlayerController : StateMachineCore
     //Inputs from New Input System//
     public void OnMove(InputAction.CallbackContext context)
     {
-        moveInput = context.ReadValue<Vector2>();
+        if(animator.GetBool(AnimationStrings.canMove)) moveInput = context.ReadValue<Vector2>();
     }
     public void OnJump(InputAction.CallbackContext context)
     {

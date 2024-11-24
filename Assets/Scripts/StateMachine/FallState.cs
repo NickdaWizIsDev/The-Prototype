@@ -6,7 +6,6 @@ public class FallState : State
 
     public override void Enter()
     {
-        Animator.SetBool("idle", false);
         Animator.Play(anim.name);
     }
     public override void Do()
