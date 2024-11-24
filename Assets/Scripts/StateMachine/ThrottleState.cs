@@ -3,11 +3,9 @@ using System.Collections;
 
 public class ThrottleState : GroundStates
 {
-    [Header("Animation Clip")]
-    public AnimationClip clip;
     public override void Enter()
     {
-        Animator.Play(clip.name);
+        core.animator.SetBool(AnimationStrings.isMoving, true);
     }
 
     public override void Do()

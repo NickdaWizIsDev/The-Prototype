@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using static UnityEngine.Rendering.DebugUI;
 
 public class Damageable : MonoBehaviour
 {
@@ -52,6 +53,7 @@ public class Damageable : MonoBehaviour
         set
         {
             isAlive = value;
+            animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log(transform.name + "'s alive state was set to " + value);
         }
     }
@@ -66,6 +68,7 @@ public class Damageable : MonoBehaviour
         private set
         {
             IsHit = value;
+            animator.SetBool(AnimationStrings.isHit, value);
 
             // Play hit audio clip
             if (audioSource != null && dmgClip != null && IsHit && Health > 0)
@@ -79,10 +82,10 @@ public class Damageable : MonoBehaviour
         }
     }
 
-    private AudioSource audioSource;
+    public AudioSource audioSource;
     private AudioSource deathAudioSource;
 
-    [Header("Damageable Sound AirVariables")]
+    [Header("Damageable Sound Variables")]
 
     public AudioClip dmgClip;
     public RandomAudioLibrary dmgLib;
@@ -99,13 +102,11 @@ public class Damageable : MonoBehaviour
     public bool isDead;
     public UnityEvent onHit, onDeath;
 
-    [HideInInspector]
     public Rigidbody2D rb2d;
+    public Animator animator;
 
     private void Awake()
     {
-        rb2d = GetComponent<Rigidbody2D>();
-        audioSource = GetComponent<AudioSource>();
     }
 
     private void Start()

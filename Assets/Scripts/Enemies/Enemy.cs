@@ -5,12 +5,17 @@ public class Enemy : StateMachineCore
 {
     public Damageable damageable;
 
-    private void Start()
+    protected void Start()
     {
         SetupInstances();
     }
-    private void Update()
+    protected void Update()
     {
         machine.state.DoBranch();
+    }
+
+    protected void FixedUpdate()
+    {
+        machine.state.FixedDoBranch();
     }
 }

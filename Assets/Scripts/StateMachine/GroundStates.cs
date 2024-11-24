@@ -33,6 +33,7 @@ public class GroundStates : State
         runStates.maxWalkSpeed = maxWalkSpeed;
         runStates.maxThrottleSpeed = maxThrottleSpeed;
         runStates.maxRunSpeed = maxRunSpeed;
+        core.animator.SetFloat(AnimationStrings.xVelocity, Body.velocity.x);
     }
     public override void FixedDo()
     {
