@@ -13,8 +13,12 @@ public class GroundAttack : GroundStates
 
     public override void Enter()
     {
-        attackIndex = -1;
-        BasicAttack();
+        attackIndex = 0;
+        Animator.Play(attacks[attackIndex].name);
+        _time = 0f;
+        isInCombo = true;
+        canAttack = false;
+        core.canMove = false;
     }
     public override void Do()
     {
@@ -44,6 +48,7 @@ public class GroundAttack : GroundStates
     public override void Exit()
     {
         core.animator.SetBool(AnimationStrings.canMove, true);
+        core.canMove = true;
     }
     public void BasicAttack()
     {
@@ -59,11 +64,13 @@ public class GroundAttack : GroundStates
         isInCombo = true;
         canAttack = false;
     }
-
+    bool buffer = false;
     IEnumerator AttackBuffer()
     {
-        if (completion < 0.5f) yield break;
+        if (completion < 0.5f || buffer) yield break;
+        buffer = true;
         yield return new WaitUntil(() => canAttack);
         BasicAttack();
+        buffer = false;
     }
 }

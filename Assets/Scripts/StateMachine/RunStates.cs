@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class RunStates : State
 {
-    [Header("AirVariables")]
+    [Header("Variables")]
     public float speedAcceleration = 1f;
     public float maxWalkSpeed;
     public float maxThrottleSpeed;
@@ -30,6 +30,8 @@ public class RunStates : State
     }
     public override void Do()
     {
+
+        core.animator.SetBool(AnimationStrings.isOnWall, core.OnWall);
         if (Mathf.Abs(Body.velocity.x) < 0.05f && MoveInput.x == 0)
         {
             parent.Set(idleState);

@@ -8,6 +8,7 @@ public class AirStates : State
     [HideInInspector] public float airAcceleration = 1.5f;
     [HideInInspector] public float maxAirSpeed = 24f;
     public bool grounded;
+    public bool canBeOnAir;
     protected Vector2 MoveInput
     {
         get
@@ -22,11 +23,13 @@ public class AirStates : State
 
     public override void Enter()
     {
+        if (!canBeOnAir) return;
         if (Body.velocity.y > 0) Set(jumpState);
         else if (Body.velocity.y <= 0) Set(midAirState);
     }
     public override void Do()
     {
+        if (!canBeOnAir) return;
         GravityControl();
         if (grounded)
         {
@@ -37,6 +40,7 @@ public class AirStates : State
     }
     public override void FixedDo()
     {
+        if (!canBeOnAir) return;
         //Horizontal Movement//
         if (MoveInput.x != 0)
         {

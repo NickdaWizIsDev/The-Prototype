@@ -3,7 +3,12 @@ guid: 80a14e8833a570a4abb4e6a4eb3a7784
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - damageTextPrefab: {fileID: 4351324073605403848, guid: 78a03ac3dad282b4dae86779ab1787ed, type: 3}
+  - healthTextPrefab: {fileID: 1745248302487772769, guid: ba2ec3e8a5239a44282bb5370e14cac4, type: 3}
+  - gameCanvas: {instanceID: 0}
+  - pointsTextPrefab: {fileID: 4351324073605403848, guid: 0bb2da3af1ce8cb4d8245a22ac6e7f5f, type: 3}
+  - pointsPosition: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

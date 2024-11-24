@@ -59,15 +59,16 @@ public class Damageable : MonoBehaviour
     }
 
     public bool isInvincible;
+    bool isHit;
     public bool IsHit
     {
         get
         {
-            return IsHit;
+            return isHit;
         }
         private set
         {
-            IsHit = value;
+            isHit = value;
             animator.SetBool(AnimationStrings.isHit, value);
 
             // Play hit audio clip

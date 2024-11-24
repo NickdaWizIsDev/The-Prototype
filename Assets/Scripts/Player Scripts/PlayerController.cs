@@ -28,9 +28,6 @@ public class PlayerController : StateMachineCore
     float dashTimer;
 
     public Vector2 currentVelocity;
-    public bool canMove = true;
-    public bool isMoving;
-    public bool isLookingRight = true;
 
     bool buffer = false;
 
@@ -95,12 +92,6 @@ public class PlayerController : StateMachineCore
         if (isMoving) FlipScale(); //Scale flipping//
     }
 
-    void SelectStrategy()
-    {
-        if (Grounded) machine.Set(groundStates);
-        else machine.Set(airStates);
-    }
-
     void OnUpdateParameters()
     {
         Grounded = touching.IsGrounded;
@@ -137,14 +128,6 @@ public class PlayerController : StateMachineCore
         //Set my persistent parameters so that mana and health upgrades remain in the game even through sessions//
         persistentData.playerMaxMana = maxMana;
         persistentData.playerMaxHealth = hp.MaxHealth;
-    }
-
-    void FlipScale()
-    {
-        float moveDirection = Mathf.Sign(moveInput.x);
-        transform.localScale = new Vector3(moveDirection, 1f, 1f);
-        if (moveDirection > 0f) isLookingRight = true;
-        else if (moveDirection < 0f) isLookingRight = false;
     }
 
     private void FixedUpdate()

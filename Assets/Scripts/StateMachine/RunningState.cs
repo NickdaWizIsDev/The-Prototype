@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class PlayerRunState : GroundStates
+public class RunningState : GroundStates
 {
     public override void Enter()
     {
