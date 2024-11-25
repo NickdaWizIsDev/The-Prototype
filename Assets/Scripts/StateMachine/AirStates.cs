@@ -17,9 +17,9 @@ public class AirStates : State
         }
     }
 
-    public JumpState jumpState;
-    public MidAirState midAirState;
-    public FallState fallState;
+    public State jumpState;
+    public State midAirState;
+    public State fallState;
 
     public override void Enter()
     {
@@ -34,6 +34,8 @@ public class AirStates : State
         if (grounded)
         {
             IsComplete = true;
+            core.animator.SetBool(AnimationStrings.isGrounded, true);
+
         }
 
         core.animator.SetBool(AnimationStrings.isGrounded, false);
