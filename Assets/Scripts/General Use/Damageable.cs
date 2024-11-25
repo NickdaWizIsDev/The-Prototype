@@ -217,4 +217,9 @@ public class Damageable : MonoBehaviour
             deathAudioSource = null;
         }
     }
+
+    public void DestroyThisEntity()
+    {
+        Destroy(gameObject);
+    }
 }
