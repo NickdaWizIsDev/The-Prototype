@@ -8,7 +8,6 @@ public class MidAirState : State
     public override void Enter()
     {
         Animator.Play(anim.name);
-
     }
     public override void Do()
     {

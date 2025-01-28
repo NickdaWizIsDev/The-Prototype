@@ -1,29 +1,35 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UIElements;
-public class BaseAttackState : GroundStates
+public class GroundAttack : GroundStates
 {
     public AnimationClip[] attacks;
     public int attackIndex;
     public bool isInCombo;
     public bool canAttack = true;
     public float completion;
+    public float completionRequirement = 0.8f;
     float _time;
 
     public override void Enter()
     {
-        attackIndex = -1;
-        BasicAttack();
+        attackIndex = 0;
+        Animator.Play(attacks[attackIndex].name);
+        _time = 0f;
+        isInCombo = true;
+        canAttack = false;
+        core.canMove = false;
     }
     public override void Do()
     {
+        core.animator.SetBool(AnimationStrings.canMove, false);
         if(isInCombo)
         {
             if (_time < attacks[attackIndex].length)
             {
                 _time += Time.deltaTime;
             }
-            if (_time >= attacks[attackIndex].length * .7f && completion < 1)
+            if (_time >= attacks[attackIndex].length * completionRequirement && completion < 1)
             {
                 canAttack = true;
             }
@@ -39,7 +45,11 @@ public class BaseAttackState : GroundStates
         completion = _time / attacks[attackIndex].length;
         Mathf.Clamp01(completion);
     }
-
+    public override void Exit()
+    {
+        core.animator.SetBool(AnimationStrings.canMove, true);
+        core.canMove = true;
+    }
     public void BasicAttack()
     {
         if (completion < 1 && !canAttack)
@@ -54,10 +64,13 @@ public class BaseAttackState : GroundStates
         isInCombo = true;
         canAttack = false;
     }
-
+    bool buffer = false;
     IEnumerator AttackBuffer()
     {
+        if (completion < 0.5f || buffer) yield break;
+        buffer = true;
         yield return new WaitUntil(() => canAttack);
         BasicAttack();
+        buffer = false;
     }
 }

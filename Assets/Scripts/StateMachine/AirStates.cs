@@ -2,12 +2,13 @@
 using UnityEngine;
 public class AirStates : State
 {
-    public float jumpImpulse = 7;
-    public float normalGravity = 3;
-    public float fallMultiplier = 5;
-    public float airAcceleration = 1.5f;
-    public float maxAirSpeed = 24f;
+    [HideInInspector] public float jumpImpulse = 7;
+    [HideInInspector] public float normalGravity = 3;
+    [HideInInspector] public float fallMultiplier = 5;
+    [HideInInspector] public float airAcceleration = 1.5f;
+    [HideInInspector] public float maxAirSpeed = 24f;
     public bool grounded;
+    public bool canBeOnAir;
     protected Vector2 MoveInput
     {
         get
@@ -16,25 +17,32 @@ public class AirStates : State
         }
     }
 
-    public JumpState jumpState;
-    public MidAirState midAirState;
-    public FallState fallState;
+    public State jumpState;
+    public State midAirState;
+    public State fallState;
 
     public override void Enter()
     {
+        if (!canBeOnAir) return;
         if (Body.velocity.y > 0) Set(jumpState);
         else if (Body.velocity.y <= 0) Set(midAirState);
     }
     public override void Do()
     {
+        if (!canBeOnAir) return;
         GravityControl();
         if (grounded)
         {
             IsComplete = true;
+            core.animator.SetBool(AnimationStrings.isGrounded, true);
+
         }
+
+        core.animator.SetBool(AnimationStrings.isGrounded, false);
     }
     public override void FixedDo()
     {
+        if (!canBeOnAir) return;
         //Horizontal Movement//
         if (MoveInput.x != 0)
         {
@@ -63,7 +71,7 @@ public class AirStates : State
 
     public void MidAirJump()
     {
-        Body.AddForce(new(0, jumpImpulse), ForceMode2D.Impulse);
+        Body.AddForce(new(0, jumpImpulse*1.5f), ForceMode2D.Impulse);
         Set(jumpState);
     }
 }

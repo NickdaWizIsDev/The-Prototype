@@ -3,13 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using static UnityEngine.Rendering.DebugUI;
 
 public class Damageable : MonoBehaviour
 {
     public bool debug = false;
     public bool animate = true;
 
-    [Header ("Health Parameters")]
+    [Header ("Health AirVariables")]
     [SerializeField]
     private int maxHealth = 10;
     public int MaxHealth
@@ -52,20 +53,23 @@ public class Damageable : MonoBehaviour
         set
         {
             isAlive = value;
+            animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log(transform.name + "'s alive state was set to " + value);
         }
     }
 
     public bool isInvincible;
+    bool isHit;
     public bool IsHit
     {
         get
         {
-            return IsHit;
+            return isHit;
         }
         private set
         {
-            IsHit = value;
+            isHit = value;
+            animator.SetBool(AnimationStrings.isHit, value);
 
             // Play hit audio clip
             if (audioSource != null && dmgClip != null && IsHit && Health > 0)
@@ -82,7 +86,7 @@ public class Damageable : MonoBehaviour
     public AudioSource audioSource;
     private AudioSource deathAudioSource;
 
-    [Header("Damageable Sound Parameters")]
+    [Header("Damageable Sound Variables")]
 
     public AudioClip dmgClip;
     public RandomAudioLibrary dmgLib;
@@ -100,7 +104,8 @@ public class Damageable : MonoBehaviour
     public UnityEvent onHit, onDeath;
 
     public Rigidbody2D rb2d;
-
+    public Animator animator;
+    
     private void Start()
     {
         Health = maxHealth;
@@ -207,5 +212,10 @@ public class Damageable : MonoBehaviour
             }
             deathAudioSource = null;
         }
+    }
+
+    public void DestroyThisEntity()
+    {
+        Destroy(gameObject);
     }
 }

@@ -1,17 +1,15 @@
 using UnityEngine;
 using System.Collections;
 
-public class PlayerRunState : GroundStates
+public class RunningState : GroundStates
 {
-    [Header("Animation Clip")]
-    public AnimationClip clip;
     public override void Enter()
     {
-        Animator.Play(clip.name);
+        core.animator.SetBool(AnimationStrings.isMoving, true);
     }
     public override void Do()
     {
-        Animator.speed = Helpers.Map(Mathf.Abs(Body.velocity.x), 12, 18, 1f, 2f, true);
+        Animator.speed = Helpers.Map(Mathf.Abs(Body.velocity.x), core.groundStates.maxThrottleSpeed, core.groundStates.maxRunSpeed, 1f, 2f, true);
         if (MoveInput == Vector2.zero)
         {
             IsComplete = true;
