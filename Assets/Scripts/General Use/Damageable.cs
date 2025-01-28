@@ -105,11 +105,7 @@ public class Damageable : MonoBehaviour
 
     public Rigidbody2D rb2d;
     public Animator animator;
-
-    private void Awake()
-    {
-    }
-
+    
     private void Start()
     {
         Health = maxHealth;
