@@ -11,7 +11,7 @@ public class MidAirState : State
     }
     public override void Do()
     {
-        if (Body.velocity.y < 0) { IsComplete = true; parent.Set(fallState); }
+        if (Body.linearVelocity.y < 0) { IsComplete = true; parent.Set(fallState); }
     }
     public override void FixedDo()
     {

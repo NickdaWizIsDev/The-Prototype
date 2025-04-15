@@ -135,7 +135,7 @@ public class PlayerController : StateMachineCore
         machine.state.FixedDoBranch(); //Run the state's fixed update//
 
         //Parameters that only need to be updated on a fixed timeframe//
-        currentVelocity = body.velocity;
+        currentVelocity = body.linearVelocity;
     }
 
     //Inputs from New Input System//
@@ -145,7 +145,7 @@ public class PlayerController : StateMachineCore
     }
     public void OnJump(InputAction.CallbackContext context)
     {
-        if (context.canceled && body.velocity.y > 0) body.velocity = new(body.velocity.x, body.velocity.y - (body.velocity.y / 2));
+        if (context.canceled && body.linearVelocity.y > 0) body.linearVelocity = new(body.linearVelocity.x, body.linearVelocity.y - (body.linearVelocity.y / 2));
         else if (context.started)
         {
             if(Grounded) {airStates.Jump(); coyoteTimer = 0; }

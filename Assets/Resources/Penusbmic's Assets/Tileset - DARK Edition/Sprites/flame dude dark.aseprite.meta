@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.61224496, y: -0.107142866}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.17391305}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 60
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.16666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 62
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.16666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 62
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.17391305}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 60
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.18181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -266,6 +275,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -286,6 +296,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -306,6 +317,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.3809524}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -326,6 +338,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -346,6 +359,7 @@ ScriptedImporter:
     pivot: {x: 1.5, y: -0.2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 61
@@ -366,6 +380,7 @@ ScriptedImporter:
     pivot: {x: 1.5, y: -0.2857143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 61
@@ -386,6 +401,7 @@ ScriptedImporter:
     pivot: {x: 1.5, y: -0.33333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 61
@@ -406,6 +422,7 @@ ScriptedImporter:
     pivot: {x: 1.5, y: -0.2857143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 61
@@ -426,6 +443,7 @@ ScriptedImporter:
     pivot: {x: 1.0714287, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -446,6 +464,7 @@ ScriptedImporter:
     pivot: {x: 1.0344828, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 213
@@ -466,6 +485,7 @@ ScriptedImporter:
     pivot: {x: 1.0344828, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 214
@@ -486,6 +506,7 @@ ScriptedImporter:
     pivot: {x: 0.6976745, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -506,6 +527,7 @@ ScriptedImporter:
     pivot: {x: 0.6382979, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -526,6 +548,7 @@ ScriptedImporter:
     pivot: {x: 0.5882353, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 192
@@ -546,6 +569,7 @@ ScriptedImporter:
     pivot: {x: 0.42857146, y: -0.18181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -566,6 +590,7 @@ ScriptedImporter:
     pivot: {x: 0.4225352, y: -0.03448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -586,6 +611,7 @@ ScriptedImporter:
     pivot: {x: 0.4225352, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -606,6 +632,7 @@ ScriptedImporter:
     pivot: {x: 0.3896104, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -626,6 +653,7 @@ ScriptedImporter:
     pivot: {x: 0.3896104, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -646,6 +674,7 @@ ScriptedImporter:
     pivot: {x: 0.3947369, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -666,6 +695,7 @@ ScriptedImporter:
     pivot: {x: 0.3896104, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -686,6 +716,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -706,6 +737,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -726,6 +758,7 @@ ScriptedImporter:
     pivot: {x: 1.8750001, y: -0.1904762}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -746,6 +779,7 @@ ScriptedImporter:
     pivot: {x: 1.8125, y: -0.21052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -766,6 +800,7 @@ ScriptedImporter:
     pivot: {x: 1.8125, y: -0.23529412}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 166
@@ -786,6 +821,7 @@ ScriptedImporter:
     pivot: {x: 1.8125, y: -0.26666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 166
@@ -806,6 +842,7 @@ ScriptedImporter:
     pivot: {x: 1.8125, y: -0.26666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 166
@@ -826,6 +863,7 @@ ScriptedImporter:
     pivot: {x: 1.8125, y: -0.26666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 166
@@ -846,6 +884,7 @@ ScriptedImporter:
     pivot: {x: 1.8125, y: -0.26666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 166
@@ -866,6 +905,7 @@ ScriptedImporter:
     pivot: {x: 1.8125, y: -0.26666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 166
@@ -886,6 +926,7 @@ ScriptedImporter:
     pivot: {x: 1.0526316, y: -0.07017544}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 89
@@ -906,6 +947,7 @@ ScriptedImporter:
     pivot: {x: 1.0526316, y: -0.06779661}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 89
@@ -926,6 +968,7 @@ ScriptedImporter:
     pivot: {x: 0.9583334, y: -0.06666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -946,6 +989,7 @@ ScriptedImporter:
     pivot: {x: 0.94, y: -0.06666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -966,6 +1010,7 @@ ScriptedImporter:
     pivot: {x: 0.9591837, y: -0.06666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -986,6 +1031,7 @@ ScriptedImporter:
     pivot: {x: 0.9591837, y: -0.06666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1006,6 +1052,7 @@ ScriptedImporter:
     pivot: {x: 1.5217392, y: -0.57894737}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -1024,366 +1071,411 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -510452245
+    guid: -2035174569
     name: flame dude dark
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: flame dude dark_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 3
         width: 49
         height: 28
       spriteId: 25d227ec064f0bb488096d6262ab72f7
-    - name: flame dude dark_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 23
       spriteId: 743b91b52928dbd478105176c6fb8d78
-    - name: flame dude dark_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 24
       spriteId: 2adb58141395efd43903012fbfec3edb
-    - name: flame dude dark_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 24
       spriteId: 1c39a27a18104b146acb7d18e12b05ec
-    - name: flame dude dark_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 23
       spriteId: 6991bdfb97e9ff345bfea14bbdcf920c
-    - name: flame dude dark_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 21
       spriteId: 94da4e40589e47d4f86d5d8fba5f4351
-    - name: flame dude dark_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 22
       spriteId: 4d4f916be682a5b40923d61d75452a33
-    - name: flame dude dark_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 20
       spriteId: ec3110334434c8a4eb0214f165a27724
-    - name: flame dude dark_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 7
         width: 16
         height: 21
       spriteId: 797bf88f28c445e4681cf5b97b57855f
-    - name: flame dude dark_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 8
         width: 16
         height: 21
       spriteId: 8f7e411465d0d584aa06e49ea1ec299b
-    - name: flame dude dark_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 7
         width: 16
         height: 21
       spriteId: 04010152f951d7b47a45691f8e347535
-    - name: flame dude dark_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 20
         height: 20
       spriteId: 1d41715eb4392e847bc2fbbea5a5e2ed
-    - name: flame dude dark_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
         width: 20
         height: 21
       spriteId: 1fb0d6ecf1847a64fa5aaff0a15bc7fc
-    - name: flame dude dark_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 7
         width: 20
         height: 21
       spriteId: d18b82f451263144dad365768dd0fe90
-    - name: flame dude dark_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 6
         width: 20
         height: 21
       spriteId: 78c346a93cc91a14f814bb839d708fab
-    - name: flame dude dark_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 28
         height: 21
       spriteId: bba1e85816901ec4fa98be5dc782cce2
-    - name: flame dude dark_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 29
         height: 21
       spriteId: d1ddbc65c83700f4cb2ac78c4b89da07
-    - name: flame dude dark_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 29
         height: 21
       spriteId: 64cdf94917a67a64e90c2e0244554590
-    - name: flame dude dark_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 43
         height: 21
       spriteId: bce4abfabb0b0924ca2f14276218a040
-    - name: flame dude dark_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 47
         height: 21
       spriteId: 300396e355a93f8448d5925e826c7dd4
-    - name: flame dude dark_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 51
         height: 21
       spriteId: ce9bde5f6828c4941836b5ff38192420
-    - name: flame dude dark_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 70
         height: 22
       spriteId: 11ff9c53da554eb4d8c3bc2bfa3b928d
-    - name: flame dude dark_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 1
         width: 71
         height: 29
       spriteId: 0fe6375c20eda9944b4c904ae797e43b
-    - name: flame dude dark_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 71
         height: 34
       spriteId: 1ab43ca12d99a7b45aaec24c94b46f67
-    - name: flame dude dark_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 77
         height: 36
       spriteId: 5eeb99a467cc6694fb39cb1e476f2590
-    - name: flame dude dark_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 77
         height: 37
       spriteId: dde6adb64aea63243bd2fc4fbeacaaeb
-    - name: flame dude dark_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 76
         height: 38
       spriteId: 5f834d79b8f57cf4b9d41481bc1a9d83
-    - name: flame dude dark_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 0
         width: 77
         height: 39
       spriteId: 6d6aea7f7bc5e2d4c99a2f2fbe6dea9a
-    - name: flame dude dark_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 20
       spriteId: cb7b18543f28ac24ea1bc1967f89777d
-    - name: flame dude dark_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 21
       spriteId: 59bb958d28f8222488fb6a55af03849d
-    - name: flame dude dark_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 4
         width: 16
         height: 21
       spriteId: 71b9dd09231f9524a8f70d2d0a65c103
-    - name: flame dude dark_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
         width: 16
         height: 19
       spriteId: 5fb2b2b5f9cb45e479cfb6af6baf5ef8
-    - name: flame dude dark_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
         width: 16
         height: 17
       spriteId: 11c65e8f1b46bd04cb953559aee04d49
-    - name: flame dude dark_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
         width: 16
         height: 15
       spriteId: 33a05cf748c00244ea448e58053899dd
-    - name: flame dude dark_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
         width: 16
         height: 15
       spriteId: e0845898810137d4db18f10f9690c1e9
-    - name: flame dude dark_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
         width: 16
         height: 15
       spriteId: c9e563b186d93c045a616c7a76a40662
-    - name: flame dude dark_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
         width: 16
         height: 15
       spriteId: ea83c5752f8ed5b47a09ea0b65ec7eb8
-    - name: flame dude dark_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 4
         width: 16
         height: 15
       spriteId: 56e4d86fd8aa8bd42ab56e236c22e148
-    - name: flame dude dark_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 4
         width: 38
         height: 57
       spriteId: f28099acfde016942ac2b374fa2185bc
-    - name: flame dude dark_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 4
         width: 38
         height: 59
       spriteId: dafb0b64138e412499194f6b824408a5
-    - name: flame dude dark_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 4
         width: 48
         height: 60
       spriteId: 088fd041cf99b4941a9182ec41d727d8
-    - name: flame dude dark_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 50
         height: 60
       spriteId: 1e00811c51b1b09448844272c11601f3
-    - name: flame dude dark_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 49
         height: 60
       spriteId: 537600403d0ed1642a0bcd0e41430c01
-    - name: flame dude dark_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 4
         width: 49
         height: 60
       spriteId: 0ad8614e36e2a9540af1367839850729
-    - name: flame dude dark_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 11
@@ -1397,3 +1489,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 94, y: 64}
+  previousTextureSize: {x: 256, y: 512}

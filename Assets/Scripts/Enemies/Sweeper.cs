@@ -64,7 +64,7 @@ public class Sweeper : Enemy
         if (moveTimer < timeBeforeWalking || !move) return;
         moveInput.x = direction;
         Vector2 origin = new(transform.position.x, transform.position.y + .5f);
-        RaycastHit2D hit = Physics2D.Raycast(origin, body.velocity.normalized, 50f, collisions);
+        RaycastHit2D hit = Physics2D.Raycast(origin, body.linearVelocity.normalized, 50f, collisions);
         Debug.DrawLine(origin, hit.point, Color.green);
 
         if (Vector2.Distance(origin, hit.point) <= attackRange)

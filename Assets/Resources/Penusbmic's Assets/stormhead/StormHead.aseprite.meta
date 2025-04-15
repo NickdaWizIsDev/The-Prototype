@@ -33,6 +33,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -130,6 +131,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -151,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 125
@@ -171,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 153
@@ -191,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 445
@@ -211,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.4761906, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 328
@@ -231,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.52631587, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -251,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.45454556, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 268
@@ -271,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 181
@@ -291,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.52380943, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 69
@@ -311,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 209
@@ -331,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.54545456, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 385
@@ -351,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 237
@@ -371,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 473
@@ -391,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.39999992, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 357
@@ -411,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 265
@@ -431,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.45454556, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 298
@@ -451,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 293
@@ -471,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 69
@@ -491,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.45000002, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 97
@@ -511,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.54545456, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 415
@@ -531,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 69
@@ -551,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 97
@@ -571,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 433
@@ -591,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.4761906, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 181
@@ -611,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 125
@@ -631,6 +657,7 @@ ScriptedImporter:
     pivot: {x: 0.54545456, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 486
@@ -651,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.5769231, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 478
@@ -671,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.45454547, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 84
@@ -691,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.20833334, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 326
@@ -711,6 +741,7 @@ ScriptedImporter:
     pivot: {x: 0.26744184, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 232
@@ -731,6 +762,7 @@ ScriptedImporter:
     pivot: {x: 0.20833334, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 406
@@ -751,6 +783,7 @@ ScriptedImporter:
     pivot: {x: 0.20833334, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -771,6 +804,7 @@ ScriptedImporter:
     pivot: {x: 0.42592594, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 246
@@ -791,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.40384614, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 120
@@ -811,6 +846,7 @@ ScriptedImporter:
     pivot: {x: 0.42592594, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 362
@@ -831,6 +867,7 @@ ScriptedImporter:
     pivot: {x: 0.42592594, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -851,6 +888,7 @@ ScriptedImporter:
     pivot: {x: 0.44144142, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 127
@@ -871,6 +909,7 @@ ScriptedImporter:
     pivot: {x: 0.46086958, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -891,6 +930,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 153
@@ -911,6 +951,7 @@ ScriptedImporter:
     pivot: {x: 0.4761906, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 210
@@ -931,6 +972,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 461
@@ -951,6 +993,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 321
@@ -971,6 +1014,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 349
@@ -991,6 +1035,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 377
@@ -1011,6 +1056,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 405
@@ -1031,6 +1077,7 @@ ScriptedImporter:
     pivot: {x: 0.5000001, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 125
@@ -1051,6 +1098,7 @@ ScriptedImporter:
     pivot: {x: 0.4761906, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 239
@@ -1071,6 +1119,7 @@ ScriptedImporter:
     pivot: {x: 0.5217391, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1091,6 +1140,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -0.008264463}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -1111,6 +1161,7 @@ ScriptedImporter:
     pivot: {x: 0.52000004, y: -0.008264463}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1131,6 +1182,7 @@ ScriptedImporter:
     pivot: {x: 0.59999996, y: -0.13043478}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 473
@@ -1151,6 +1203,7 @@ ScriptedImporter:
     pivot: {x: 0.6153847, y: -0.24999999}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 153
@@ -1169,414 +1222,465 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 197202331
+    guid: -1524919865
     name: StormHead
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: StormHead_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 35
       spriteId: 8e6e4fa83c211f84aaf59fb4a0be5db0
-    - name: StormHead_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 35
       spriteId: 6e0bcd5915527b542a326a28983318ae
-    - name: StormHead_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 38
       spriteId: 96463e54711ae6141965898fb6f19b25
-    - name: StormHead_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 21
         height: 41
       spriteId: d200a7083dab0d14fbebde88c8d33b58
-    - name: StormHead_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 19
         height: 36
       spriteId: dbdedc57db4683c4e8a6123bf59dd9ce
-    - name: StormHead_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 22
         height: 41
       spriteId: 3aab876a9049a1243b3f26ab3c86623f
-    - name: StormHead_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 35
       spriteId: bb098052c8ea44440b193747ff3d442d
-    - name: StormHead_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 85
         y: 0
         width: 21
         height: 35
       spriteId: 4ea70bb64686a0f43ad9c40c07c8e648
-    - name: StormHead_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 35
       spriteId: 4ad8dfce806dcd445a5aca84242edcbe
-    - name: StormHead_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 0
         width: 22
         height: 35
       spriteId: 798dbafe1f9ae7446ac3b0a0b620e43a
-    - name: StormHead_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 35
       spriteId: 7f518e4e4b1737c429451225e503a5d6
-    - name: StormHead_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 37
       spriteId: 6bdee1793d9bc434183491e905cff366
-    - name: StormHead_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 88
         y: 0
         width: 20
         height: 41
       spriteId: e96f217d02342264bb486bb707e3bb1a
-    - name: StormHead_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 35
       spriteId: 6e20bf011212e484badf15072ec2d7d9
-    - name: StormHead_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 22
         height: 40
       spriteId: a1d7ec36a34e50c4b899dab740f23fae
-    - name: StormHead_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 35
       spriteId: 7c07d007282664c4597893717632a2c0
-    - name: StormHead_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 36
       spriteId: 1b70f183b808e754c8a710b36eafeb30
-    - name: StormHead_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 87
         y: 0
         width: 20
         height: 36
       spriteId: 66af94b17d226fb4a8d1e6594924120e
-    - name: StormHead_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 0
         width: 22
         height: 35
       spriteId: 87c75e9644a4a7542a9cee6cdad71f7e
-    - name: StormHead_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 34
       spriteId: 686760005ef8aa749b84bdad0e141c29
-    - name: StormHead_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 32
       spriteId: d68102c2134e535448fba78745d05845
-    - name: StormHead_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 30
       spriteId: 58eafbf3e295a7742b361454b3d5c486
-    - name: StormHead_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 21
         height: 55
       spriteId: 6279ba42bdefa63439feb5dd92b83300
-    - name: StormHead_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 60
       spriteId: 9d640e3b9c15815498e9759943133eb2
-    - name: StormHead_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 0
         width: 22
         height: 67
       spriteId: 0c6e580b583c9ff45a7680082d66dd3b
-    - name: StormHead_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 81
         y: 0
         width: 26
         height: 68
       spriteId: 2fcb4f599b1007141aac173356c99aac
-    - name: StormHead_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 81
         y: 0
         width: 33
         height: 69
       spriteId: aef48e105420a5042ac9cf4dbe82bda5
-    - name: StormHead_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 81
         y: 0
         width: 72
         height: 70
       spriteId: e22e891ab8d921a43b84d13ed4073792
-    - name: StormHead_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 73
         y: 0
         width: 86
         height: 69
       spriteId: 0fe5bb7ef8a6bad4685766c5f1e9d682
-    - name: StormHead_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 81
         y: 0
         width: 72
         height: 70
       spriteId: 98963b384d409c245b92fa2d10ed4961
-    - name: StormHead_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 81
         y: 0
         width: 72
         height: 70
       spriteId: 8142931708fb68348b9837e5f6d51bcb
-    - name: StormHead_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 50
         y: 0
         width: 108
         height: 70
       spriteId: 1f30ff1499f40df4a9d8eadae78c8e62
-    - name: StormHead_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 54
         y: 0
         width: 104
         height: 70
       spriteId: b33ffbbaa4866904a9f36464f8707d82
-    - name: StormHead_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 50
         y: 0
         width: 108
         height: 70
       spriteId: 10a386a53b360df4b9e2c7be05af54e7
-    - name: StormHead_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 50
         y: 0
         width: 108
         height: 70
       spriteId: 781f1b75f661e4f45bb43ea5c47e028c
-    - name: StormHead_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 47
         y: 0
         width: 111
         height: 70
       spriteId: 69f5c4ca30fb3ca49969a942d45cb52a
-    - name: StormHead_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 0
         width: 115
         height: 70
       spriteId: e807ddf743f5683489eab44955efed37
-    - name: StormHead_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 60
       spriteId: 50b7bf3bc5e13894bb0230a36108666f
-    - name: StormHead_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 21
         height: 55
       spriteId: 37292007621fcab4bba3f546d0465d2f
-    - name: StormHead_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 30
       spriteId: 09e7df3e676c5e3459460bdf82831bc7
-    - name: StormHead_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 32
       spriteId: ccf992c29711e7c4d8be2668165a38c9
-    - name: StormHead_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 32
       spriteId: 3fbc20ddd25c8cb4e9237bd985e95bcf
-    - name: StormHead_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 32
       spriteId: 84c4618466a060c48b1b65b5a14476b1
-    - name: StormHead_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 32
       spriteId: d84361f7a68bae94799e9116075825c8
-    - name: StormHead_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 20
         height: 30
       spriteId: ec632c3cd10ca1b40ac75fd7cb965e6e
-    - name: StormHead_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 86
         y: 0
         width: 21
         height: 55
       spriteId: 16017a5839acd2041b34cfedb2a293e6
-    - name: StormHead_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 0
         width: 23
         height: 122
       spriteId: 912a2886b71d7f44b911f193f92f1bba
-    - name: StormHead_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 1
         width: 24
         height: 121
       spriteId: 3b57ab134d4924c458d23ffe2c1719f2
-    - name: StormHead_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 83
         y: 1
         width: 25
         height: 121
       spriteId: 69968ce0ea333b54387e8a2c9fdf941d
-    - name: StormHead_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 81
         y: 3
         width: 25
         height: 23
       spriteId: 6182bdd5ac5e50a4a8e0149cff1474db
-    - name: StormHead_Frame_50
+    - name: Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 80
         y: 5
@@ -1650,3 +1754,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 133}
+  previousTextureSize: {x: 512, y: 512}

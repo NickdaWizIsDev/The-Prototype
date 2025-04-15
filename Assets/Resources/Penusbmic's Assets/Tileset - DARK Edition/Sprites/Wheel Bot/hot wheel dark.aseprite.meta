@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 3.5384617, y: -0.058823533}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 26
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 3.5384617, y: -0.058823533}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 3.2857141, y: -0.055555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 2.1904762, y: -0.09090909}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 129
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 2.3, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 2.3, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 2.3, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 214
@@ -266,6 +275,7 @@ ScriptedImporter:
     pivot: {x: 2.0833333, y: -0.04347826}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 89
@@ -286,6 +296,7 @@ ScriptedImporter:
     pivot: {x: 2.04, y: -0.047619052}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 121
@@ -306,6 +317,7 @@ ScriptedImporter:
     pivot: {x: 1.9259259, y: -0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 189
@@ -326,6 +338,7 @@ ScriptedImporter:
     pivot: {x: 2.368421, y: -0.047619052}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 61
@@ -346,6 +359,7 @@ ScriptedImporter:
     pivot: {x: 2.2727273, y: -0.04347826}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 229
@@ -366,6 +380,7 @@ ScriptedImporter:
     pivot: {x: 2.2173913, y: -0.047619052}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 98
@@ -386,6 +401,7 @@ ScriptedImporter:
     pivot: {x: 2.08, y: -0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -406,6 +422,7 @@ ScriptedImporter:
     pivot: {x: 2.647059, y: -0.047619052}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 235
@@ -426,6 +443,7 @@ ScriptedImporter:
     pivot: {x: 1.9999999, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -446,6 +464,7 @@ ScriptedImporter:
     pivot: {x: 1.9999999, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 185
@@ -466,6 +485,7 @@ ScriptedImporter:
     pivot: {x: 1.9999999, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 216
@@ -486,6 +506,7 @@ ScriptedImporter:
     pivot: {x: 2.090909, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 68
@@ -506,6 +527,7 @@ ScriptedImporter:
     pivot: {x: 1.3529412, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 193
@@ -526,6 +548,7 @@ ScriptedImporter:
     pivot: {x: 1.3428572, y: -0.04347826}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -546,6 +569,7 @@ ScriptedImporter:
     pivot: {x: 1.3529412, y: -0.041666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -566,6 +590,7 @@ ScriptedImporter:
     pivot: {x: 1.3142856, y: -0.04}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -586,6 +611,7 @@ ScriptedImporter:
     pivot: {x: 0.4044944, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -606,6 +632,7 @@ ScriptedImporter:
     pivot: {x: 0.3452381, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 101
@@ -626,6 +653,7 @@ ScriptedImporter:
     pivot: {x: 0.3253012, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -646,6 +674,7 @@ ScriptedImporter:
     pivot: {x: 0.3253012, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 95
@@ -666,6 +695,7 @@ ScriptedImporter:
     pivot: {x: 0.3253012, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -686,6 +716,7 @@ ScriptedImporter:
     pivot: {x: -1.2608696, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -706,6 +737,7 @@ ScriptedImporter:
     pivot: {x: 2.3, y: -0.045454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -726,6 +758,7 @@ ScriptedImporter:
     pivot: {x: 2.1904762, y: -0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -746,6 +779,7 @@ ScriptedImporter:
     pivot: {x: 2.2173913, y: -0.0625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 118
@@ -766,6 +800,7 @@ ScriptedImporter:
     pivot: {x: 2, y: -0.05}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 224
@@ -786,6 +821,7 @@ ScriptedImporter:
     pivot: {x: 2.5, y: -0.058823533}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 88
@@ -806,6 +842,7 @@ ScriptedImporter:
     pivot: {x: 2.3333333, y: -0.09090909}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 149
@@ -826,6 +863,7 @@ ScriptedImporter:
     pivot: {x: 2.3333333, y: -0.09090909}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 181
@@ -846,6 +884,7 @@ ScriptedImporter:
     pivot: {x: 2.3333333, y: -0.09090909}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 213
@@ -866,6 +905,7 @@ ScriptedImporter:
     pivot: {x: 0.45348835, y: -0.058823533}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 95
@@ -884,310 +924,348 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -328854166
+    guid: 745652114
     name: hot wheel dark
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: hot wheel dark_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 13
         height: 17
       spriteId: c89401996b5aafc44bdbb1fe48efb2eb
-    - name: hot wheel dark_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 13
         height: 17
       spriteId: 3063c02e06a138a40926a8e36607aba2
-    - name: hot wheel dark_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 14
         height: 18
       spriteId: 30e9156fa21c96644bbb6753d0a2c1bc
-    - name: hot wheel dark_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 2
         width: 21
         height: 22
       spriteId: 8da9d99bf283c284eb0f021acfa43f57
-    - name: hot wheel dark_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 20
         height: 22
       spriteId: 0f1fe3ef234eb324594826b591d6b27b
-    - name: hot wheel dark_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 20
         height: 22
       spriteId: dec5cfded477bff4d97ede1670ae93ec
-    - name: hot wheel dark_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 20
         height: 22
       spriteId: e9290b1346e13d54f97d73502ec7fe4a
-    - name: hot wheel dark_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 1
         width: 24
         height: 23
       spriteId: 16fa743aff680a949997b30a9e0b73a9
-    - name: hot wheel dark_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 1
         width: 25
         height: 21
       spriteId: e7d84d16445ca02408a3b3bd91e7455a
-    - name: hot wheel dark_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 1
         width: 27
         height: 20
       spriteId: d2c8a19759f3758468b92ad56bfad2ad
-    - name: hot wheel dark_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 1
         width: 19
         height: 21
       spriteId: 200348808594ce14d8525c303e248676
-    - name: hot wheel dark_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 1
         width: 22
         height: 23
       spriteId: 4631200dc5183a24e9e8b5594ea2ea8a
-    - name: hot wheel dark_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 1
         width: 23
         height: 21
       spriteId: 6a91430c6ad49bb4dacab5a386544946
-    - name: hot wheel dark_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 1
         width: 25
         height: 20
       spriteId: 03d7d748dddd6f5428aeee5f57f4ae3d
-    - name: hot wheel dark_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 1
         width: 17
         height: 21
       spriteId: 5721e17cce673f64aa44dd827eebdbd2
-    - name: hot wheel dark_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 23
         height: 22
       spriteId: c3dd8736a158eb74c83fbac0d95e173f
-    - name: hot wheel dark_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 23
         height: 22
       spriteId: 3c576e624acae184aaf0338d5e3267ea
-    - name: hot wheel dark_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 23
         height: 22
       spriteId: 0608a8733248d0640839e5a0bed334b8
-    - name: hot wheel dark_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 22
         height: 22
       spriteId: 9184e4af88521d349a14f6990834f550
-    - name: hot wheel dark_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 34
         height: 22
       spriteId: 769d3a988583db44fa12cf1ae7a5c162
-    - name: hot wheel dark_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 1
         width: 35
         height: 23
       spriteId: 55b70aa544f39464b99cc432736c94db
-    - name: hot wheel dark_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 34
         height: 24
       spriteId: 7c3ce000a741e4f49814589d9d2b0d81
-    - name: hot wheel dark_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 35
         height: 25
       spriteId: 1a44d87349607284092538c47d70e2e9
-    - name: hot wheel dark_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 1
         width: 89
         height: 22
       spriteId: a8c076a4e170fae4183af1ae832b6e73
-    - name: hot wheel dark_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 1
         width: 84
         height: 22
       spriteId: bdfcf6a0c4722d5439924e4fade9d3c8
-    - name: hot wheel dark_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 29
         y: 0
         width: 83
         height: 23
       spriteId: be30b91b912579446b7777d8e8a936a8
-    - name: hot wheel dark_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 29
         y: 1
         width: 83
         height: 22
       spriteId: 76598d10bc4c6f04f97ba29b04b09eea
-    - name: hot wheel dark_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 29
         y: 1
         width: 83
         height: 22
       spriteId: 9a8be6490155fb5489e966f85aef3bb0
-    - name: hot wheel dark_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 85
         y: 1
         width: 23
         height: 22
       spriteId: dc52659355023ee4e92ae8f724114d35
-    - name: hot wheel dark_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 20
         height: 22
       spriteId: 1b26756c9bb9e164c94bf24d4d36f9bb
-    - name: hot wheel dark_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 1
         width: 21
         height: 20
       spriteId: 12aed887034938d4e848ca188a772743
-    - name: hot wheel dark_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 1
         width: 23
         height: 16
       spriteId: f1a880a1862abc946aac7dd75348e8b3
-    - name: hot wheel dark_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
         width: 27
         height: 20
       spriteId: 3f3ec67142edc0d46954731bf3e2365f
-    - name: hot wheel dark_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 1
         width: 22
         height: 17
       spriteId: 7df5427f66aa27143ba233fcba933096
-    - name: hot wheel dark_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1
         width: 24
         height: 11
       spriteId: c0ceda5ed82c4c54fb0ac5a821217c6b
-    - name: hot wheel dark_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1
         width: 24
         height: 11
       spriteId: 8bd81f0e123147646a009d4b3f01ae78
-    - name: hot wheel dark_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1
         width: 24
         height: 11
       spriteId: 91f0f521371814d4783f29f188e6c6c7
-    - name: hot wheel dark_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 17
         y: 1
@@ -1201,3 +1279,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 112, y: 26}
+  previousTextureSize: {x: 256, y: 256}

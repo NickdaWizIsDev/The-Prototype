@@ -175,7 +175,7 @@ public class Damageable : MonoBehaviour
         if(rb2d != null)
         {
             Vector2 direction = (transform.position - damager).normalized;
-            rb2d.velocity = direction * knockback;
+            rb2d.linearVelocity = direction * knockback;
         }        
     }
 

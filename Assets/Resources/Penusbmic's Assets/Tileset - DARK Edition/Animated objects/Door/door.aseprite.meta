@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 53
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 53
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 53
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 68
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 68
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 68
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -266,6 +275,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -286,6 +296,7 @@ ScriptedImporter:
     pivot: {x: 0.5322581, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 53
@@ -306,6 +317,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -326,6 +338,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -346,6 +359,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -366,6 +380,7 @@ ScriptedImporter:
     pivot: {x: 0.47142857, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -386,6 +401,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -406,6 +422,7 @@ ScriptedImporter:
     pivot: {x: 0.35714287, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -424,126 +441,141 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1910036562
+    guid: -1670869018
     name: door
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: door_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 7
         height: 48
       spriteId: 3001386458764da4b9e7a82ff31cc9e2
-    - name: door_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 7
         height: 48
       spriteId: 157c05bd9847a5b4d91cb959de7d9cd8
-    - name: door_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 7
         height: 48
       spriteId: 08a5b09ca8b3d35409cbd2889f0d7dc8
-    - name: door_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 7
         height: 48
       spriteId: 3125028b4b267fd49b8b3c541f1beed9
-    - name: door_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 7
         height: 48
       spriteId: 18da0b20f1bfae4498545390a767580f
-    - name: door_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 7
         height: 48
       spriteId: 7d1b49c98f1a0994d8d1e194341d618e
-    - name: door_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 7
         height: 48
       spriteId: d207e14ddf38d6143b4da88fa884b9f7
-    - name: door_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 7
         height: 48
       spriteId: 397c4fe617f31a24e94e25aa090ef3b6
-    - name: door_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 31
         height: 48
       spriteId: f120069d32e209c44aa597e85c2327e1
-    - name: door_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 37
         height: 48
       spriteId: 2f41d48eb705d924e91586c744145af9
-    - name: door_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 39
         height: 48
       spriteId: f8b6e0f467512304f8e233779e835bc5
-    - name: door_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 41
         height: 48
       spriteId: fc6a8fd9714a65446953778f3b536d9b
-    - name: door_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 35
         height: 48
       spriteId: 2ba09b6bed501b04fbf223c268c08f01
-    - name: door_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
         width: 7
         height: 48
       spriteId: 2bbd24a8293170e419abacd6ea180765
-    - name: door_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 18
         y: 0
@@ -557,3 +589,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 41, y: 48}
+  previousTextureSize: {x: 128, y: 256}

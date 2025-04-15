@@ -148,6 +148,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -245,6 +246,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -263,9 +265,10 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: adventurer-v1.5-Sheet_Frame_0
     originalName: 
-    pivot: {x: 0.55, y: -0.033333335}
+    pivot: {x: 0.575, y: -0.016666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 89
@@ -283,9 +286,10 @@ ScriptedImporter:
     uvTransform: {x: 75, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: -0.032258067}
+    pivot: {x: 0.52777773, y: -0.016129034}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 487
@@ -303,9 +307,10 @@ ScriptedImporter:
     uvTransform: {x: 471, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_2
     originalName: 
-    pivot: {x: 0.49999997, y: -0.032258067}
+    pivot: {x: 0.52500004, y: -0.016129034}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 61
@@ -323,9 +328,10 @@ ScriptedImporter:
     uvTransform: {x: 46, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_3
     originalName: 
-    pivot: {x: 0.5714286, y: -0.033333335}
+    pivot: {x: 0.5952381, y: -0.016666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -343,9 +349,10 @@ ScriptedImporter:
     uvTransform: {x: 19, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_4
     originalName: 
-    pivot: {x: 0.45000002, y: -0.045454547}
+    pivot: {x: 0.475, y: -0.022727273}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 408
@@ -363,9 +370,10 @@ ScriptedImporter:
     uvTransform: {x: 392, y: 228}
   - name: adventurer-v1.5-Sheet_Frame_5
     originalName: 
-    pivot: {x: 0.47619045, y: -0.04347826}
+    pivot: {x: 0.5, y: -0.02173913}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 210
@@ -383,9 +391,10 @@ ScriptedImporter:
     uvTransform: {x: 195, y: 228}
   - name: adventurer-v1.5-Sheet_Frame_6
     originalName: 
-    pivot: {x: 0.49999997, y: -0.04347826}
+    pivot: {x: 0.52500004, y: -0.02173913}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 347
@@ -403,9 +412,10 @@ ScriptedImporter:
     uvTransform: {x: 332, y: 228}
   - name: adventurer-v1.5-Sheet_Frame_7
     originalName: 
-    pivot: {x: 0.44444442, y: -0.045454547}
+    pivot: {x: 0.47222218, y: -0.022727273}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 52
@@ -423,9 +433,10 @@ ScriptedImporter:
     uvTransform: {x: 35, y: 301}
   - name: adventurer-v1.5-Sheet_Frame_8
     originalName: 
-    pivot: {x: 0.38095236, y: -0.03448276}
+    pivot: {x: 0.40476188, y: -0.01724138}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 100
@@ -443,9 +454,10 @@ ScriptedImporter:
     uvTransform: {x: 83, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_9
     originalName: 
-    pivot: {x: 0.42857143, y: -0.035714287}
+    pivot: {x: 0.45238096, y: -0.017857144}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 203
@@ -463,9 +475,10 @@ ScriptedImporter:
     uvTransform: {x: 187, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_10
     originalName: 
-    pivot: {x: 0.42857143, y: -0.038461536}
+    pivot: {x: 0.45238096, y: -0.019230768}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 129
@@ -483,9 +496,10 @@ ScriptedImporter:
     uvTransform: {x: 113, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_11
     originalName: 
-    pivot: {x: 0.3333333, y: -0.03448276}
+    pivot: {x: 0.35416663, y: -0.01724138}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -503,9 +517,10 @@ ScriptedImporter:
     uvTransform: {x: -13, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_12
     originalName: 
-    pivot: {x: 0.42857143, y: -0.035714287}
+    pivot: {x: 0.45238096, y: -0.017857144}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 232
@@ -523,9 +538,10 @@ ScriptedImporter:
     uvTransform: {x: 216, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_13
     originalName: 
-    pivot: {x: 0.42857143, y: -0.038461536}
+    pivot: {x: 0.45238096, y: -0.019230768}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -543,9 +559,10 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_14
     originalName: 
-    pivot: {x: 0.47619045, y: -0.040000003}
+    pivot: {x: 0.5, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 242
@@ -563,9 +580,10 @@ ScriptedImporter:
     uvTransform: {x: 227, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_15
     originalName: 
-    pivot: {x: 0.47619045, y: -0.04347826}
+    pivot: {x: 0.5, y: -0.02173913}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 239
@@ -583,9 +601,10 @@ ScriptedImporter:
     uvTransform: {x: 224, y: 228}
   - name: adventurer-v1.5-Sheet_Frame_16
     originalName: 
-    pivot: {x: 0.39999998, y: -0.10714285}
+    pivot: {x: 0.42499995, y: -0.08928571}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 459
@@ -603,9 +622,10 @@ ScriptedImporter:
     uvTransform: {x: 442, y: 185}
   - name: adventurer-v1.5-Sheet_Frame_17
     originalName: 
-    pivot: {x: 0.5, y: -0.375}
+    pivot: {x: 0.52272725, y: -0.35416666}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 481
@@ -623,9 +643,10 @@ ScriptedImporter:
     uvTransform: {x: 467, y: 109}
   - name: adventurer-v1.5-Sheet_Frame_18
     originalName: 
-    pivot: {x: 0.43749994, y: -0.4090909}
+    pivot: {x: 0.46875003, y: -0.38636363}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 155
@@ -643,9 +664,10 @@ ScriptedImporter:
     uvTransform: {x: 137, y: 293}
   - name: adventurer-v1.5-Sheet_Frame_19
     originalName: 
-    pivot: {x: 0.44, y: -0.5555555}
+    pivot: {x: 0.45999998, y: -0.5277778}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 375
@@ -663,9 +685,10 @@ ScriptedImporter:
     uvTransform: {x: 361, y: 219}
   - name: adventurer-v1.5-Sheet_Frame_20
     originalName: 
-    pivot: {x: 0.26315787, y: -0.27272725}
+    pivot: {x: 0.2894737, y: -0.25}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -683,9 +706,10 @@ ScriptedImporter:
     uvTransform: {x: -16, y: 266}
   - name: adventurer-v1.5-Sheet_Frame_21
     originalName: 
-    pivot: {x: 0.5185185, y: -0.3888889}
+    pivot: {x: 0.5370371, y: -0.3611111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 175
@@ -703,9 +727,10 @@ ScriptedImporter:
     uvTransform: {x: 164, y: 222}
   - name: adventurer-v1.5-Sheet_Frame_22
     originalName: 
-    pivot: {x: 0.38888884, y: -0.15625}
+    pivot: {x: 0.41666666, y: -0.140625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 290
@@ -723,9 +748,10 @@ ScriptedImporter:
     uvTransform: {x: 272, y: 183}
   - name: adventurer-v1.5-Sheet_Frame_23
     originalName: 
-    pivot: {x: 0.38888884, y: -0.16129032}
+    pivot: {x: 0.41666666, y: -0.1451613}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 28
@@ -743,9 +769,10 @@ ScriptedImporter:
     uvTransform: {x: 10, y: 224}
   - name: adventurer-v1.5-Sheet_Frame_24
     originalName: 
-    pivot: {x: 0.5714286, y: -0.0625}
+    pivot: {x: 0.5857143, y: -0.03125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 231
@@ -763,9 +790,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_25
     originalName: 
-    pivot: {x: 0.5714286, y: -0.0625}
+    pivot: {x: 0.5857143, y: -0.03125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 274
@@ -783,9 +811,10 @@ ScriptedImporter:
     uvTransform: {x: 269, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_26
     originalName: 
-    pivot: {x: 0.5714286, y: -0.05882353}
+    pivot: {x: 0.5857143, y: -0.029411765}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 188
@@ -803,9 +832,10 @@ ScriptedImporter:
     uvTransform: {x: 183, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_27
     originalName: 
-    pivot: {x: 0.516129, y: -0.055555556}
+    pivot: {x: 0.53225803, y: -0.027777778}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 317
@@ -823,9 +853,10 @@ ScriptedImporter:
     uvTransform: {x: 308, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_28
     originalName: 
-    pivot: {x: 0.43478256, y: -0.055555556}
+    pivot: {x: 0.45652175, y: -0.027777778}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -843,9 +874,10 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 88}
   - name: adventurer-v1.5-Sheet_Frame_29
     originalName: 
-    pivot: {x: 0.2666667, y: 0}
+    pivot: {x: 0.3, y: 0.014285714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 54
@@ -863,9 +895,10 @@ ScriptedImporter:
     uvTransform: {x: 33, y: 229}
   - name: adventurer-v1.5-Sheet_Frame_30
     originalName: 
-    pivot: {x: 0.2666667, y: 0}
+    pivot: {x: 0.3, y: 0.014285714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 77
@@ -883,9 +916,10 @@ ScriptedImporter:
     uvTransform: {x: 56, y: 229}
   - name: adventurer-v1.5-Sheet_Frame_31
     originalName: 
-    pivot: {x: 0.31249997, y: 0}
+    pivot: {x: 0.34375006, y: 0.014285714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -903,9 +937,10 @@ ScriptedImporter:
     uvTransform: {x: -16, y: 229}
   - name: adventurer-v1.5-Sheet_Frame_32
     originalName: 
-    pivot: {x: 0.2666667, y: 0}
+    pivot: {x: 0.3, y: 0.014285714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 100
@@ -923,9 +958,10 @@ ScriptedImporter:
     uvTransform: {x: 79, y: 229}
   - name: adventurer-v1.5-Sheet_Frame_33
     originalName: 
-    pivot: {x: 0.23529415, y: -0.06666667}
+    pivot: {x: 0.2647059, y: -0.049999997}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -943,9 +979,10 @@ ScriptedImporter:
     uvTransform: {x: 102, y: 227}
   - name: adventurer-v1.5-Sheet_Frame_34
     originalName: 
-    pivot: {x: 0.25000003, y: -0.14814815}
+    pivot: {x: 0.28125, y: -0.12962964}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 480
@@ -963,9 +1000,10 @@ ScriptedImporter:
     uvTransform: {x: 459, y: 225}
   - name: adventurer-v1.5-Sheet_Frame_35
     originalName: 
-    pivot: {x: 0.31249997, y: -0.19999999}
+    pivot: {x: 0.34375006, y: -0.18}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -983,9 +1021,10 @@ ScriptedImporter:
     uvTransform: {x: -16, y: 297}
   - name: adventurer-v1.5-Sheet_Frame_36
     originalName: 
-    pivot: {x: 0.2666667, y: -0.28}
+    pivot: {x: 0.3, y: -0.26}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 78
@@ -1003,9 +1042,10 @@ ScriptedImporter:
     uvTransform: {x: 57, y: 295}
   - name: adventurer-v1.5-Sheet_Frame_37
     originalName: 
-    pivot: {x: 0.25000003, y: -0.28}
+    pivot: {x: 0.28125, y: -0.26}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 28
@@ -1023,9 +1063,10 @@ ScriptedImporter:
     uvTransform: {x: 7, y: 295}
   - name: adventurer-v1.5-Sheet_Frame_38
     originalName: 
-    pivot: {x: 0.625, y: -0.035714287}
+    pivot: {x: 0.6458333, y: -0.017857144}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 36
@@ -1043,9 +1084,10 @@ ScriptedImporter:
     uvTransform: {x: 26, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_39
     originalName: 
-    pivot: {x: 0.625, y: -0.035714287}
+    pivot: {x: 0.6458333, y: -0.017857144}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 68
@@ -1063,9 +1105,10 @@ ScriptedImporter:
     uvTransform: {x: 58, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_40
     originalName: 
-    pivot: {x: 0.6153846, y: -0.03448276}
+    pivot: {x: 0.63461536, y: -0.01724138}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 181
@@ -1083,9 +1126,10 @@ ScriptedImporter:
     uvTransform: {x: 172, y: 48}
   - name: adventurer-v1.5-Sheet_Frame_41
     originalName: 
-    pivot: {x: 0.6153846, y: -0.03448276}
+    pivot: {x: 0.63461536, y: -0.01724138}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 215
@@ -1103,9 +1147,10 @@ ScriptedImporter:
     uvTransform: {x: 206, y: 48}
   - name: adventurer-v1.5-Sheet_Frame_42
     originalName: 
-    pivot: {x: 0.64285713, y: -0.04347826}
+    pivot: {x: 0.66071427, y: -0.02173913}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 112
@@ -1123,9 +1168,10 @@ ScriptedImporter:
     uvTransform: {x: 105, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_43
     originalName: 
-    pivot: {x: 0.65384614, y: -0.04761905}
+    pivot: {x: 0.67307687, y: -0.023809524}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 416
@@ -1143,9 +1189,10 @@ ScriptedImporter:
     uvTransform: {x: 408, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_44
     originalName: 
-    pivot: {x: 0.28571427, y: -0.027027028}
+    pivot: {x: 0.3, y: -0.013513514}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 171
@@ -1163,9 +1210,10 @@ ScriptedImporter:
     uvTransform: {x: 156, y: 3}
   - name: adventurer-v1.5-Sheet_Frame_45
     originalName: 
-    pivot: {x: 0.35714284, y: -0.027027028}
+    pivot: {x: 0.375, y: -0.013513514}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 415
@@ -1183,9 +1231,10 @@ ScriptedImporter:
     uvTransform: {x: 400, y: 3}
   - name: adventurer-v1.5-Sheet_Frame_46
     originalName: 
-    pivot: {x: 0.49999997, y: -0.030303031}
+    pivot: {x: 0.52500004, y: -0.015151516}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1203,9 +1252,10 @@ ScriptedImporter:
     uvTransform: {x: -11, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_47
     originalName: 
-    pivot: {x: 0.52631575, y: -0.037037037}
+    pivot: {x: 0.5526316, y: -0.018518519}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 271
@@ -1223,9 +1273,10 @@ ScriptedImporter:
     uvTransform: {x: 256, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_48
     originalName: 
-    pivot: {x: 0.52631575, y: -0.035714287}
+    pivot: {x: 0.5526316, y: -0.017857144}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 215
@@ -1243,9 +1294,10 @@ ScriptedImporter:
     uvTransform: {x: 200, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_49
     originalName: 
-    pivot: {x: 0.5714286, y: -0.035714287}
+    pivot: {x: 0.5952381, y: -0.017857144}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 261
@@ -1263,9 +1315,10 @@ ScriptedImporter:
     uvTransform: {x: 248, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_50
     originalName: 
-    pivot: {x: 0.39473686, y: -0.033333335}
+    pivot: {x: 0.40789473, y: -0.016666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 271
@@ -1283,9 +1336,10 @@ ScriptedImporter:
     uvTransform: {x: 261, y: 3}
   - name: adventurer-v1.5-Sheet_Frame_51
     originalName: 
-    pivot: {x: 0.6969697, y: -0.045454547}
+    pivot: {x: 0.7121212, y: -0.022727273}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 474
@@ -1303,9 +1357,10 @@ ScriptedImporter:
     uvTransform: {x: 472, y: 48}
   - name: adventurer-v1.5-Sheet_Frame_52
     originalName: 
-    pivot: {x: 0.71875, y: -0.04347826}
+    pivot: {x: 0.734375, y: -0.02173913}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 391
@@ -1323,9 +1378,10 @@ ScriptedImporter:
     uvTransform: {x: 389, y: 48}
   - name: adventurer-v1.5-Sheet_Frame_53
     originalName: 
-    pivot: {x: 0.2857143, y: -0.037037037}
+    pivot: {x: 0.3095238, y: -0.018518519}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 372
@@ -1343,9 +1399,10 @@ ScriptedImporter:
     uvTransform: {x: 353, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_54
     originalName: 
-    pivot: {x: 0.23809522, y: -0.037037037}
+    pivot: {x: 0.2619048, y: -0.018518519}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 401
@@ -1363,9 +1420,10 @@ ScriptedImporter:
     uvTransform: {x: 381, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_55
     originalName: 
-    pivot: {x: 0.46938777, y: -0.041666668}
+    pivot: {x: 0.47959182, y: -0.020833334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 214
@@ -1383,9 +1441,10 @@ ScriptedImporter:
     uvTransform: {x: 212, y: 3}
   - name: adventurer-v1.5-Sheet_Frame_56
     originalName: 
-    pivot: {x: 0.6875, y: -0.05}
+    pivot: {x: 0.703125, y: -0.025}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 148
@@ -1403,9 +1462,10 @@ ScriptedImporter:
     uvTransform: {x: 145, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_57
     originalName: 
-    pivot: {x: 0.71428573, y: -0.04761905}
+    pivot: {x: 0.7285714, y: -0.023809524}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 431
@@ -1423,9 +1483,10 @@ ScriptedImporter:
     uvTransform: {x: 431, y: 48}
   - name: adventurer-v1.5-Sheet_Frame_58
     originalName: 
-    pivot: {x: 0.71428573, y: -0.04761905}
+    pivot: {x: 0.7285714, y: -0.023809524}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1443,9 +1504,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 88}
   - name: adventurer-v1.5-Sheet_Frame_59
     originalName: 
-    pivot: {x: 0.40909094, y: -0.040000003}
+    pivot: {x: 0.43181816, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 356
@@ -1463,9 +1525,10 @@ ScriptedImporter:
     uvTransform: {x: 340, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_60
     originalName: 
-    pivot: {x: 0.39999998, y: -0.040000003}
+    pivot: {x: 0.42499995, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 352
@@ -1483,9 +1546,10 @@ ScriptedImporter:
     uvTransform: {x: 335, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_61
     originalName: 
-    pivot: {x: 0.49999997, y: -0.040000003}
+    pivot: {x: 0.52500004, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 380
@@ -1503,9 +1567,10 @@ ScriptedImporter:
     uvTransform: {x: 365, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_62
     originalName: 
-    pivot: {x: 0.40909094, y: -0.040000003}
+    pivot: {x: 0.43181816, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 386
@@ -1523,9 +1588,10 @@ ScriptedImporter:
     uvTransform: {x: 370, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_63
     originalName: 
-    pivot: {x: 0.39999998, y: -0.040000003}
+    pivot: {x: 0.42499995, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 408
@@ -1543,9 +1609,10 @@ ScriptedImporter:
     uvTransform: {x: 391, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_64
     originalName: 
-    pivot: {x: 0.49999997, y: -0.040000003}
+    pivot: {x: 0.52500004, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 436
@@ -1563,9 +1630,10 @@ ScriptedImporter:
     uvTransform: {x: 421, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_65
     originalName: 
-    pivot: {x: 0.39130434, y: -0.04347826}
+    pivot: {x: 0.41304347, y: -0.02173913}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 450
@@ -1583,9 +1651,10 @@ ScriptedImporter:
     uvTransform: {x: 434, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_66
     originalName: 
-    pivot: {x: 0.36842102, y: -0.05263158}
+    pivot: {x: 0.39473686, y: -0.02631579}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 101
@@ -1603,9 +1672,10 @@ ScriptedImporter:
     uvTransform: {x: 83, y: 301}
   - name: adventurer-v1.5-Sheet_Frame_67
     originalName: 
-    pivot: {x: 0.25000003, y: -0.055555556}
+    pivot: {x: 0.28125, y: -0.027777778}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 179
@@ -1623,9 +1693,10 @@ ScriptedImporter:
     uvTransform: {x: 158, y: 301}
   - name: adventurer-v1.5-Sheet_Frame_68
     originalName: 
-    pivot: {x: 0.36842102, y: -0.05263158}
+    pivot: {x: 0.39473686, y: -0.02631579}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 128
@@ -1643,9 +1714,10 @@ ScriptedImporter:
     uvTransform: {x: 110, y: 301}
   - name: adventurer-v1.5-Sheet_Frame_69
     originalName: 
-    pivot: {x: 0.52631575, y: -0.038461536}
+    pivot: {x: 0.5526316, y: -0.019230768}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 464
@@ -1663,9 +1735,10 @@ ScriptedImporter:
     uvTransform: {x: 449, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_70
     originalName: 
-    pivot: {x: 0.52631575, y: -0.037037037}
+    pivot: {x: 0.5526316, y: -0.018518519}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 298
@@ -1683,9 +1756,10 @@ ScriptedImporter:
     uvTransform: {x: 283, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_71
     originalName: 
-    pivot: {x: 0.6, y: -0.033333335}
+    pivot: {x: 0.625, y: -0.016666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 117
@@ -1703,9 +1777,10 @@ ScriptedImporter:
     uvTransform: {x: 104, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_72
     originalName: 
-    pivot: {x: 0.68, y: -0.033333335}
+    pivot: {x: 0.7, y: -0.016666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 249
@@ -1723,9 +1798,10 @@ ScriptedImporter:
     uvTransform: {x: 241, y: 48}
   - name: adventurer-v1.5-Sheet_Frame_73
     originalName: 
-    pivot: {x: 0.68, y: -0.033333335}
+    pivot: {x: 0.7, y: -0.016666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 282
@@ -1743,9 +1819,10 @@ ScriptedImporter:
     uvTransform: {x: 274, y: 48}
   - name: adventurer-v1.5-Sheet_Frame_74
     originalName: 
-    pivot: {x: 0.6, y: -0.033333335}
+    pivot: {x: 0.625, y: -0.016666668}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 145
@@ -1763,9 +1840,10 @@ ScriptedImporter:
     uvTransform: {x: 132, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_75
     originalName: 
-    pivot: {x: 0.5714286, y: -0.037037037}
+    pivot: {x: 0.5952381, y: -0.018518519}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 430
@@ -1783,9 +1861,10 @@ ScriptedImporter:
     uvTransform: {x: 417, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_76
     originalName: 
-    pivot: {x: 0.5, y: -0.038461536}
+    pivot: {x: 0.52777773, y: -0.019230768}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 295
@@ -1803,9 +1882,10 @@ ScriptedImporter:
     uvTransform: {x: 279, y: 228}
   - name: adventurer-v1.5-Sheet_Frame_77
     originalName: 
-    pivot: {x: 0.5, y: -0.09374999}
+    pivot: {x: 0.52777773, y: -0.078125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 316
@@ -1823,9 +1903,10 @@ ScriptedImporter:
     uvTransform: {x: 300, y: 185}
   - name: adventurer-v1.5-Sheet_Frame_78
     originalName: 
-    pivot: {x: 0.5, y: -0.090909086}
+    pivot: {x: 0.52777773, y: -0.07575757}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 489
@@ -1843,9 +1924,10 @@ ScriptedImporter:
     uvTransform: {x: 473, y: 1}
   - name: adventurer-v1.5-Sheet_Frame_79
     originalName: 
-    pivot: {x: 0.42857143, y: -0.09677419}
+    pivot: {x: 0.4642857, y: -0.08064516}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 436
@@ -1863,9 +1945,10 @@ ScriptedImporter:
     uvTransform: {x: 417, y: 226}
   - name: adventurer-v1.5-Sheet_Frame_80
     originalName: 
-    pivot: {x: 0.42857143, y: -0.17857142}
+    pivot: {x: 0.4642857, y: -0.16071428}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1883,9 +1966,10 @@ ScriptedImporter:
     uvTransform: {x: -15, y: 330}
   - name: adventurer-v1.5-Sheet_Frame_81
     originalName: 
-    pivot: {x: 0.42857143, y: -0.09677419}
+    pivot: {x: 0.4642857, y: -0.08064516}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 458
@@ -1903,9 +1987,10 @@ ScriptedImporter:
     uvTransform: {x: 439, y: 226}
   - name: adventurer-v1.5-Sheet_Frame_82
     originalName: 
-    pivot: {x: 0.42857143, y: -0.17857142}
+    pivot: {x: 0.4642857, y: -0.16071428}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 26
@@ -1923,9 +2008,10 @@ ScriptedImporter:
     uvTransform: {x: 7, y: 330}
   - name: adventurer-v1.5-Sheet_Frame_83
     originalName: 
-    pivot: {x: 0.4545454, y: -0.037037037}
+    pivot: {x: 0.47727275, y: -0.018518519}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 173
@@ -1943,9 +2029,10 @@ ScriptedImporter:
     uvTransform: {x: 158, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_84
     originalName: 
-    pivot: {x: 0.52631575, y: -0.038461536}
+    pivot: {x: 0.5526316, y: -0.019230768}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 148
@@ -1963,9 +2050,10 @@ ScriptedImporter:
     uvTransform: {x: 133, y: 228}
   - name: adventurer-v1.5-Sheet_Frame_85
     originalName: 
-    pivot: {x: 0.5, y: -0.038461536}
+    pivot: {x: 0.52777773, y: -0.019230768}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 321
@@ -1983,9 +2071,10 @@ ScriptedImporter:
     uvTransform: {x: 305, y: 228}
   - name: adventurer-v1.5-Sheet_Frame_86
     originalName: 
-    pivot: {x: 0.35714284, y: -0.040000003}
+    pivot: {x: 0.375, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -2003,9 +2092,10 @@ ScriptedImporter:
     uvTransform: {x: -11, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_87
     originalName: 
-    pivot: {x: 0.35714284, y: -0.040000003}
+    pivot: {x: 0.375, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 40
@@ -2023,9 +2113,10 @@ ScriptedImporter:
     uvTransform: {x: 25, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_88
     originalName: 
-    pivot: {x: 0.4, y: -0.040000003}
+    pivot: {x: 0.41666666, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 315
@@ -2043,9 +2134,10 @@ ScriptedImporter:
     uvTransform: {x: 302, y: 48}
   - name: adventurer-v1.5-Sheet_Frame_89
     originalName: 
-    pivot: {x: 0.35714284, y: -0.040000003}
+    pivot: {x: 0.375, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -2063,9 +2155,10 @@ ScriptedImporter:
     uvTransform: {x: 61, y: 117}
   - name: adventurer-v1.5-Sheet_Frame_90
     originalName: 
-    pivot: {x: 0.4, y: -0.040000003}
+    pivot: {x: 0.41666666, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 353
@@ -2083,9 +2176,10 @@ ScriptedImporter:
     uvTransform: {x: 340, y: 48}
   - name: adventurer-v1.5-Sheet_Frame_91
     originalName: 
-    pivot: {x: 0.4210526, y: -0.040000003}
+    pivot: {x: 0.44736838, y: -0.020000001}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 268
@@ -2103,9 +2197,10 @@ ScriptedImporter:
     uvTransform: {x: 251, y: 228}
   - name: adventurer-v1.5-Sheet_Frame_92
     originalName: 
-    pivot: {x: 0.40909094, y: -0.038461536}
+    pivot: {x: 0.43181816, y: -0.019230768}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 342
@@ -2123,9 +2218,10 @@ ScriptedImporter:
     uvTransform: {x: 326, y: 187}
   - name: adventurer-v1.5-Sheet_Frame_93
     originalName: 
-    pivot: {x: 0.49999997, y: -0.037037037}
+    pivot: {x: 0.52500004, y: -0.018518519}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 187
@@ -2143,9 +2239,10 @@ ScriptedImporter:
     uvTransform: {x: 172, y: 150}
   - name: adventurer-v1.5-Sheet_Frame_94
     originalName: 
-    pivot: {x: 0.52631575, y: -0.074074075}
+    pivot: {x: 0.5526316, y: -0.055555552}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 325
@@ -2163,9 +2260,10 @@ ScriptedImporter:
     uvTransform: {x: 310, y: 149}
   - name: adventurer-v1.5-Sheet_Frame_95
     originalName: 
-    pivot: {x: 0.4893617, y: -0.09677419}
+    pivot: {x: 0.5, y: -0.08064516}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 61
@@ -2183,9 +2281,10 @@ ScriptedImporter:
     uvTransform: {x: 59, y: 1}
   - name: adventurer-v1.5-Sheet_Frame_96
     originalName: 
-    pivot: {x: 0.6333333, y: -0.12903227}
+    pivot: {x: 0.65, y: -0.11290324}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 451
@@ -2203,9 +2302,10 @@ ScriptedImporter:
     uvTransform: {x: 445, y: 0}
   - name: adventurer-v1.5-Sheet_Frame_97
     originalName: 
-    pivot: {x: 0.71428573, y: -0.125}
+    pivot: {x: 0.73214287, y: -0.109375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 41
@@ -2223,9 +2323,10 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 45}
   - name: adventurer-v1.5-Sheet_Frame_98
     originalName: 
-    pivot: {x: 0.28571427, y: -0.0625}
+    pivot: {x: 0.3, y: -0.046874996}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 317
@@ -2243,9 +2344,10 @@ ScriptedImporter:
     uvTransform: {x: 302, y: 2}
   - name: adventurer-v1.5-Sheet_Frame_99
     originalName: 
-    pivot: {x: 0.375, y: -0.09374999}
+    pivot: {x: 0.3958333, y: -0.078125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 149
@@ -2263,9 +2365,10 @@ ScriptedImporter:
     uvTransform: {x: 133, y: 46}
   - name: adventurer-v1.5-Sheet_Frame_100
     originalName: 
-    pivot: {x: 0.58823526, y: -0.14814815}
+    pivot: {x: 0.61764705, y: -0.12962964}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 491
@@ -2283,9 +2386,10 @@ ScriptedImporter:
     uvTransform: {x: 476, y: 147}
   - name: adventurer-v1.5-Sheet_Frame_101
     originalName: 
-    pivot: {x: 0.5862069, y: -0.15625}
+    pivot: {x: 0.6034483, y: -0.140625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -2303,9 +2407,10 @@ ScriptedImporter:
     uvTransform: {x: -4, y: 44}
   - name: adventurer-v1.5-Sheet_Frame_102
     originalName: 
-    pivot: {x: 0.60714287, y: -0.12903227}
+    pivot: {x: 0.625, y: -0.11290324}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 113
@@ -2323,9 +2428,10 @@ ScriptedImporter:
     uvTransform: {x: 105, y: 45}
   - name: adventurer-v1.5-Sheet_Frame_103
     originalName: 
-    pivot: {x: 0.60714287, y: -0.125}
+    pivot: {x: 0.625, y: -0.109375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 77
@@ -2343,9 +2449,10 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 45}
   - name: adventurer-v1.5-Sheet_Frame_104
     originalName: 
-    pivot: {x: 0.4897959, y: -0.027027028}
+    pivot: {x: 0.5, y: -0.013513514}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -2363,9 +2470,10 @@ ScriptedImporter:
     uvTransform: {x: 3, y: 3}
   - name: adventurer-v1.5-Sheet_Frame_105
     originalName: 
-    pivot: {x: 0.4680851, y: -0.032258067}
+    pivot: {x: 0.47872338, y: -0.016129034}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 116
@@ -2383,9 +2491,10 @@ ScriptedImporter:
     uvTransform: {x: 113, y: 3}
   - name: adventurer-v1.5-Sheet_Frame_106
     originalName: 
-    pivot: {x: 0.4893617, y: -0.04347826}
+    pivot: {x: 0.5, y: -0.02173913}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 360
@@ -2404,862 +2513,969 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -73391485
+    guid: 1676691535
     name: adventurer-v1.5-Sheet
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: adventurer-v1.5-Sheet_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 84e6e0592fb3a89489d385f105eb5f84
-    - name: adventurer-v1.5-Sheet_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: dae1cb48dae061f4a9ce6471fa345c6d
-    - name: adventurer-v1.5-Sheet_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 1504d0301908c2c40a019831e5b3bbe7
-    - name: adventurer-v1.5-Sheet_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: f056a7697f4f7434f8b2dbd54b5a696c
-    - name: adventurer-v1.5-Sheet_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: ad66d1a41bbeb4b45b8e70be49c7215c
-    - name: adventurer-v1.5-Sheet_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 17f6916cc110695409a2e8151079b5a9
-    - name: adventurer-v1.5-Sheet_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 62425e6c8c43b96408cd8b3691a50025
-    - name: adventurer-v1.5-Sheet_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 931bd053a26aac24cb4cb8c1dcf9c4b9
-    - name: adventurer-v1.5-Sheet_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: bec5064f79674934680e71b1a0c417c6
-    - name: adventurer-v1.5-Sheet_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 6298258d8044a8f468105b436f2c7e0c
-    - name: adventurer-v1.5-Sheet_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 9a299c8caedd1a443869c24a5310cd08
-    - name: adventurer-v1.5-Sheet_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 74ffc02e04ef75649bffbaeb783c63fc
-    - name: adventurer-v1.5-Sheet_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: a57b0805f080aaf43b93601b787e2c28
-    - name: adventurer-v1.5-Sheet_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: d0dc1d15d6940bd4d9a7a1c9636357a8
-    - name: adventurer-v1.5-Sheet_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 2fd04118d06fe4844ac3d0f8c7ed506e
-    - name: adventurer-v1.5-Sheet_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 956844aa12a871141a145806eed4a6e3
-    - name: adventurer-v1.5-Sheet_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: c3de9e39c3f461c4facf7359aadf36e6
-    - name: adventurer-v1.5-Sheet_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 8308a43f96094bf44a529d6dfd28708d
-    - name: adventurer-v1.5-Sheet_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 43870077b39d5bb4cbc12743145e5df5
-    - name: adventurer-v1.5-Sheet_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: a3f86c06e7ba72c40bb4f9dbe6b734e6
-    - name: adventurer-v1.5-Sheet_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: c452334be5fddd941a0193fc5504ef44
-    - name: adventurer-v1.5-Sheet_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 735c6d2cc5811404a90e32ada361d3ac
-    - name: adventurer-v1.5-Sheet_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 3a743c9a546349e438a9befc39190d7f
-    - name: adventurer-v1.5-Sheet_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: b7bff7612b13c574aa8fc7814842ea23
-    - name: adventurer-v1.5-Sheet_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: a6cfaadcaf7242244b5263d29a0b67c7
-    - name: adventurer-v1.5-Sheet_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 52d6e2fedbd28fa41a742e7a328b4e6a
-    - name: adventurer-v1.5-Sheet_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 5c585df9a8d6fb14fb3081422092f2e1
-    - name: adventurer-v1.5-Sheet_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 6fdaa2ac0b7d57445a5948fad159f563
-    - name: adventurer-v1.5-Sheet_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: d91e5a83cbcd8744a90f1b2f2c30278a
-    - name: adventurer-v1.5-Sheet_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: f116ce475a8e7f84382675b867643efa
-    - name: adventurer-v1.5-Sheet_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 3cb8ee5ba537dac40b622838595a9fa5
-    - name: adventurer-v1.5-Sheet_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 69dd99f1b94e78c43ac687e32efd36c3
-    - name: adventurer-v1.5-Sheet_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 29b54b231cf07d24b9d3a8baae7457e3
-    - name: adventurer-v1.5-Sheet_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: de4a3327a6d30cc43909638406a79d3e
-    - name: adventurer-v1.5-Sheet_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 7746439c515fe724cb99e3c8970ee049
-    - name: adventurer-v1.5-Sheet_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 1acb8bd85a9fabc42adc4cedaca6f0bd
-    - name: adventurer-v1.5-Sheet_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 1a8f41fcf2dfdc640a273bf840025277
-    - name: adventurer-v1.5-Sheet_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 8ec25dac1e62f2c49b09ddde2d193829
-    - name: adventurer-v1.5-Sheet_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 80f652a077070ce40a48d6183fe2774c
-    - name: adventurer-v1.5-Sheet_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: f67fe50281990994c9ac769d23961840
-    - name: adventurer-v1.5-Sheet_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 2d0593327f7d1d446bc35511a9615c23
-    - name: adventurer-v1.5-Sheet_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: b22b4f8efa3f5394b8602b0fa53878e2
-    - name: adventurer-v1.5-Sheet_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: e9a0c37c44457ff4698e9b1d3a5cea92
-    - name: adventurer-v1.5-Sheet_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: fa03f56f56136374994eca5e71abe9f2
-    - name: adventurer-v1.5-Sheet_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 95dca6c6295c0874f83238c0291b4e12
-    - name: adventurer-v1.5-Sheet_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: d01a84bad18a1b44caa0e566e0457567
-    - name: adventurer-v1.5-Sheet_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 7dc0d179221c891429e373767333490e
-    - name: adventurer-v1.5-Sheet_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 459317eb56436704c85f88dbbd619fb9
-    - name: adventurer-v1.5-Sheet_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 3f654444400094e48891117c97869db2
-    - name: adventurer-v1.5-Sheet_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: a12aacd325c1e98439381529397d09ed
-    - name: adventurer-v1.5-Sheet_Frame_50
+    - name: Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 42013e6c961782a429aa9271fbf7696f
-    - name: adventurer-v1.5-Sheet_Frame_51
+    - name: Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 5c4b8b02e9853db4c911d43e7ca6b54a
-    - name: adventurer-v1.5-Sheet_Frame_52
+    - name: Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 774900055a6b67e4a9eb530e179e0801
-    - name: adventurer-v1.5-Sheet_Frame_53
+    - name: Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: ced2d2ac1be909f42b2b199fac864397
-    - name: adventurer-v1.5-Sheet_Frame_54
+    - name: Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 1f7378b75019a8c48b0518a67b1f9c7f
-    - name: adventurer-v1.5-Sheet_Frame_55
+    - name: Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: ae7051e6b1bf14f4c80d1fc778b229b8
-    - name: adventurer-v1.5-Sheet_Frame_56
+    - name: Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 7d417d586e466be45a74f276b7ce6bbe
-    - name: adventurer-v1.5-Sheet_Frame_57
+    - name: Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 145d4f7bd0f77b2418cc51cc5642f22e
-    - name: adventurer-v1.5-Sheet_Frame_58
+    - name: Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 922993c3cdef2164490462e27771bd23
-    - name: adventurer-v1.5-Sheet_Frame_59
+    - name: Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 972dd5ba01fc6ac4d8795fb81a764d4c
-    - name: adventurer-v1.5-Sheet_Frame_60
+    - name: Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 044018701538e9a439cca9616f86353a
-    - name: adventurer-v1.5-Sheet_Frame_61
+    - name: Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: fb577b69028e75c45b853615ba22590c
-    - name: adventurer-v1.5-Sheet_Frame_62
+    - name: Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 0c44ff1a56f81e0459a4fc59dfab1df4
-    - name: adventurer-v1.5-Sheet_Frame_63
+    - name: Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: e5a406f21e47d6c43a756a22d0f6ef7d
-    - name: adventurer-v1.5-Sheet_Frame_64
+    - name: Frame_64
       frameIndex: 64
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 2f5830cf0a62dc6428cd7408d9f42c62
-    - name: adventurer-v1.5-Sheet_Frame_65
+    - name: Frame_65
       frameIndex: 65
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 88ea3a31e2897e640b383fa085a2f650
-    - name: adventurer-v1.5-Sheet_Frame_66
+    - name: Frame_66
       frameIndex: 66
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 508cd185072b79943911b071d2fe49a1
-    - name: adventurer-v1.5-Sheet_Frame_67
+    - name: Frame_67
       frameIndex: 67
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 40e858f8814f7524189d9d9d51312aca
-    - name: adventurer-v1.5-Sheet_Frame_68
+    - name: Frame_68
       frameIndex: 68
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: cd910a19fc99a944f86ca2bd4f25e010
-    - name: adventurer-v1.5-Sheet_Frame_69
+    - name: Frame_69
       frameIndex: 69
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 159dee47c33084c46a0487371307525f
-    - name: adventurer-v1.5-Sheet_Frame_70
+    - name: Frame_70
       frameIndex: 70
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: ee165aad168103b45bfd9b1d02c84043
-    - name: adventurer-v1.5-Sheet_Frame_71
+    - name: Frame_71
       frameIndex: 71
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: ec053cfb77a8b1e4fa31095cf1b97012
-    - name: adventurer-v1.5-Sheet_Frame_72
+    - name: Frame_72
       frameIndex: 72
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: ed1f710452de2254aab208cf5683584e
-    - name: adventurer-v1.5-Sheet_Frame_73
+    - name: Frame_73
       frameIndex: 73
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 846ea0c8fc43e91498634b48f7741754
-    - name: adventurer-v1.5-Sheet_Frame_74
+    - name: Frame_74
       frameIndex: 74
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 64b046e07e7950a47938e8d1ecd9aef6
-    - name: adventurer-v1.5-Sheet_Frame_75
+    - name: Frame_75
       frameIndex: 75
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: d4707ac110240264fb9b04885e7ec24b
-    - name: adventurer-v1.5-Sheet_Frame_76
+    - name: Frame_76
       frameIndex: 76
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 89d83f896dd6a77489029733f7fb6ebd
-    - name: adventurer-v1.5-Sheet_Frame_77
+    - name: Frame_77
       frameIndex: 77
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: e6a8b0bacc010884ab7b74062c6521ef
-    - name: adventurer-v1.5-Sheet_Frame_78
+    - name: Frame_78
       frameIndex: 78
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 5ae6cf78b3e851246b45bf4ad1d9453c
-    - name: adventurer-v1.5-Sheet_Frame_79
+    - name: Frame_79
       frameIndex: 79
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 6f229ec1f0154b14bb9fca2eebb67168
-    - name: adventurer-v1.5-Sheet_Frame_80
+    - name: Frame_80
       frameIndex: 80
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 76f34d1174e80c04b851e84eb4bd3e44
-    - name: adventurer-v1.5-Sheet_Frame_81
+    - name: Frame_81
       frameIndex: 81
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: e2c2dd57238f80845af2523be821b8c4
-    - name: adventurer-v1.5-Sheet_Frame_82
+    - name: Frame_82
       frameIndex: 82
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: a056a6404598d1c41a30834e76398065
-    - name: adventurer-v1.5-Sheet_Frame_83
+    - name: Frame_83
       frameIndex: 83
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 41cbb3968c13e704d819d17413820954
-    - name: adventurer-v1.5-Sheet_Frame_84
+    - name: Frame_84
       frameIndex: 84
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 68185d010df7f9046b2df02f699a6722
-    - name: adventurer-v1.5-Sheet_Frame_85
+    - name: Frame_85
       frameIndex: 85
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 99fbb2b4586fa41459c9a7138c5c54c0
-    - name: adventurer-v1.5-Sheet_Frame_86
+    - name: Frame_86
       frameIndex: 86
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 1af68ac9babcdbf4f91109c175f48ff9
-    - name: adventurer-v1.5-Sheet_Frame_87
+    - name: Frame_87
       frameIndex: 87
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: c77ac97ae7501f24c8214cafa28c02cb
-    - name: adventurer-v1.5-Sheet_Frame_88
+    - name: Frame_88
       frameIndex: 88
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 08f939b74f8de5c4a896f146514a4cbf
-    - name: adventurer-v1.5-Sheet_Frame_89
+    - name: Frame_89
       frameIndex: 89
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 96a6fab51721d4841a765f58ad7461e8
-    - name: adventurer-v1.5-Sheet_Frame_90
+    - name: Frame_90
       frameIndex: 90
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 9afca838b2c9cac41994cded1a1cdb66
-    - name: adventurer-v1.5-Sheet_Frame_91
+    - name: Frame_91
       frameIndex: 91
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 13bc03ad5327dac49bcf4447fd25da4f
-    - name: adventurer-v1.5-Sheet_Frame_92
+    - name: Frame_92
       frameIndex: 92
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: eb5900cfffce4a24c98f5c11f4beb3c3
-    - name: adventurer-v1.5-Sheet_Frame_93
+    - name: Frame_93
       frameIndex: 93
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 65374e2fd884dd84ba594d6fbf391dec
-    - name: adventurer-v1.5-Sheet_Frame_94
+    - name: Frame_94
       frameIndex: 94
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: ffae5acdb6297d1498ab139e43a525fc
-    - name: adventurer-v1.5-Sheet_Frame_95
+    - name: Frame_95
       frameIndex: 95
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: e426acd09610ea74a9cb903bbf851ccc
-    - name: adventurer-v1.5-Sheet_Frame_96
+    - name: Frame_96
       frameIndex: 96
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: cb0229c8e4b840046ab792f5b348d2fe
-    - name: adventurer-v1.5-Sheet_Frame_97
+    - name: Frame_97
       frameIndex: 97
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 390a928cafc98a142b580b09bca38165
-    - name: adventurer-v1.5-Sheet_Frame_98
+    - name: Frame_98
       frameIndex: 98
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 1f8bb1a44c9ee0e4487694f19a219a92
-    - name: adventurer-v1.5-Sheet_Frame_99
+    - name: Frame_99
       frameIndex: 99
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: f31402fb16a230d4eb7f628ce413fe14
-    - name: adventurer-v1.5-Sheet_Frame_100
+    - name: Frame_100
       frameIndex: 100
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: c233ab63b12e66c4aa4657262e3f6d52
-    - name: adventurer-v1.5-Sheet_Frame_101
+    - name: Frame_101
       frameIndex: 101
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 08da3c398be10b645927776e442e5b78
-    - name: adventurer-v1.5-Sheet_Frame_102
+    - name: Frame_102
       frameIndex: 102
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 4d59369d654e3b9409c41c86b7088a5e
-    - name: adventurer-v1.5-Sheet_Frame_103
+    - name: Frame_103
       frameIndex: 103
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 98e85614a2aa0a041a8e9203a11a7a22
-    - name: adventurer-v1.5-Sheet_Frame_104
+    - name: Frame_104
       frameIndex: 104
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: ff64496d0fa3e284e8f8a4590015632d
-    - name: adventurer-v1.5-Sheet_Frame_105
+    - name: Frame_105
       frameIndex: 105
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 50
         height: 37
       spriteId: 65664f1248fa75a49b812ea5f004acd4
-    - name: adventurer-v1.5-Sheet_Frame_106
+    - name: Frame_106
       frameIndex: 106
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -3297,3 +3513,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 50, y: 37}
+  previousTextureSize: {x: 512, y: 512}

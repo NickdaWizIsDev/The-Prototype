@@ -33,7 +33,7 @@ public class GroundStates : State
         runStates.maxWalkSpeed = maxWalkSpeed;
         runStates.maxThrottleSpeed = maxThrottleSpeed;
         runStates.maxRunSpeed = maxRunSpeed;
-        core.animator.SetFloat(AnimationStrings.xVelocity, Mathf.Abs(Body.velocity.x));
+        core.animator.SetFloat(AnimationStrings.xVelocity, Mathf.Abs(Body.linearVelocity.x));
         core.animator.SetBool(AnimationStrings.isGrounded, true);
     }
     public override void FixedDo()
@@ -46,15 +46,15 @@ public class GroundStates : State
     }
     void Drag()
     {
-        if (MoveInput == Vector2.zero && core.Grounded && Body.velocity.x != 0)
+        if (MoveInput == Vector2.zero && core.Grounded && Body.linearVelocity.x != 0)
         {
-            Body.drag = core.drag;
+            Body.linearDamping = core.drag;
         }
-        else Body.drag = core.baseDrag;
+        else Body.linearDamping = core.baseDrag;
     }
     public void Attack()
     {
         if (machine.state == runStates) { runStates.RunAttack(); }
-        else { if (machine.state != attackState) Set(attackState); else attackState.BasicAttack(); Body.velocity = Vector2.zero; }
+        else { if (machine.state != attackState) Set(attackState); else attackState.BasicAttack(); Body.linearVelocity = Vector2.zero; }
     }
 }

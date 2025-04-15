@@ -24,8 +24,8 @@ public class AirStates : State
     public override void Enter()
     {
         if (!canBeOnAir) return;
-        if (Body.velocity.y > 0) Set(jumpState);
-        else if (Body.velocity.y <= 0) Set(midAirState);
+        if (Body.linearVelocity.y > 0) Set(jumpState);
+        else if (Body.linearVelocity.y <= 0) Set(midAirState);
     }
     public override void Do()
     {
@@ -46,7 +46,7 @@ public class AirStates : State
         //Horizontal Movement//
         if (MoveInput.x != 0)
         {
-            if (Mathf.Abs(Body.velocity.x) < maxAirSpeed) Body.AddForce(new(MoveInput.x * airAcceleration * 10, 0), ForceMode2D.Force);
+            if (Mathf.Abs(Body.linearVelocity.x) < maxAirSpeed) Body.AddForce(new(MoveInput.x * airAcceleration * 10, 0), ForceMode2D.Force);
         }
     }
     public override void Exit()
@@ -59,7 +59,7 @@ public class AirStates : State
         {
             Body.gravityScale = normalGravity;
         }
-        else if (Body.velocity.y < 0 && !grounded)
+        else if (Body.linearVelocity.y < 0 && !grounded)
         {
             Body.gravityScale = fallMultiplier;
         }

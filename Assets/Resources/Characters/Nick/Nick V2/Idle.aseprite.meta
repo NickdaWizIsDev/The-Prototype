@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -75,7 +76,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 0
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 4
@@ -88,7 +89,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 0
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 4
@@ -97,7 +98,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638735440383777500
+  platformSettingsDirtyTick: 638802635757732715
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -123,9 +125,10 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Idle_Frame_0
     originalName: 
-    pivot: {x: 0.425, y: 0.6857143}
+    pivot: {x: 0.475, y: -0.2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -143,9 +146,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Idle_Frame_1
     originalName: 
-    pivot: {x: 0.425, y: 0.6956522}
+    pivot: {x: 0.475, y: -0.20289856}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 52
@@ -163,9 +167,10 @@ ScriptedImporter:
     uvTransform: {x: 52, y: 83}
   - name: Idle_Frame_2
     originalName: 
-    pivot: {x: 0.425, y: 0.6956522}
+    pivot: {x: 0.475, y: -0.20289856}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 52
@@ -183,9 +188,10 @@ ScriptedImporter:
     uvTransform: {x: 52, y: 160}
   - name: Idle_Frame_3
     originalName: 
-    pivot: {x: 0.43589744, y: 0.6760563}
+    pivot: {x: 0.4871795, y: -0.1971831}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -203,9 +209,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 82}
   - name: Idle_Frame_4
     originalName: 
-    pivot: {x: 0.43589744, y: 0.6760563}
+    pivot: {x: 0.4871795, y: -0.1971831}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -223,9 +230,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 161}
   - name: Idle_Frame_5
     originalName: 
-    pivot: {x: 0.43589744, y: 0.6760563}
+    pivot: {x: 0.4871795, y: -0.1971831}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 52
@@ -244,54 +252,60 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 161112836
+    guid: 1266177044
     name: Idle
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Idle_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 47
         y: 16
         width: 36
         height: 66
       spriteId: afbadac047cdb6347a09aad62ad534d9
-    - name: Idle_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 47
         y: 16
         width: 36
         height: 65
       spriteId: 99b83d7860e982149aaa90dc666127aa
-    - name: Idle_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 47
         y: 16
         width: 36
         height: 65
       spriteId: c5be06e15c2728649981dc6e166b7981
-    - name: Idle_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 47
         y: 16
         width: 35
         height: 67
       spriteId: 0889c1a250cd3dc4d98b08c7e08934ea
-    - name: Idle_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 47
         y: 16
         width: 35
         height: 67
       spriteId: 18baebd22e70d0f45951a815e1a302fa
-    - name: Idle_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 47
         y: 16
@@ -343,3 +357,4 @@ ScriptedImporter:
     texture: {fileID: -8328923581568760697, guid: ea5d73109637afe40abe7781c749bd77, type: 3}
   spritePackingTag: 
   canvasSize: {x: 128, y: 128}
+  previousTextureSize: {x: 128, y: 256}

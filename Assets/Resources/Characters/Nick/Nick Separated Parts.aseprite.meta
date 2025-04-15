@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.11111111, y: -1.9333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 0.27272728, y: -0.8648649}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 0.7, y: -7.2222223}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 23
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 0.61538464, y: -3.7368422}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 42
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 1.1, y: -0.8648649}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 0.5714286, y: -4.9444447}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 23
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 1.3636364, y: -1.8709676}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 23
@@ -264,7 +273,7 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 315754895
+    guid: 325352075
     name: Nick
     layerFlags: 3
     layerType: 1
@@ -273,7 +282,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   - layerIndex: 1
-    guid: 1058858400
+    guid: -937827483
     name: Back arm
     layerFlags: 3
     layerType: 0
@@ -281,6 +290,7 @@ ScriptedImporter:
     cells:
     - name: Back arm
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 58
@@ -290,7 +300,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: 0
   - layerIndex: 2
-    guid: 1216150323
+    guid: -1791452107
     name: Back Leg
     layerFlags: 3
     layerType: 0
@@ -298,6 +308,7 @@ ScriptedImporter:
     cells:
     - name: Back Leg
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 61
         y: 32
@@ -307,7 +318,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: 0
   - layerIndex: 3
-    guid: 1756788902
+    guid: 1557473545
     name: Hip
     layerFlags: 3
     layerType: 0
@@ -315,6 +326,7 @@ ScriptedImporter:
     cells:
     - name: Hip
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 57
         y: 65
@@ -324,7 +336,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: 0
   - layerIndex: 4
-    guid: -1481541423
+    guid: -329905663
     name: Torso
     layerFlags: 3
     layerType: 0
@@ -332,6 +344,7 @@ ScriptedImporter:
     cells:
     - name: Torso
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 71
@@ -341,7 +354,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: 0
   - layerIndex: 5
-    guid: 80924534
+    guid: 1149952595
     name: Front Leg
     layerFlags: 3
     layerType: 0
@@ -349,6 +362,7 @@ ScriptedImporter:
     cells:
     - name: Front Leg
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 32
@@ -358,7 +372,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: 0
   - layerIndex: 6
-    guid: 1403077926
+    guid: -1169229972
     name: Head
     layerFlags: 3
     layerType: 0
@@ -366,6 +380,7 @@ ScriptedImporter:
     cells:
     - name: Head
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 52
         y: 89
@@ -375,7 +390,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: 0
   - layerIndex: 7
-    guid: 494960680
+    guid: 1896171031
     name: Front Arm
     layerFlags: 3
     layerType: 0
@@ -383,6 +398,7 @@ ScriptedImporter:
     cells:
     - name: Front Arm
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 49
         y: 58
@@ -432,3 +448,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 128}
+  previousTextureSize: {x: 64, y: 128}

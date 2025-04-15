@@ -21,9 +21,9 @@ public class RunStates : State
     public State walk, throttle, run, idleState;
     public override void Enter()
     {
-        if (Mathf.Abs(Body.velocity.x) > maxWalkSpeed)
+        if (Mathf.Abs(Body.linearVelocity.x) > maxWalkSpeed)
         {
-            if (Mathf.Abs(Body.velocity.x) > maxThrottleSpeed) Set(run, true);
+            if (Mathf.Abs(Body.linearVelocity.x) > maxThrottleSpeed) Set(run, true);
             else Set(throttle, true);
         }
         else Set(walk, true);
@@ -32,22 +32,22 @@ public class RunStates : State
     {
 
         core.animator.SetBool(AnimationStrings.isOnWall, core.OnWall);
-        if (Mathf.Abs(Body.velocity.x) < 0.05f && MoveInput.x == 0)
+        if (Mathf.Abs(Body.linearVelocity.x) < 0.05f && MoveInput.x == 0)
         {
             parent.Set(idleState);
             IsComplete = true;
         }
-        else if (Mathf.Abs(Body.velocity.x) != 0f)
+        else if (Mathf.Abs(Body.linearVelocity.x) != 0f)
         {
-            if (Mathf.Abs(Body.velocity.x) < maxWalkSpeed)
+            if (Mathf.Abs(Body.linearVelocity.x) < maxWalkSpeed)
             {
                 Set(walk, true);
             }                
-            else if (Mathf.Abs(Body.velocity.x) > maxWalkSpeed && Mathf.Abs(Body.velocity.x) < maxThrottleSpeed)
+            else if (Mathf.Abs(Body.linearVelocity.x) > maxWalkSpeed && Mathf.Abs(Body.linearVelocity.x) < maxThrottleSpeed)
             {
                 Set(throttle, true);
             }
-            else if (Mathf.Abs(Body.velocity.x) > maxThrottleSpeed)
+            else if (Mathf.Abs(Body.linearVelocity.x) > maxThrottleSpeed)
             {
                 Set(run, true);
             }  
@@ -58,7 +58,7 @@ public class RunStates : State
         //Horizontal Movement//
         if (MoveInput.x != 0)
         {
-            if (Mathf.Abs(Body.velocity.x) < maxRunSpeed) Body.AddForce(new(MoveInput.x * speedAcceleration * 10, 0), ForceMode2D.Force);
+            if (Mathf.Abs(Body.linearVelocity.x) < maxRunSpeed) Body.AddForce(new(MoveInput.x * speedAcceleration * 10, 0), ForceMode2D.Force);
         }
     }
     public override void Exit()

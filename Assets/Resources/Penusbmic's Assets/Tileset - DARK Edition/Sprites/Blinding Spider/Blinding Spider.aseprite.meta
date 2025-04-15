@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -266,6 +275,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -286,6 +296,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -306,6 +317,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -326,6 +338,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -346,6 +359,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -366,6 +380,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -386,6 +401,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -406,6 +422,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -426,6 +443,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -446,6 +464,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -466,6 +485,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -486,6 +506,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 60
@@ -506,6 +527,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 60
@@ -526,6 +548,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 60
@@ -546,6 +569,7 @@ ScriptedImporter:
     pivot: {x: 0.6, y: 0.11111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 60
@@ -564,182 +588,204 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -528302160
+    guid: -672081296
     name: Blinding Spider
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Blinding Spider_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: ea5c2f1bb5726b846ab83b93ab439d4c
-    - name: Blinding Spider_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 85e17a639da5c6a42ae3c95c2927fe35
-    - name: Blinding Spider_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 73a9871633b9b4c42906f60a975c0abc
-    - name: Blinding Spider_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: b3dc080778bbc3f4bb51fd6e19c66cd1
-    - name: Blinding Spider_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 116ed5b9b3e806f4687c799570f44bcb
-    - name: Blinding Spider_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: b7b4ac6251a553f43b7efbe3085bdb08
-    - name: Blinding Spider_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: a36e0b158bea6bd4ebe72bb1991f55ef
-    - name: Blinding Spider_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: e020a2cb6f178094ba4fd729d2641968
-    - name: Blinding Spider_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: a3f6222a1bfeabf4baa48e3c636cc057
-    - name: Blinding Spider_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 2fb496f7656dd08479eae3abac27ff92
-    - name: Blinding Spider_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: cd4eb6241f5a0644dba7a1775b102dcc
-    - name: Blinding Spider_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 8b1499236d00e204d8cd3fefc4f4ea55
-    - name: Blinding Spider_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 7920b074ddebfad4797cdcf6c1b97525
-    - name: Blinding Spider_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: a1a8bebb19f08af45b775d383f6c75d7
-    - name: Blinding Spider_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 7047d50f9eab14b4697cd5ead76e8c68
-    - name: Blinding Spider_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 7ee42a18b9d0e1e488a25a7871f1c5fa
-    - name: Blinding Spider_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 506742f83ab6ddb4a9a20e5367115167
-    - name: Blinding Spider_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: eeb87d674a87b23448956a4d31c71334
-    - name: Blinding Spider_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: f6ad28f00b155094ebc0c4adffea96be
-    - name: Blinding Spider_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: a103b2f7c1d42564aa52fa54a53b2007
-    - name: Blinding Spider_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
         width: 20
         height: 18
       spriteId: 5d57b6cafd160714f9b9386d1c56c327
-    - name: Blinding Spider_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: -4
         y: -2
@@ -753,3 +799,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 16, y: 16}
+  previousTextureSize: {x: 128, y: 256}

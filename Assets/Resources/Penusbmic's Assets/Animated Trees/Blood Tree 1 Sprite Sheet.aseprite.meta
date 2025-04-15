@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 203
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 203
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 109
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 203
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 203
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 203
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 203
@@ -266,6 +275,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 203
@@ -286,6 +296,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 203
@@ -306,6 +317,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 278
@@ -326,6 +338,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 278
@@ -346,6 +359,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 278
@@ -366,6 +380,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 278
@@ -386,6 +401,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 278
@@ -406,6 +422,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 278
@@ -426,6 +443,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 278
@@ -446,6 +464,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 278
@@ -466,6 +485,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 353
@@ -486,6 +506,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 353
@@ -506,6 +527,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 353
@@ -526,6 +548,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 353
@@ -546,6 +569,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 353
@@ -566,6 +590,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 353
@@ -586,6 +611,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 353
@@ -606,6 +632,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 353
@@ -626,6 +653,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 428
@@ -646,6 +674,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 428
@@ -666,6 +695,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 428
@@ -686,6 +716,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 428
@@ -706,6 +737,7 @@ ScriptedImporter:
     pivot: {x: 0.5223881, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 428
@@ -726,6 +758,7 @@ ScriptedImporter:
     pivot: {x: 0.42682928, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 109
@@ -746,6 +779,7 @@ ScriptedImporter:
     pivot: {x: 0.42682928, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 109
@@ -766,6 +800,7 @@ ScriptedImporter:
     pivot: {x: 0.5154639, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -786,6 +821,7 @@ ScriptedImporter:
     pivot: {x: 0.5154639, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -806,6 +842,7 @@ ScriptedImporter:
     pivot: {x: 0.5154639, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -826,6 +863,7 @@ ScriptedImporter:
     pivot: {x: 0.5154639, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -846,6 +884,7 @@ ScriptedImporter:
     pivot: {x: 0.5154639, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -866,6 +905,7 @@ ScriptedImporter:
     pivot: {x: 0.5154639, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -886,6 +926,7 @@ ScriptedImporter:
     pivot: {x: 0.5154639, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -906,6 +947,7 @@ ScriptedImporter:
     pivot: {x: 0.5154639, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -926,6 +968,7 @@ ScriptedImporter:
     pivot: {x: 0.5813953, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 109
@@ -946,6 +989,7 @@ ScriptedImporter:
     pivot: {x: 0.49295777, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 109
@@ -966,6 +1010,7 @@ ScriptedImporter:
     pivot: {x: 0.49295777, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 109
@@ -986,6 +1031,7 @@ ScriptedImporter:
     pivot: {x: 0.49295777, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 109
@@ -1006,6 +1052,7 @@ ScriptedImporter:
     pivot: {x: 0.49295777, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 109
@@ -1024,366 +1071,411 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1676016353
+    guid: 655710299
     name: Blood Tree 1 Sprite Sheet
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Blood Tree 1 Sprite Sheet_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 112
       spriteId: 9549f1d14842cbb4b9416ce3e438eb20
-    - name: Blood Tree 1 Sprite Sheet_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 113
       spriteId: 7300493b9a933d04c90fb1bc84516c20
-    - name: Blood Tree 1 Sprite Sheet_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 114
       spriteId: 8c7ff3e5c6f1e1e4f909c96a36712f91
-    - name: Blood Tree 1 Sprite Sheet_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: c7c8dfd2906de90478399f85d1897020
-    - name: Blood Tree 1 Sprite Sheet_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: a932385154f438e409a68a5f9ac14ccd
-    - name: Blood Tree 1 Sprite Sheet_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 4b3456c2eaa67c24db41816f813ee449
-    - name: Blood Tree 1 Sprite Sheet_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 110
       spriteId: bb2ffe083fecf824b927eb46d5cbfaa6
-    - name: Blood Tree 1 Sprite Sheet_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 111
       spriteId: 12fc3abcaca0b434cbd7309086f72571
-    - name: Blood Tree 1 Sprite Sheet_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: cc7b74ee9fa1f8943bbe5fae6c46e1f1
-    - name: Blood Tree 1 Sprite Sheet_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 9c2a26ac20354724b8f1c0a77dfcbf56
-    - name: Blood Tree 1 Sprite Sheet_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 9c889a691902fdd4da806e06d01e4ba2
-    - name: Blood Tree 1 Sprite Sheet_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 20ba373e9de756b4aa95b3e2a467077a
-    - name: Blood Tree 1 Sprite Sheet_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 2f93503ae9db8f348987bd898b45f056
-    - name: Blood Tree 1 Sprite Sheet_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 756f1ca7b456a4f47b47719bfae6ff5b
-    - name: Blood Tree 1 Sprite Sheet_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 255129bfe36975f4a9a24b15d756c96e
-    - name: Blood Tree 1 Sprite Sheet_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 84e5834f99926664bb3c42a3a954af14
-    - name: Blood Tree 1 Sprite Sheet_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 9d2ed82071e298041ba084858851e8e0
-    - name: Blood Tree 1 Sprite Sheet_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 2a5ad26dfb1236045b00381f6f2521f9
-    - name: Blood Tree 1 Sprite Sheet_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: b91831e594d67a54dbcdc42d2fd25405
-    - name: Blood Tree 1 Sprite Sheet_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: f01b6c49f917f674db7d55d56aa400ab
-    - name: Blood Tree 1 Sprite Sheet_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 74be1fe6eb4b1d24fbdad2ee2f1d1f9e
-    - name: Blood Tree 1 Sprite Sheet_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: f4ec44de62df956469432b952f4725e0
-    - name: Blood Tree 1 Sprite Sheet_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: a31e8e5b3102c1e4f901873c179af70e
-    - name: Blood Tree 1 Sprite Sheet_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: c336f0c6692cccb4a83be88312aabf04
-    - name: Blood Tree 1 Sprite Sheet_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: d653a4d30b4ef094d8eaf34b9cbbe702
-    - name: Blood Tree 1 Sprite Sheet_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: f25939a3a80528f478a4529129b8022f
-    - name: Blood Tree 1 Sprite Sheet_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 12f52a5683cc5294aab2090e4c2a9ebf
-    - name: Blood Tree 1 Sprite Sheet_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 28e2e7a67f7b0bb47a03af420fd56ba5
-    - name: Blood Tree 1 Sprite Sheet_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: 968ab559860717841a0e02ad0fde37d1
-    - name: Blood Tree 1 Sprite Sheet_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 67
         height: 109
       spriteId: f948e6938cb03b9458095cf2f4db80f2
-    - name: Blood Tree 1 Sprite Sheet_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 82
         height: 109
       spriteId: 854d8fb5881aa1847901d4a596898307
-    - name: Blood Tree 1 Sprite Sheet_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 82
         height: 109
       spriteId: 8b82019cf421c2f4795f324c060777da
-    - name: Blood Tree 1 Sprite Sheet_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 97
         height: 109
       spriteId: 5376bc064104b8b4bb70273614475637
-    - name: Blood Tree 1 Sprite Sheet_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 97
         height: 109
       spriteId: 3c95eb6194049ad4283fb1db19ef328d
-    - name: Blood Tree 1 Sprite Sheet_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 97
         height: 109
       spriteId: 912ed26fffe5d8e4599bebc63cad057f
-    - name: Blood Tree 1 Sprite Sheet_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 97
         height: 109
       spriteId: 6568b6d22d578df4e9879f2fb732867f
-    - name: Blood Tree 1 Sprite Sheet_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 97
         height: 109
       spriteId: e8459dcb63089c444bb560d6c238028f
-    - name: Blood Tree 1 Sprite Sheet_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 97
         height: 109
       spriteId: 8f40c7ab23ae1464bb37a4b56964b5fc
-    - name: Blood Tree 1 Sprite Sheet_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 97
         height: 109
       spriteId: b4051eeaefd15b2429f8af667e3a0f89
-    - name: Blood Tree 1 Sprite Sheet_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 97
         height: 109
       spriteId: a62e5fc614aec8247b09ed6b98e3539d
-    - name: Blood Tree 1 Sprite Sheet_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 86
         height: 109
       spriteId: 1b16019120078a445ad695bbcca27bb4
-    - name: Blood Tree 1 Sprite Sheet_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 71
         height: 109
       spriteId: 6eab1465a6558cd42bb81d6caed836b2
-    - name: Blood Tree 1 Sprite Sheet_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 71
         height: 109
       spriteId: 77089c5eb7bf5454a9869d2b561cb869
-    - name: Blood Tree 1 Sprite Sheet_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 71
         height: 109
       spriteId: e493b8b1ea54bc340b639f131ce35309
-    - name: Blood Tree 1 Sprite Sheet_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
@@ -1397,3 +1489,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 112, y: 128}
+  previousTextureSize: {x: 512, y: 1024}
